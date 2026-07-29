@@ -1,0 +1,44 @@
+# Version 3.0
+- Upgraded CodeIgniter version to version 4.7.0
+- Rebuilt the entire system codebase from the ground up utilizing a modern, layered architecture
+- Improved query performance through advanced optimizations, an enhanced database structure, and a highly efficient caching system
+- Refactored the core with a GDPR-first approach, implementing necessary adjustments to ensure full GDPR compliance
+- Rebuilt all frontend themes utilizing the latest Bootstrap version (v5.3.8), including updates to sliders and integrated plugins
+- Improved UI/UX design across multiple sections (Login, Register, Recipe, Gallery, RSS, and Music pages) to deliver a modern and polished experience
+- Added a completely redesigned admin panel featuring a modern interface and native dark mode support
+- Added 'Event' post type featuring Google Maps integration and customizable external registration forms
+- Added a flexible premium membership system supporting custom plans, monthly subscriptions, one-time purchases, and fully configurable paywall rules
+- Added support for multiple payment gateways (PayPal, Stripe, Razorpay, Mercado Pago, Iyzico, and PayTabs)
+- Added a new AI Content Generator powered by ChatGPT and Gemini
+- Added external cloud storage support for Cloudflare R2 and Backblaze B2
+- Added a dedicated Google News integration system
+- Added a new advanced sitemap generation system with support for segmented (modular) sitemaps
+- Added a new robust category system supporting multi-level hierarchical structures and unlimited subcategories
+- Added an optimized category selector for posts to make category selection faster and easier to use
+- Added support for Mailgun and Brevo email APIs, accompanied by an upgraded email system with new templates
+- Added a new automated JSON-LD structured data generation system
+- Added a new completely new, user-friendly, and modern file manager
+- Added a dedicated Media section to centralize and easily manage uploaded assets
+- Added a Frequently Asked Questions (FAQ) section for each post 
+- Added dedicated Meta Options (Meta Title, Meta Description, Meta Keywords) for all pages, posts, and categories
+- Added a user badge system assignable to specific roles and membership plans
+- Added a new completely rebuilt, modern, and responsive comment system
+- Added a comprehensive user detail page in the admin panel to display all user activities
+- Added a new extended social media link system supporting over 30 platforms
+- Added a dynamic font management system supporting custom font uploads and adjustable font sizes
+- Added a new customizable GDPR-compliant cookie consent system
+- Added a secure cron job system protected by a token-based authentication mechanism
+- Added a new integrated CAPTCHA system supporting both Google reCAPTCHA and Cloudflare Turnstile
+- Added an Email Blacklist system to proactively block abusers
+- Added login rate limiting and robust brute-force protection
+- Added strict password complexity and length enforcement policies
+- Added SEO-safe spam protection for user comments and posts (Nofollow / Remove links)
+- Added smart indexing logic (automated noindex for search results, empty profiles, and galleries) to protect site quality and crawl budgets
+- Added automated Canonical URL handling to prevent duplicate content penalties
+- Added a Featured Content Settings panel to simplify the management of sliders, featured content, and similar modules
+- Updated the contact messages module to include a direct reply option
+- Updated and streamlined the Bulk Post Upload system
+- Updated the Newsletter system with new Import/Export options for registered emails
+- Updated and refined the emoji reaction system
+- Updated the user management interface for better usability
+- General improvements were made regarding code quality, performance, and UI consistency across the entire application

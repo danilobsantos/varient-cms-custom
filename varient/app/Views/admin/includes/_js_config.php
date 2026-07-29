@@ -1,0 +1,38 @@
+<?php
+$jsConfig = [
+        'baseUrl'           => base_url(),
+        'adminUrl'          => adminUrl(),
+        'adminRoute'        => getAdminRoute(),
+        'csrfTokenName'     => csrf_token(),
+        'sysLangId'         => (int)$activeLang->id,
+        'isRtl'             => $isRtl ? true : false,
+        'directionality'    => $isRtl ? 'rtl' : 'ltr',
+        'currentUrl'        => (string)current_url(true),
+        'textEditorLang'    => $activeLang->text_editor_lang,
+        'textEditorCssPath' => base_url('assets/vendor/tinymce/editor_content.css'),
+        'text'              => [
+                'select'                => trans("select"),
+                'selectImage'           => trans("select_image"),
+                'selectCategory'        => trans("select_category"),
+                'selectResult'          => trans("select_a_result"),
+                'msgSelectCategory'     => trans("msg_select_category"),
+                'ok'                    => trans("ok"),
+                'yes'                   => trans("yes"),
+                'no'                    => trans("no"),
+                'cancel'                => trans("cancel"),
+                'none'                  => trans("none"),
+                'enter2Characters'      => trans("enter_2_characters"),
+                'search'                => trans("search"),
+                'searching'             => trans("searching"),
+                'searchNoResult'        => trans("no_results_found"),
+                'processing'            => trans("processing"),
+                'topicEmpty'            => trans("msg_topic_empty"),
+                'invalid'               => trans("invalid"),
+                'confirmDelete'         => trans("confirm_delete"),
+                'fillAllRequiredFields' => trans("fill_all_required_fields"),
+                'msgUpdated'            => trans("msg_updated"),
+                'loading'               => trans("loading"),
+                'msgCancelEmailSending' => trans('msg_cancel_email_sending'),
+        ]
+]; ?>
+<script>window.VrConfig = <?= json_encode($jsConfig, JSON_UNESCAPED_SLASHES); ?>;</script>

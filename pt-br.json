@@ -1,0 +1,6079 @@
+{
+    "language": {
+        "name": "Português",
+        "short_form": "pt_br",
+        "language_code": "pt-BR",
+        "text_direction": "ltr",
+        "text_editor_lang": "pt_BR"
+    },
+    "translations": [
+        {
+            "label": "about_event",
+            "translation": "Sobre o Evento"
+        },
+        {
+            "label": "about_me",
+            "translation": "Sobre Mim"
+        },
+        {
+            "label": "accept_all",
+            "translation": "Aceitar Tudo"
+        },
+        {
+            "label": "access_ends_on",
+            "translation": "Acesso termina em"
+        },
+        {
+            "label": "access_key",
+            "translation": "Chave de Acesso"
+        },
+        {
+            "label": "access_level",
+            "translation": "Nível de Acesso"
+        },
+        {
+            "label": "account",
+            "translation": "Conta"
+        },
+        {
+            "label": "account_settings",
+            "translation": "Configurações da Conta"
+        },
+        {
+            "label": "activate",
+            "translation": "Ativar"
+        },
+        {
+            "label": "activated",
+            "translation": "Ativado"
+        },
+        {
+            "label": "active",
+            "translation": "Ativo"
+        },
+        {
+            "label": "active_payment_request_error",
+            "translation": "Você já possui uma solicitação de pagamento ativa! Quando esta for concluída, você poderá fazer uma nova solicitação."
+        },
+        {
+            "label": "active_provider",
+            "translation": "Provedor Ativo"
+        },
+        {
+            "label": "active_storage",
+            "translation": "Armazenamento Ativo"
+        },
+        {
+            "label": "activity",
+            "translation": "Atividade"
+        },
+        {
+            "label": "additional_images",
+            "translation": "Imagens Adicionais"
+        },
+        {
+            "label": "additional_info",
+            "translation": "Informações Adicionais"
+        },
+        {
+            "label": "address",
+            "translation": "Endereço"
+        },
+        {
+            "label": "add_album",
+            "translation": "Adicionar Álbum"
+        },
+        {
+            "label": "add_answer",
+            "translation": "Adicionar Resposta"
+        },
+        {
+            "label": "add_article",
+            "translation": "Adicionar Artigo"
+        },
+        {
+            "label": "add_audio",
+            "translation": "Adicionar Áudio"
+        },
+        {
+            "label": "add_badge",
+            "translation": "Adicionar Distintivo"
+        },
+        {
+            "label": "add_breaking_news",
+            "translation": "Adicionar às Notícias de Última Hora"
+        },
+        {
+            "label": "add_category",
+            "translation": "Adicionar Categoria"
+        },
+        {
+            "label": "add_custom_field",
+            "translation": "Adicionar Campo Personalizado"
+        },
+        {
+            "label": "add_email",
+            "translation": "Adicionar Email"
+        },
+        {
+            "label": "add_event",
+            "translation": "Adicionar Evento"
+        },
+        {
+            "label": "add_featured",
+            "translation": "Adicionar aos Destaques"
+        },
+        {
+            "label": "add_feed",
+            "translation": "Adicionar Feed"
+        },
+        {
+            "label": "add_font",
+            "translation": "Adicionar Fonte"
+        },
+        {
+            "label": "add_gallery",
+            "translation": "Adicionar Galeria"
+        },
+        {
+            "label": "add_iframe",
+            "translation": "Adicionar Iframe"
+        },
+        {
+            "label": "add_image",
+            "translation": "Adicionar Imagem"
+        },
+        {
+            "label": "add_image_url",
+            "translation": "Adicionar URL da Imagem"
+        },
+        {
+            "label": "add_language",
+            "translation": "Adicionar Idioma"
+        },
+        {
+            "label": "add_menu_link",
+            "translation": "Adicionar Link ao Menu"
+        },
+        {
+            "label": "add_new",
+            "translation": "Adicionar Novo"
+        },
+        {
+            "label": "add_new_item",
+            "translation": "Adicionar Novo Item"
+        },
+        {
+            "label": "add_new_plan",
+            "translation": "Adicionar Novo Plano"
+        },
+        {
+            "label": "add_nofollow_seo_safe",
+            "translation": "Adicionar \"Nofollow\" (Seguro para SEO)"
+        },
+        {
+            "label": "add_option",
+            "translation": "Adicionar Opção"
+        },
+        {
+            "label": "add_page",
+            "translation": "Adicionar Página"
+        },
+        {
+            "label": "add_payout",
+            "translation": "Adicionar Pagamento"
+        },
+        {
+            "label": "add_personality_quiz",
+            "translation": "Adicionar Quiz de Personalidade"
+        },
+        {
+            "label": "add_plan",
+            "translation": "Adicionar Plano"
+        },
+        {
+            "label": "add_poll",
+            "translation": "Adicionar Enquete"
+        },
+        {
+            "label": "add_post",
+            "translation": "Adicionar Post"
+        },
+        {
+            "label": "add_posts_as_draft",
+            "translation": "Adicionar Posts como Rascunho"
+        },
+        {
+            "label": "add_question",
+            "translation": "Adicionar Pergunta"
+        },
+        {
+            "label": "add_quiz",
+            "translation": "Adicionar Quiz"
+        },
+        {
+            "label": "add_reading_list",
+            "translation": "Adicionar à Lista de Leitura"
+        },
+        {
+            "label": "add_recipe",
+            "translation": "Adicionar Receita"
+        },
+        {
+            "label": "add_recommended",
+            "translation": "Adicionar aos Recomendados"
+        },
+        {
+            "label": "add_result",
+            "translation": "Adicionar Resultado"
+        },
+        {
+            "label": "add_role",
+            "translation": "Adicionar Função"
+        },
+        {
+            "label": "add_slider",
+            "translation": "Adicionar ao Slider"
+        },
+        {
+            "label": "add_sorted_list",
+            "translation": "Adicionar Lista Ordenada"
+        },
+        {
+            "label": "add_table_of_contents",
+            "translation": "Adicionar Sumário"
+        },
+        {
+            "label": "add_tag",
+            "translation": "Adicionar Tag"
+        },
+        {
+            "label": "add_trivia_quiz",
+            "translation": "Adicionar Quiz de Trivia"
+        },
+        {
+            "label": "add_user",
+            "translation": "Adicionar Usuário"
+        },
+        {
+            "label": "add_video",
+            "translation": "Adicionar Vídeo"
+        },
+        {
+            "label": "add_widget",
+            "translation": "Adicionar Widget"
+        },
+        {
+            "label": "admin",
+            "translation": "Administrador"
+        },
+        {
+            "label": "admin_panel",
+            "translation": "Painel Administrativo"
+        },
+        {
+            "label": "admin_panel_link",
+            "translation": "Link do Painel Administrativo"
+        },
+        {
+            "label": "adsense_activation_code",
+            "translation": "Código de ativação do AdSense"
+        },
+        {
+            "label": "advanced",
+            "translation": "Avançado"
+        },
+        {
+            "label": "ad_free_experience",
+            "translation": "Experiência sem anúncios"
+        },
+        {
+            "label": "ad_size",
+            "translation": "Tamanho do anúncio"
+        },
+        {
+            "label": "ad_space",
+            "translation": "Espaço para anúncio"
+        },
+        {
+            "label": "ad_spaces",
+            "translation": "Espaços para anúncios"
+        },
+        {
+            "label": "ad_space_header",
+            "translation": "Cabeçalho"
+        },
+        {
+            "label": "ad_space_index_bottom",
+            "translation": "Índice (inferior)"
+        },
+        {
+            "label": "ad_space_index_top",
+            "translation": "Índice (superior)"
+        },
+        {
+            "label": "ad_space_in_article",
+            "translation": "Dentro do artigo"
+        },
+        {
+            "label": "ad_space_paragraph_exp",
+            "translation": "O anúncio será exibido após o número de parágrafo selecionado"
+        },
+        {
+            "label": "ad_space_posts_bottom",
+            "translation": "Posts (inferior)"
+        },
+        {
+            "label": "ad_space_posts_exp",
+            "translation": "Este anúncio será exibido nas páginas de Posts, Categoria, Perfil, Tag, Busca e Perfil"
+        },
+        {
+            "label": "ad_space_posts_top",
+            "translation": "Posts (superior)"
+        },
+        {
+            "label": "ad_space_post_bottom",
+            "translation": "Detalhes do post (inferior)"
+        },
+        {
+            "label": "ad_space_post_top",
+            "translation": "Detalhes do post (superior)"
+        },
+        {
+            "label": "ago",
+            "translation": "atrás"
+        },
+        {
+            "label": "ai_content_generator",
+            "translation": "Gerador de conteúdo com IA"
+        },
+        {
+            "label": "ai_writer",
+            "translation": "Redator com IA"
+        },
+        {
+            "label": "ai_writer_api_error",
+            "translation": "A geração falhou. A API não retornou conteúdo, possivelmente por créditos insuficientes. Verifique sua conta da API."
+        },
+        {
+            "label": "album",
+            "translation": "Álbum"
+        },
+        {
+            "label": "albums",
+            "translation": "Álbuns"
+        },
+        {
+            "label": "album_cover",
+            "translation": "Capa do álbum"
+        },
+        {
+            "label": "album_name",
+            "translation": "Nome do álbum"
+        },
+        {
+            "label": "all",
+            "translation": "Todos"
+        },
+        {
+            "label": "allowed_file_extensions",
+            "translation": "Extensões de arquivo permitidas"
+        },
+        {
+            "label": "allow_single_content_sales",
+            "translation": "Permitir venda individual de conteúdo"
+        },
+        {
+            "label": "all_permissions",
+            "translation": "Todas as permissões"
+        },
+        {
+            "label": "all_posts",
+            "translation": "Todos os posts"
+        },
+        {
+            "label": "all_time",
+            "translation": "De todos os tempos"
+        },
+        {
+            "label": "all_users_can_vote",
+            "translation": "Todos os usuários podem votar"
+        },
+        {
+            "label": "all_website_content",
+            "translation": "Todo o conteúdo do site"
+        },
+        {
+            "label": "all_website_content_exp",
+            "translation": "Força todos os posts do site a serem premium."
+        },
+        {
+            "label": "alt_tag",
+            "translation": "Alt Tag (Acessibilidade)"
+        },
+        {
+            "label": "always",
+            "translation": "Sempre"
+        },
+        {
+            "label": "amount",
+            "translation": "Valor"
+        },
+        {
+            "label": "analytics",
+            "translation": "Análise"
+        },
+        {
+            "label": "analytics_exp",
+            "translation": "Ajude-nos a melhorar coletando dados anônimos de uso."
+        },
+        {
+            "label": "angry",
+            "translation": "Bravo"
+        },
+        {
+            "label": "answer",
+            "translation": "Resposta"
+        },
+        {
+            "label": "answers",
+            "translation": "Respostas"
+        },
+        {
+            "label": "answer_format",
+            "translation": "Formato da resposta"
+        },
+        {
+            "label": "answer_text",
+            "translation": "Texto da resposta"
+        },
+        {
+            "label": "api_key",
+            "translation": "Chave de API"
+        },
+        {
+            "label": "apple_music",
+            "translation": "Apple Music"
+        },
+        {
+            "label": "application_icon",
+            "translation": "Ícone da aplicação"
+        },
+        {
+            "label": "application_icon_exp",
+            "translation": "Este ícone será usado como ícone da aplicação, favicon e ícone de PWA em toda a plataforma."
+        },
+        {
+            "label": "application_key",
+            "translation": "Chave da aplicação"
+        },
+        {
+            "label": "apply",
+            "translation": "Aplicar"
+        },
+        {
+            "label": "apply_setting_to_subcategories",
+            "translation": "Aplicar esta configuração a todas as subcategorias"
+        },
+        {
+            "label": "apply_to_all",
+            "translation": "Aplicar a todos"
+        },
+        {
+            "label": "approve",
+            "translation": "Aprovar"
+        },
+        {
+            "label": "approved",
+            "translation": "Aprovado"
+        },
+        {
+            "label": "approved_comments",
+            "translation": "Comentários aprovados"
+        },
+        {
+            "label": "app_cache",
+            "translation": "Cache da aplicação"
+        },
+        {
+            "label": "app_cache_exp",
+            "translation": "Armazena em cache dados centrais da aplicação, como configurações, idiomas, categorias, páginas estáticas e outras entidades relacionadas. Permanece salvo até ser atualizado explicitamente quando os dados mudam."
+        },
+        {
+            "label": "app_id",
+            "translation": "ID do aplicativo"
+        },
+        {
+            "label": "app_name",
+            "translation": "Nome da aplicação"
+        },
+        {
+            "label": "app_secret",
+            "translation": "Segredo do aplicativo"
+        },
+        {
+            "label": "app_store",
+            "translation": "Loja de aplicativos"
+        },
+        {
+            "label": "April",
+            "translation": "abril"
+        },
+        {
+            "label": "article",
+            "translation": "Artigo"
+        },
+        {
+            "label": "article_post_exp",
+            "translation": "Um artigo com imagens e vídeos incorporados"
+        },
+        {
+            "label": "assign_subscription",
+            "translation": "Atribuir assinatura"
+        },
+        {
+            "label": "attachments",
+            "translation": "Anexos"
+        },
+        {
+            "label": "audio",
+            "translation": "Áudio"
+        },
+        {
+            "label": "audios",
+            "translation": "Áudios"
+        },
+        {
+            "label": "audios_exp",
+            "translation": "Selecione seus áudios e crie sua playlist"
+        },
+        {
+            "label": "audio_download_button",
+            "translation": "Botão de download de áudio"
+        },
+        {
+            "label": "audio_post_exp",
+            "translation": "Envie áudios e crie uma playlist"
+        },
+        {
+            "label": "August",
+            "translation": "Agosto"
+        },
+        {
+            "label": "author",
+            "translation": "Autor"
+        },
+        {
+            "label": "author_earnings",
+            "translation": "Ganhos do autor"
+        },
+        {
+            "label": "automatically_calculated",
+            "translation": "Calculado automaticamente"
+        },
+        {
+            "label": "auto_post_deletion",
+            "translation": "Exclusão automática de posts"
+        },
+        {
+            "label": "auto_update",
+            "translation": "Atualização automática"
+        },
+        {
+            "label": "avatar",
+            "translation": "avatar"
+        },
+        {
+            "label": "back",
+            "translation": "Voltar"
+        },
+        {
+            "label": "back_to_billing",
+            "translation": "Voltar para cobrança"
+        },
+        {
+            "label": "back_to_gallery",
+            "translation": "Voltar para a galeria"
+        },
+        {
+            "label": "badge",
+            "translation": "Selo"
+        },
+        {
+            "label": "badges",
+            "translation": "Selos"
+        },
+        {
+            "label": "balance",
+            "translation": "Saldo"
+        },
+        {
+            "label": "bank_account_holder_name",
+            "translation": "Nome do titular da conta bancária"
+        },
+        {
+            "label": "bank_branch_city",
+            "translation": "Cidade da agência bancária"
+        },
+        {
+            "label": "bank_branch_country",
+            "translation": "País da agência bancária"
+        },
+        {
+            "label": "bank_name",
+            "translation": "Nome do banco"
+        },
+        {
+            "label": "banned",
+            "translation": "Banido"
+        },
+        {
+            "label": "banner",
+            "translation": "Bandeira"
+        },
+        {
+            "label": "banner_desktop",
+            "translation": "Banner para desktop"
+        },
+        {
+            "label": "banner_desktop_exp",
+            "translation": "Este anúncio será exibido em telas maiores que 992px"
+        },
+        {
+            "label": "banner_mobile",
+            "translation": "Banner para celular"
+        },
+        {
+            "label": "banner_mobile_exp",
+            "translation": "Este anúncio será exibido em telas menores que 992px"
+        },
+        {
+            "label": "ban_user",
+            "translation": "Banir usuário"
+        },
+        {
+            "label": "basic_information",
+            "translation": "Informações básicas"
+        },
+        {
+            "label": "behance",
+            "translation": "Behance"
+        },
+        {
+            "label": "billed_by",
+            "translation": "Faturado por"
+        },
+        {
+            "label": "billed_to",
+            "translation": "Faturado para"
+        },
+        {
+            "label": "billing_address",
+            "translation": "Endereço de cobrança"
+        },
+        {
+            "label": "billing_and_payments",
+            "translation": "Cobrança e pagamentos"
+        },
+        {
+            "label": "billing_cycle",
+            "translation": "Ciclo de cobrança"
+        },
+        {
+            "label": "billing_details",
+            "translation": "Detalhes de cobrança"
+        },
+        {
+            "label": "billing_details_exp",
+            "translation": "Gerencie seu endereço de cobrança e informações fiscais para uma experiência de checkout mais fluida."
+        },
+        {
+            "label": "billing_information",
+            "translation": "Informações de cobrança"
+        },
+        {
+            "label": "billing_order_summary",
+            "translation": "Cobrança e resumo do pedido"
+        },
+        {
+            "label": "bitcoin",
+            "translation": "Bitcoin"
+        },
+        {
+            "label": "bitcoin_address",
+            "translation": "Endereço Bitcoin"
+        },
+        {
+            "label": "blacklisted_emails_exp",
+            "translation": "E-mails em lista negra ficam restritos de todas as ações baseadas em e-mail, incluindo login, comentários e envio de mensagens de contato."
+        },
+        {
+            "label": "block_color",
+            "translation": "Cor do cabeçalho superior e dos títulos dos blocos"
+        },
+        {
+            "label": "block_style",
+            "translation": "Estilo do bloco"
+        },
+        {
+            "label": "bluesky",
+            "translation": "Céu Azul"
+        },
+        {
+            "label": "bot_verification_failed",
+            "translation": "Falha na verificação. Verifique se você não é um robô!"
+        },
+        {
+            "label": "breaking",
+            "translation": "Destaques"
+        },
+        {
+            "label": "breaking_news",
+            "translation": "Últimas notícias"
+        },
+        {
+            "label": "browse_files",
+            "translation": "Navegar pelos arquivos"
+        },
+        {
+            "label": "btn_send",
+            "translation": "Enviar"
+        },
+        {
+            "label": "btn_submit",
+            "translation": "Enviar"
+        },
+        {
+            "label": "btn_subscribe",
+            "translation": "Assinar"
+        },
+        {
+            "label": "bucket_name",
+            "translation": "Nome do bucket"
+        },
+        {
+            "label": "bulk_actions",
+            "translation": "Ações em massa"
+        },
+        {
+            "label": "bulk_post_upload",
+            "translation": "Envio em massa de posts"
+        },
+        {
+            "label": "bulk_post_upload_for_authors",
+            "translation": "Envio em massa de posts para autores"
+        },
+        {
+            "label": "bulk_vat_update",
+            "translation": "Atualização em massa de VAT"
+        },
+        {
+            "label": "button_text",
+            "translation": "Texto do botão"
+        },
+        {
+            "label": "button_visibility",
+            "translation": "Visibilidade do botão"
+        },
+        {
+            "label": "by_date",
+            "translation": "por data"
+        },
+        {
+            "label": "by_featured_order",
+            "translation": "por ordem de destaque"
+        },
+        {
+            "label": "by_slider_order",
+            "translation": "por ordem do slider"
+        },
+        {
+            "label": "cache_refresh_time",
+            "translation": "Tempo de atualização do cache (minuto)"
+        },
+        {
+            "label": "cache_refresh_time_exp",
+            "translation": "Após esse tempo, seus arquivos de cache serão atualizados."
+        },
+        {
+            "label": "cache_system",
+            "translation": "Sistema de cache"
+        },
+        {
+            "label": "cancel",
+            "translation": "Cancelar"
+        },
+        {
+            "label": "cancelled",
+            "translation": "Cancelado"
+        },
+        {
+            "label": "cancel_subscription",
+            "translation": "Cancelar assinatura"
+        },
+        {
+            "label": "cancel_subscription_exp",
+            "translation": "Tem certeza de que deseja cancelar sua assinatura? Você ainda terá acesso a todos os recursos premium até o fim do seu ciclo de cobrança atual."
+        },
+        {
+            "label": "capacity_limit",
+            "translation": "Limite de capacidade"
+        },
+        {
+            "label": "captcha",
+            "translation": "Captcha"
+        },
+        {
+            "label": "captcha_provider",
+            "translation": "Provedor de Captcha"
+        },
+        {
+            "label": "captcha_provider_warning",
+            "translation": "Recomendamos fortemente o uso do Cloudflare Turnstile, pois ele oferece uma solução focada em privacidade e sem cookies (compatível com GDPR). O Google reCAPTCHA pode coletar dados do usuário e rastrear visitantes, o que exige consentimento explícito por meio de um Cookie Banner. Garantir a conformidade com as leis de privacidade de dados é de inteira responsabilidade do administrador do site."
+        },
+        {
+            "label": "captcha_settings",
+            "translation": "Configurações de Captcha"
+        },
+        {
+            "label": "categories",
+            "translation": "Categorias"
+        },
+        {
+            "label": "category",
+            "translation": "Categoria"
+        },
+        {
+            "label": "category_block_style",
+            "translation": "Estilo do bloco da categoria"
+        },
+        {
+            "label": "category_id_finder",
+            "translation": "Localizador de ID da categoria"
+        },
+        {
+            "label": "category_id_finder_exp",
+            "translation": "Você pode usar esta seção para descobrir o ID de uma categoria"
+        },
+        {
+            "label": "category_name",
+            "translation": "Nome da categoria"
+        },
+        {
+            "label": "category_select_widget",
+            "translation": "Selecione os widgets que deseja mostrar na barra lateral"
+        },
+        {
+            "label": "change",
+            "translation": "Alterar"
+        },
+        {
+            "label": "change_avatar",
+            "translation": "Alterar avatar"
+        },
+        {
+            "label": "change_logo",
+            "translation": "Alterar logo"
+        },
+        {
+            "label": "change_password",
+            "translation": "Alterar senha"
+        },
+        {
+            "label": "change_password_exp",
+            "translation": "Atualize suas credenciais com uma senha forte e exclusiva para manter sua conta segura."
+        },
+        {
+            "label": "change_plan",
+            "translation": "Alterar plano"
+        },
+        {
+            "label": "change_user_role",
+            "translation": "Alterar função do usuário"
+        },
+        {
+            "label": "checkout",
+            "translation": "Finalizar compra"
+        },
+        {
+            "label": "checkout_one_time_payment_success",
+            "translation": "Obrigado pela sua compra! Seu pagamento foi concluído com sucesso. Agora você tem acesso total ao conteúdo adquirido."
+        },
+        {
+            "label": "checkout_subscription_success",
+            "translation": "Sua assinatura foi ativada com sucesso e agora você tem acesso ilimitado a todo o nosso conteúdo premium."
+        },
+        {
+            "label": "checkout_success_email_support_note",
+            "translation": "Um e-mail de confirmação com os detalhes da sua compra foi enviado para o endereço de cobrança. Se encontrar qualquer problema, você pode nos contatar aqui:"
+        },
+        {
+            "label": "choose_content_hiding_method",
+            "translation": "Escolha o método de ocultação de conteúdo"
+        },
+        {
+            "label": "choose_post_format",
+            "translation": "Escolha um formato de post"
+        },
+        {
+            "label": "choose_post_format_exp",
+            "translation": "Escolha o tipo de conteúdo que deseja criar"
+        },
+        {
+            "label": "circle",
+            "translation": "Círculo"
+        },
+        {
+            "label": "city",
+            "translation": "Cidade"
+        },
+        {
+            "label": "click_copy_icon_copy_url",
+            "translation": "Clique no ícone de copiar para copiar a URL"
+        },
+        {
+            "label": "client_id",
+            "translation": "ID do cliente"
+        },
+        {
+            "label": "client_secret",
+            "translation": "Segredo do cliente"
+        },
+        {
+            "label": "close",
+            "translation": "Fechar"
+        },
+        {
+            "label": "cloudflare_turnstile",
+            "translation": "Cloudflare Turnstile"
+        },
+        {
+            "label": "color",
+            "translation": "Cor"
+        },
+        {
+            "label": "color_code",
+            "translation": "Código de cor"
+        },
+        {
+            "label": "comma",
+            "translation": "Vírgula"
+        },
+        {
+            "label": "comma_separated_options",
+            "translation": "Opções separadas por vírgula (ex.: Carne, Vegano, Nenhum)"
+        },
+        {
+            "label": "comment",
+            "translation": "Comentário"
+        },
+        {
+            "label": "comments",
+            "translation": "Comentários"
+        },
+        {
+            "label": "comments_contact",
+            "translation": "Comentários e mensagens de contato"
+        },
+        {
+            "label": "comment_approval_system",
+            "translation": "Sistema de aprovação de comentários"
+        },
+        {
+            "label": "comment_system",
+            "translation": "Sistema de comentários"
+        },
+        {
+            "label": "community",
+            "translation": "Comunidade"
+        },
+        {
+            "label": "company_invoice_details",
+            "translation": "Dados da empresa e da fatura"
+        },
+        {
+            "label": "company_invoice_details_exp",
+            "translation": "Defina o nome da empresa, endereço e informações fiscais para as faturas."
+        },
+        {
+            "label": "company_name",
+            "translation": "Nome da empresa"
+        },
+        {
+            "label": "completed",
+            "translation": "Concluído"
+        },
+        {
+            "label": "complete_payment",
+            "translation": "Concluir pagamento"
+        },
+        {
+            "label": "complete_payment_button_exp",
+            "translation": "Clique no botão abaixo para concluir seu pagamento com segurança."
+        },
+        {
+            "label": "complete_payment_legal_exp",
+            "translation": "Ao concluir o pagamento, você concorda com nossas políticas:"
+        },
+        {
+            "label": "complete_registration",
+            "translation": "Concluir cadastro"
+        },
+        {
+            "label": "complexity_requirement",
+            "translation": "Requisito de complexidade"
+        },
+        {
+            "label": "confirm_action",
+            "translation": "Tem certeza de que deseja realizar esta ação?"
+        },
+        {
+            "label": "confirm_and_pay",
+            "translation": "Confirmar e pagar"
+        },
+        {
+            "label": "confirm_ban",
+            "translation": "Tem certeza de que deseja banir este usuário?"
+        },
+        {
+            "label": "confirm_comment",
+            "translation": "Tem certeza de que deseja excluir este comentário?"
+        },
+        {
+            "label": "confirm_delete",
+            "translation": "Tem certeza de que deseja excluir este item?"
+        },
+        {
+            "label": "confirm_delete_file",
+            "translation": "Tem certeza de que deseja excluir este arquivo?"
+        },
+        {
+            "label": "confirm_delete_selected_files",
+            "translation": "Tem certeza de que deseja excluir os arquivos selecionados?"
+        },
+        {
+            "label": "confirm_password",
+            "translation": "Confirmar senha"
+        },
+        {
+            "label": "confirm_user_email",
+            "translation": "Confirmar e-mail do usuário"
+        },
+        {
+            "label": "contact",
+            "translation": "Contato"
+        },
+        {
+            "label": "contact_message",
+            "translation": "Mensagem de contato"
+        },
+        {
+            "label": "contact_messages",
+            "translation": "Mensagens de contato"
+        },
+        {
+            "label": "contact_messages_will_send",
+            "translation": "As mensagens de contato serão enviadas para este e-mail."
+        },
+        {
+            "label": "contact_settings",
+            "translation": "Configurações de contato"
+        },
+        {
+            "label": "contact_text",
+            "translation": "Texto de contato"
+        },
+        {
+            "label": "content",
+            "translation": "Conteúdo"
+        },
+        {
+            "label": "content_cache",
+            "translation": "Cache de conteúdo"
+        },
+        {
+            "label": "content_cache_exp",
+            "translation": "Armazena em cache conteúdo dinâmico, como posts e comentários. Atualizado automaticamente em intervalos definidos para manter os dados atuais e minimizar consultas ao banco de dados."
+        },
+        {
+            "label": "content_font",
+            "translation": "Fonte do conteúdo (texto de post e página)"
+        },
+        {
+            "label": "content_images",
+            "translation": "Imagens de conteúdo"
+        },
+        {
+            "label": "content_images_upload_exp",
+            "translation": "As imagens de conteúdo são associadas a tipos específicos de conteúdo, portanto envios gerais não são suportados nesta seção. As imagens devem ser enviadas pelo formulário de criação de conteúdo correspondente."
+        },
+        {
+            "label": "content_management",
+            "translation": "Gerenciamento de conteúdo"
+        },
+        {
+            "label": "content_settings",
+            "translation": "Configurações de conteúdo"
+        },
+        {
+            "label": "content_source",
+            "translation": "Fonte do conteúdo"
+        },
+        {
+            "label": "continue_with_google",
+            "translation": "Continuar com Google"
+        },
+        {
+            "label": "cookies_warning",
+            "translation": "Aviso de cookies"
+        },
+        {
+            "label": "cook_time",
+            "translation": "Tempo de preparo"
+        },
+        {
+            "label": "copy",
+            "translation": "Copiar"
+        },
+        {
+            "label": "copyright",
+            "translation": "Direitos autorais"
+        },
+        {
+            "label": "correct",
+            "translation": "Correto"
+        },
+        {
+            "label": "correct_answer",
+            "translation": "Resposta correta"
+        },
+        {
+            "label": "country",
+            "translation": "País"
+        },
+        {
+            "label": "country_specific_rates",
+            "translation": "Tarifas específicas por país"
+        },
+        {
+            "label": "create_account",
+            "translation": "Criar uma conta"
+        },
+        {
+            "label": "create_account_exp",
+            "translation": "Cadastre-se para ter acesso ilimitado ao jornalismo premium"
+        },
+        {
+            "label": "create_ad_exp",
+            "translation": "Se você não tiver um código de anúncio, pode criar um selecionando uma imagem e adicionando uma URL"
+        },
+        {
+            "label": "cron_job_token",
+            "translation": "Token de Cron Job"
+        },
+        {
+            "label": "cron_job_token_delete_warning",
+            "translation": "Tem certeza? Excluir este token irá PARAR imediatamente todos os cron jobs automatizados."
+        },
+        {
+            "label": "cron_job_token_exp",
+            "translation": "Este token seguro é necessário para executar tarefas automatizadas. Quaisquer alterações (Gerar ou Revogar) são salvas imediatamente."
+        },
+        {
+            "label": "csv_file",
+            "translation": "Arquivo CSV"
+        },
+        {
+            "label": "currency_settings",
+            "translation": "Configurações de moeda"
+        },
+        {
+            "label": "currency_settings_exp",
+            "translation": "Gerencie a moeda padrão e as opções de formatação do seu site"
+        },
+        {
+            "label": "currency_symbol",
+            "translation": "Símbolo da moeda"
+        },
+        {
+            "label": "current_billing_cycle",
+            "translation": "Ciclo de cobrança atual"
+        },
+        {
+            "label": "custom",
+            "translation": "Personalizado"
+        },
+        {
+            "label": "customer_details",
+            "translation": "Dados do cliente"
+        },
+        {
+            "label": "customer_ip_address",
+            "translation": "Endereço IP do cliente"
+        },
+        {
+            "label": "customize",
+            "translation": "Personalizar"
+        },
+        {
+            "label": "custom_code_insertion",
+            "translation": "Inserção de código personalizado"
+        },
+        {
+            "label": "custom_code_insertion_exp",
+            "translation": "Adicione trechos personalizados de HTML, CSS ou JavaScript ao cabeçalho ou rodapé do seu site. Útil para analytics, tracking ou integrações de terceiros."
+        },
+        {
+            "label": "custom_footer_codes",
+            "translation": "Códigos personalizados do rodapé"
+        },
+        {
+            "label": "custom_footer_codes_exp",
+            "translation": "Esses códigos serão adicionados ao rodapé do site."
+        },
+        {
+            "label": "custom_form_fields",
+            "translation": "Campos personalizados do formulário"
+        },
+        {
+            "label": "custom_form_fields_exp",
+            "translation": "Os campos de nome completo e e-mail são sempre obrigatórios por padrão. Adicione quaisquer perguntas adicionais que queira fazer aos participantes."
+        },
+        {
+            "label": "custom_header_codes",
+            "translation": "Códigos personalizados do cabeçalho"
+        },
+        {
+            "label": "custom_header_codes_exp",
+            "translation": "Esses códigos serão adicionados ao cabeçalho do site."
+        },
+        {
+            "label": "daily",
+            "translation": "Diário"
+        },
+        {
+            "label": "dark",
+            "translation": "Escuro"
+        },
+        {
+            "label": "dark_mode",
+            "translation": "Modo escuro"
+        },
+        {
+            "label": "dashboard",
+            "translation": "Painel"
+        },
+        {
+            "label": "database_backup",
+            "translation": "Backup do banco de dados"
+        },
+        {
+            "label": "data_type",
+            "translation": "Tipo de dado"
+        },
+        {
+            "label": "date",
+            "translation": "Data"
+        },
+        {
+            "label": "date_added",
+            "translation": "Data de adição"
+        },
+        {
+            "label": "date_publish",
+            "translation": "Data de publicação"
+        },
+        {
+            "label": "date_range",
+            "translation": "Intervalo de datas"
+        },
+        {
+            "label": "day",
+            "translation": "dia"
+        },
+        {
+            "label": "days",
+            "translation": "dias"
+        },
+        {
+            "label": "days_remaining",
+            "translation": "Dias restantes"
+        },
+        {
+            "label": "December",
+            "translation": "dezembro"
+        },
+        {
+            "label": "decimal_separator",
+            "translation": "Separador decimal"
+        },
+        {
+            "label": "default",
+            "translation": "Padrão"
+        },
+        {
+            "label": "default_content_price",
+            "translation": "Preço padrão do conteúdo"
+        },
+        {
+            "label": "default_content_price_exp",
+            "translation": "Este será o preço padrão quando você marcar um post como 'Exclusive Paid Post'. Você pode sobrescrever esse preço na página de criação do post."
+        },
+        {
+            "label": "default_currency",
+            "translation": "Moeda padrão"
+        },
+        {
+            "label": "default_language",
+            "translation": "Idioma padrão"
+        },
+        {
+            "label": "default_price",
+            "translation": "Preço padrão"
+        },
+        {
+            "label": "default_quantity",
+            "translation": "Quantidade padrão"
+        },
+        {
+            "label": "default_theme_mode",
+            "translation": "Modo padrão do tema"
+        },
+        {
+            "label": "delete",
+            "translation": "Excluir"
+        },
+        {
+            "label": "delete_account",
+            "translation": "Excluir conta"
+        },
+        {
+            "label": "delete_account_confirm",
+            "translation": "Excluir sua conta é permanente e removerá todo o conteúdo, incluindo comentários, avatares e configurações de perfil. Tem certeza de que deseja excluir sua conta?"
+        },
+        {
+            "label": "delete_account_exp",
+            "translation": "Remova permanentemente sua conta, dados pessoais e assinaturas ativas da plataforma."
+        },
+        {
+            "label": "delete_all_posts",
+            "translation": "Excluir todos os posts"
+        },
+        {
+            "label": "delete_images_with_post",
+            "translation": "Excluir imagens junto com o post"
+        },
+        {
+            "label": "delete_only_rss_posts",
+            "translation": "Excluir apenas posts RSS"
+        },
+        {
+            "label": "delete_reading_list",
+            "translation": "Remover da lista de leitura"
+        },
+        {
+            "label": "delete_selected",
+            "translation": "Excluir selecionados"
+        },
+        {
+            "label": "description",
+            "translation": "Descrição"
+        },
+        {
+            "label": "detailed_report",
+            "translation": "Relatório detalhado"
+        },
+        {
+            "label": "details",
+            "translation": "Detalhes"
+        },
+        {
+            "label": "difficulty",
+            "translation": "Dificuldade"
+        },
+        {
+            "label": "directions",
+            "translation": "Instruções"
+        },
+        {
+            "label": "disable",
+            "translation": "Desativar"
+        },
+        {
+            "label": "disable_reward_system",
+            "translation": "Desativar sistema de recompensas"
+        },
+        {
+            "label": "discord",
+            "translation": "Discord"
+        },
+        {
+            "label": "discover",
+            "translation": "Descobrir"
+        },
+        {
+            "label": "dislike",
+            "translation": "Não curtir"
+        },
+        {
+            "label": "display_duration",
+            "translation": "Duração de exibição"
+        },
+        {
+            "label": "display_limit",
+            "translation": "Limite de exibição"
+        },
+        {
+            "label": "display_type",
+            "translation": "Tipo de exibição"
+        },
+        {
+            "label": "documentation",
+            "translation": "Documentação"
+        },
+        {
+            "label": "domain",
+            "translation": "Domínio"
+        },
+        {
+            "label": "done",
+            "translation": "Concluído"
+        },
+        {
+            "label": "dont_add_menu",
+            "translation": "Não adicionar ao menu"
+        },
+        {
+            "label": "dont_have_account",
+            "translation": "Não tem uma conta?"
+        },
+        {
+            "label": "dont_want_receive_emails",
+            "translation": "Não quer receber estes e-mails?"
+        },
+        {
+            "label": "dot",
+            "translation": "Ponto"
+        },
+        {
+            "label": "download",
+            "translation": "Baixar"
+        },
+        {
+            "label": "downloading_rss_images_exp",
+            "translation": "Algumas imagens podem estar protegidas por direitos autorais. Antes de baixar e hospedar imagens em seu próprio servidor, certifique-se de ter os direitos de uso apropriados.\r\nPara reduzir riscos legais, usar imagens pela URL remota geralmente é uma abordagem mais segura."
+        },
+        {
+            "label": "downloads",
+            "translation": "Transferências"
+        },
+        {
+            "label": "download_button",
+            "translation": "Botão de download"
+        },
+        {
+            "label": "download_csv_example",
+            "translation": "Baixar exemplo CSV"
+        },
+        {
+            "label": "download_csv_template",
+            "translation": "Baixar modelo CSV"
+        },
+        {
+            "label": "download_images_my_server",
+            "translation": "Baixar imagens para meu servidor"
+        },
+        {
+            "label": "drafts",
+            "translation": "Rascunhos"
+        },
+        {
+            "label": "dribbble",
+            "translation": "Dribbble"
+        },
+        {
+            "label": "dropdown",
+            "translation": "Menu suspenso"
+        },
+        {
+            "label": "drop_csv_file_here_or_upload",
+            "translation": "Arraste o arquivo CSV aqui ou clique para enviar"
+        },
+        {
+            "label": "drop_files_or_click_upload",
+            "translation": "Arraste os arquivos aqui ou clique para enviar"
+        },
+        {
+            "label": "duration",
+            "translation": "Duração"
+        },
+        {
+            "label": "earnings",
+            "translation": "Ganhos"
+        },
+        {
+            "label": "earnings_and_stats",
+            "translation": "Ganhos e estatísticas"
+        },
+        {
+            "label": "earnings_overview",
+            "translation": "Visão geral dos ganhos"
+        },
+        {
+            "label": "earnings_overview_exp",
+            "translation": "Resumo dos seus ganhos e estatísticas"
+        },
+        {
+            "label": "easy",
+            "translation": "Fácil"
+        },
+        {
+            "label": "edit",
+            "translation": "Editar"
+        },
+        {
+            "label": "edited",
+            "translation": "Editado"
+        },
+        {
+            "label": "edit_badge",
+            "translation": "Editar selo"
+        },
+        {
+            "label": "edit_plan",
+            "translation": "Editar plano"
+        },
+        {
+            "label": "edit_profile",
+            "translation": "Editar perfil"
+        },
+        {
+            "label": "edit_profile_exp",
+            "translation": "Atualize suas informações pessoais, avatar e como você aparece para a comunidade."
+        },
+        {
+            "label": "edit_role",
+            "translation": "Editar função"
+        },
+        {
+            "label": "edit_translations",
+            "translation": "Editar traduções"
+        },
+        {
+            "label": "email",
+            "translation": "E-mail"
+        },
+        {
+            "label": "emails_sent_successfully",
+            "translation": "Todos os e-mails foram enviados com sucesso!"
+        },
+        {
+            "label": "email_address",
+            "translation": "Endereço de e-mail"
+        },
+        {
+            "label": "email_blacklist",
+            "translation": "Lista negra de e-mails"
+        },
+        {
+            "label": "email_content_purchase_body",
+            "translation": "Obrigado pela sua compra! Agora você tem acesso vitalício ao seu conteúdo premium. Aproveite quando quiser."
+        },
+        {
+            "label": "email_content_purchase_btn",
+            "translation": "Acessar conteúdo"
+        },
+        {
+            "label": "email_content_purchase_subject",
+            "translation": "Sua compra está pronta"
+        },
+        {
+            "label": "email_content_purchase_title",
+            "translation": "Compra realizada com sucesso"
+        },
+        {
+            "label": "email_expiring_soon_body",
+            "translation": "Sua assinatura está prestes a expirar. Renove agora para continuar aproveitando os recursos premium sem interrupção."
+        },
+        {
+            "label": "email_expiring_soon_btn",
+            "translation": "Renovar assinatura"
+        },
+        {
+            "label": "email_expiring_soon_subject",
+            "translation": "Sua assinatura premium está prestes a expirar"
+        },
+        {
+            "label": "email_expiring_soon_title",
+            "translation": "Expira em breve"
+        },
+        {
+            "label": "email_expiring_today_body",
+            "translation": "Seu acesso premium termina hoje. Renove agora para continuar aproveitando todos os benefícios premium sem interrupção."
+        },
+        {
+            "label": "email_expiring_today_btn",
+            "translation": "Renovar agora"
+        },
+        {
+            "label": "email_expiring_today_subject",
+            "translation": "Sua assinatura expira hoje"
+        },
+        {
+            "label": "email_expiring_today_title",
+            "translation": "Expira hoje"
+        },
+        {
+            "label": "email_new_subscription_body",
+            "translation": "Obrigado por assinar! Sua assinatura foi ativada com sucesso. Agora você tem acesso total a todos os recursos premium e ao conteúdo exclusivo."
+        },
+        {
+            "label": "email_new_subscription_btn",
+            "translation": "Começar a explorar"
+        },
+        {
+            "label": "email_new_subscription_subject",
+            "translation": "Sua assinatura premium está ativa"
+        },
+        {
+            "label": "email_new_subscription_title",
+            "translation": "Bem-vindo ao Premium!"
+        },
+        {
+            "label": "email_not_found_message",
+            "translation": "Não foi possível encontrar uma conta associada a esse endereço de e-mail."
+        },
+        {
+            "label": "email_payment_failed_body",
+            "translation": "Não foi possível processar seu pagamento. Atualize seu método de pagamento para evitar qualquer interrupção no acesso premium."
+        },
+        {
+            "label": "email_payment_failed_btn",
+            "translation": "Atualizar método de pagamento"
+        },
+        {
+            "label": "email_payment_failed_subject",
+            "translation": "Pagamento falhou - ação necessária"
+        },
+        {
+            "label": "email_payment_failed_title",
+            "translation": "Pagamento falhou"
+        },
+        {
+            "label": "email_settings",
+            "translation": "Configurações de e-mail"
+        },
+        {
+            "label": "email_status",
+            "translation": "Status do e-mail"
+        },
+        {
+            "label": "email_subscription_cancelled_body",
+            "translation": "Sua assinatura foi cancelada com sucesso. Você não será cobrado novamente e poderá continuar usando os recursos premium até o fim do período de cobrança atual."
+        },
+        {
+            "label": "email_subscription_cancelled_btn",
+            "translation": "Configurações da conta"
+        },
+        {
+            "label": "email_subscription_cancelled_subject",
+            "translation": "Sua assinatura foi cancelada"
+        },
+        {
+            "label": "email_subscription_cancelled_title",
+            "translation": "Assinatura cancelada"
+        },
+        {
+            "label": "email_subscription_expired_body",
+            "translation": "Sua assinatura premium expirou e sua conta agora está no plano padrão. Faça upgrade quando quiser para recuperar o acesso total aos recursos premium."
+        },
+        {
+            "label": "email_subscription_expired_btn",
+            "translation": "Planos de preços"
+        },
+        {
+            "label": "email_subscription_expired_subject",
+            "translation": "Seu acesso premium terminou"
+        },
+        {
+            "label": "email_subscription_expired_title",
+            "translation": "Assinatura expirada"
+        },
+        {
+            "label": "email_subscription_renewed_body",
+            "translation": "Seu pagamento foi realizado com sucesso e sua assinatura foi renovada. Seu acesso premium continua sem interrupção."
+        },
+        {
+            "label": "email_subscription_renewed_btn",
+            "translation": "Ver histórico de cobrança"
+        },
+        {
+            "label": "email_subscription_renewed_subject",
+            "translation": "Sua assinatura foi renovada"
+        },
+        {
+            "label": "email_subscription_renewed_title",
+            "translation": "Assinatura renovada"
+        },
+        {
+            "label": "email_templates",
+            "translation": "Modelos de e-mail"
+        },
+        {
+            "label": "email_verification",
+            "translation": "Verificação de e-mail"
+        },
+        {
+            "label": "email_verification_body1",
+            "translation": "Obrigado por se cadastrar! Estamos felizes em tê-lo conosco."
+        },
+        {
+            "label": "email_verification_body2",
+            "translation": "Para começar, verifique seu endereço de e-mail. Isso ajuda a manter sua conta segura."
+        },
+        {
+            "label": "email_verification_button",
+            "translation": "Verificar e-mail"
+        },
+        {
+            "label": "email_verification_required",
+            "translation": "Verifique seu endereço de e-mail"
+        },
+        {
+            "label": "email_verification_sent_message",
+            "translation": "Um e-mail de verificação foi enviado para seu endereço de e-mail. Siga as instruções no e-mail para ativar sua conta."
+        },
+        {
+            "label": "email_verification_subject",
+            "translation": "Verifique seu endereço de e-mail"
+        },
+        {
+            "label": "email_verification_title",
+            "translation": "Verifique seu e-mail"
+        },
+        {
+            "label": "email_verify_success_message",
+            "translation": "Seu endereço de e-mail foi verificado com sucesso. Agora você pode acessar todos os recursos da nossa plataforma."
+        },
+        {
+            "label": "email_verify_success_title",
+            "translation": "E-mail verificado!"
+        },
+        {
+            "label": "embed_code",
+            "translation": "Código incorporado"
+        },
+        {
+            "label": "embed_media",
+            "translation": "Incorporar mídia"
+        },
+        {
+            "label": "emoji_reactions",
+            "translation": "Reações de emojis"
+        },
+        {
+            "label": "enable",
+            "translation": "Ativar"
+        },
+        {
+            "label": "enabled",
+            "translation": "Ativado"
+        },
+        {
+            "label": "enable_reward_system",
+            "translation": "Ativar sistema de recompensas"
+        },
+        {
+            "label": "encryption",
+            "translation": "Criptografia"
+        },
+        {
+            "label": "end",
+            "translation": "Fim"
+        },
+        {
+            "label": "endpoint_url",
+            "translation": "URL do endpoint"
+        },
+        {
+            "label": "end_date",
+            "translation": "Data de término"
+        },
+        {
+            "label": "enter_2_characters",
+            "translation": "Digite pelo menos 2 caracteres"
+        },
+        {
+            "label": "enter_email_address",
+            "translation": "Digite seu endereço de e-mail"
+        },
+        {
+            "label": "enter_url",
+            "translation": "Digite a URL"
+        },
+        {
+            "label": "environment_mode",
+            "translation": "Ambiente (modo)"
+        },
+        {
+            "label": "error",
+            "translation": "Erro"
+        },
+        {
+            "label": "error_gateway_cancellation_failed",
+            "translation": "Não foi possível contatar o provedor de pagamento para cancelar sua assinatura agora. Tente novamente mais tarde."
+        },
+        {
+            "label": "error_invalid_csv_file",
+            "translation": "Arquivo CSV inválido ou erro de processamento. Verifique seu arquivo."
+        },
+        {
+            "label": "event",
+            "translation": "Evento"
+        },
+        {
+            "label": "events",
+            "translation": "Eventos"
+        },
+        {
+            "label": "events_calendar",
+            "translation": "Calendário de eventos"
+        },
+        {
+            "label": "event_already_registered_email",
+            "translation": "Você já se registrou para este evento com este endereço de e-mail."
+        },
+        {
+            "label": "event_details",
+            "translation": "Detalhes do Evento"
+        },
+        {
+            "label": "event_exp",
+            "translation": "Eventos agendados com detalhes de local e mapa"
+        },
+        {
+            "label": "event_external_link_label",
+            "translation": "Link externo (ex.: Eventbrite, Google Forms)"
+        },
+        {
+            "label": "event_highlights",
+            "translation": "Destaques do evento"
+        },
+        {
+            "label": "event_highlight_ex",
+            "translation": "Exemplo: limite de idade - 15+ exigido"
+        },
+        {
+            "label": "event_images",
+            "translation": "Imagens do evento"
+        },
+        {
+            "label": "event_registration",
+            "translation": "Inscrição no evento"
+        },
+        {
+            "label": "event_registration_and_tickets",
+            "translation": "Inscrição e ingressos do evento"
+        },
+        {
+            "label": "event_registration_exp",
+            "translation": "Preencha o formulário abaixo para garantir sua vaga."
+        },
+        {
+            "label": "event_schedule",
+            "translation": "Agenda do evento"
+        },
+        {
+            "label": "event_schedule_ex",
+            "translation": "Exemplo: 09:00-09:30 - Abertura e inscrição - Discurso de abertura"
+        },
+        {
+            "label": "event_you_are_registered",
+            "translation": "Você está inscrito!"
+        },
+        {
+            "label": "example",
+            "translation": "Exemplo"
+        },
+        {
+            "label": "exclude_slider_posts",
+            "translation": "Excluir posts do slider"
+        },
+        {
+            "label": "exclude_slider_posts_exp",
+            "translation": "Ative esta opção para impedir que posts que já estão no slider apareçam na área de posts em destaque."
+        },
+        {
+            "label": "exclusive",
+            "translation": "Exclusivo"
+        },
+        {
+            "label": "exclusive_category",
+            "translation": "Categoria exclusiva"
+        },
+        {
+            "label": "exclusive_category_exp",
+            "translation": "Se ativado, todos os posts desta categoria exigirão uma compra avulsa separada."
+        },
+        {
+            "label": "exclusive_content",
+            "translation": "Conteúdo exclusivo"
+        },
+        {
+            "label": "exclusive_content_exp",
+            "translation": "Exige uma compra avulsa separada."
+        },
+        {
+            "label": "expired",
+            "translation": "Expirado"
+        },
+        {
+            "label": "expired_on",
+            "translation": "Expirado em"
+        },
+        {
+            "label": "expires_on",
+            "translation": "Expira em"
+        },
+        {
+            "label": "explore_subscription_plans",
+            "translation": "Explorar planos de assinatura"
+        },
+        {
+            "label": "export",
+            "translation": "Exportar"
+        },
+        {
+            "label": "external_image_url",
+            "translation": "URL de imagem externa"
+        },
+        {
+            "label": "facebook",
+            "translation": "Facebook"
+        },
+        {
+            "label": "fade_out_effect",
+            "translation": "Efeito de fade out"
+        },
+        {
+            "label": "fade_out_effect_exp",
+            "translation": "Mostra o início do texto com clareza e depois desaparece suavemente em direção à parte inferior."
+        },
+        {
+            "label": "featured",
+            "translation": "Destaque"
+        },
+        {
+            "label": "featured_content_settings",
+            "translation": "Configurações de conteúdo em destaque"
+        },
+        {
+            "label": "featured_order",
+            "translation": "Ordem de destaque"
+        },
+        {
+            "label": "featured_posts",
+            "translation": "Posts em destaque"
+        },
+        {
+            "label": "feature_detail",
+            "translation": "Detalhe do recurso"
+        },
+        {
+            "label": "February",
+            "translation": "fevereiro"
+        },
+        {
+            "label": "feed",
+            "translation": "Alimentar"
+        },
+        {
+            "label": "feed_link_generator",
+            "translation": "Gerador de link do feed"
+        },
+        {
+            "label": "feed_name",
+            "translation": "Nome do feed"
+        },
+        {
+            "label": "feed_post_limit",
+            "translation": "Limite de posts do feed"
+        },
+        {
+            "label": "feed_post_limit_exp",
+            "translation": "Quantidade de posts a serem exibidos no feed RSS. (Padrão: 50, Máximo: 100)"
+        },
+        {
+            "label": "feed_url",
+            "translation": "URL do feed"
+        },
+        {
+            "label": "field",
+            "translation": "Campo"
+        },
+        {
+            "label": "field_label",
+            "translation": "Rótulo do campo"
+        },
+        {
+            "label": "files",
+            "translation": "Arquivos"
+        },
+        {
+            "label": "files_exp",
+            "translation": "Arquivos adicionais para download (.pdf, .docx, .zip etc.)"
+        },
+        {
+            "label": "file_extensions",
+            "translation": "Extensões de arquivo"
+        },
+        {
+            "label": "file_manager",
+            "translation": "Gerenciador de arquivos"
+        },
+        {
+            "label": "file_name",
+            "translation": "Nome do arquivo"
+        },
+        {
+            "label": "file_upload",
+            "translation": "Upload de arquivo"
+        },
+        {
+            "label": "fill_all_required_fields",
+            "translation": "Por favor preencha todos os campos obrigatórios."
+        },
+        {
+            "label": "filter",
+            "translation": "Filtro"
+        },
+        {
+            "label": "filter_options",
+            "translation": "Opções de filtro"
+        },
+        {
+            "label": "folder_name",
+            "translation": "Nome da pasta"
+        },
+        {
+            "label": "follow",
+            "translation": "Seguir"
+        },
+        {
+            "label": "followers",
+            "translation": "Seguidores"
+        },
+        {
+            "label": "following",
+            "translation": "Seguindo"
+        },
+        {
+            "label": "fonts",
+            "translation": "Fontes"
+        },
+        {
+            "label": "font_family",
+            "translation": "Família da fonte"
+        },
+        {
+            "label": "font_file",
+            "translation": "Arquivo da fonte"
+        },
+        {
+            "label": "font_settings",
+            "translation": "Configurações da fonte"
+        },
+        {
+            "label": "font_size",
+            "translation": "Tamanho da fonte"
+        },
+        {
+            "label": "font_source",
+            "translation": "Origem da fonte"
+        },
+        {
+            "label": "font_type",
+            "translation": "Tipo de fonte"
+        },
+        {
+            "label": "footer",
+            "translation": "Rodapé"
+        },
+        {
+            "label": "footer_about_section",
+            "translation": "Seção sobre do rodapé"
+        },
+        {
+            "label": "forgot_password",
+            "translation": "Esqueceu a senha"
+        },
+        {
+            "label": "form_validation_alpha_dash",
+            "translation": "O campo {field} pode conter apenas caracteres alfanuméricos, sublinhados e hífens."
+        },
+        {
+            "label": "form_validation_alpha_numeric_space",
+            "translation": "O campo {field} pode conter apenas caracteres alfanuméricos e espaços."
+        },
+        {
+            "label": "form_validation_is_unique",
+            "translation": "Este {field} já está em uso. Tente outro."
+        },
+        {
+            "label": "form_validation_matches",
+            "translation": "O campo {field} não corresponde ao campo {param}."
+        },
+        {
+            "label": "form_validation_max_length",
+            "translation": "O campo {field} não pode exceder {param} caracteres."
+        },
+        {
+            "label": "form_validation_min_length",
+            "translation": "O campo {field} deve ter pelo menos {param} caracteres."
+        },
+        {
+            "label": "form_validation_required",
+            "translation": "O campo {field} é obrigatório."
+        },
+        {
+            "label": "form_validation_valid_email",
+            "translation": "O campo {field} deve conter um endereço de e-mail válido."
+        },
+        {
+            "label": "free",
+            "translation": "Grátis"
+        },
+        {
+            "label": "frequency",
+            "translation": "Frequência"
+        },
+        {
+            "label": "frequency_exp",
+            "translation": "Este valor indica com que frequência o conteúdo de uma determinada URL provavelmente mudará"
+        },
+        {
+            "label": "frequently_asked_questions",
+            "translation": "Perguntas frequentes"
+        },
+        {
+            "label": "friday",
+            "translation": "Sexta-feira"
+        },
+        {
+            "label": "full_name",
+            "translation": "Nome completo"
+        },
+        {
+            "label": "full_width_post",
+            "translation": "Post em largura total"
+        },
+        {
+            "label": "funny",
+            "translation": "Engraçado"
+        },
+        {
+            "label": "gallery",
+            "translation": "Galeria"
+        },
+        {
+            "label": "gallery_albums",
+            "translation": "Álbuns da galeria"
+        },
+        {
+            "label": "gallery_categories",
+            "translation": "Categorias da galeria"
+        },
+        {
+            "label": "gallery_items",
+            "translation": "Itens da galeria"
+        },
+        {
+            "label": "gallery_post",
+            "translation": "Post da galeria"
+        },
+        {
+            "label": "gallery_post_exp",
+            "translation": "Uma coleção de imagens"
+        },
+        {
+            "label": "gateway_transaction_id",
+            "translation": "ID da transação do gateway"
+        },
+        {
+            "label": "general",
+            "translation": "Geral"
+        },
+        {
+            "label": "generate",
+            "translation": "Gerar"
+        },
+        {
+            "label": "generated_feed_url",
+            "translation": "URL do feed gerada"
+        },
+        {
+            "label": "generated_sitemaps",
+            "translation": "Sitemaps gerados"
+        },
+        {
+            "label": "generated_text",
+            "translation": "Texto gerado"
+        },
+        {
+            "label": "generate_content",
+            "translation": "Gerar conteúdo"
+        },
+        {
+            "label": "generate_feed_url",
+            "translation": "Gerar URL do feed"
+        },
+        {
+            "label": "generate_keywords_from_title",
+            "translation": "Gerar palavras-chave a partir do título"
+        },
+        {
+            "label": "generate_new_token_warning",
+            "translation": "Gerar um novo token invalidará o existente. Continuar?"
+        },
+        {
+            "label": "generate_sitemap",
+            "translation": "Gerar sitemap"
+        },
+        {
+            "label": "generate_with_ai",
+            "translation": "Gerar com IA"
+        },
+        {
+            "label": "generating_content_dots",
+            "translation": "Gerando conteúdo..."
+        },
+        {
+            "label": "generation_type",
+            "translation": "Tipo de geração"
+        },
+        {
+            "label": "generation_type_1",
+            "translation": "Artigo completo (título, SEO e conteúdo)"
+        },
+        {
+            "label": "generation_type_2",
+            "translation": "Apenas conteúdo (texto principal)"
+        },
+        {
+            "label": "generation_type_3",
+            "translation": "Conteúdo e título"
+        },
+        {
+            "label": "get_video",
+            "translation": "Obter vídeo"
+        },
+        {
+            "label": "get_video_from_url",
+            "translation": "Obter vídeo da URL"
+        },
+        {
+            "label": "github",
+            "translation": "GitHub"
+        },
+        {
+            "label": "gitlab",
+            "translation": "GitLab"
+        },
+        {
+            "label": "global_settings",
+            "translation": "Configurações globais"
+        },
+        {
+            "label": "google",
+            "translation": "Google"
+        },
+        {
+            "label": "google_analytics",
+            "translation": "Google Analytics"
+        },
+        {
+            "label": "google_analytics_code",
+            "translation": "Código do Google Analytics"
+        },
+        {
+            "label": "google_fonts",
+            "translation": "Fontes do Google"
+        },
+        {
+            "label": "google_maps",
+            "translation": "Google Mapas"
+        },
+        {
+            "label": "google_maps_api_key",
+            "translation": "Chave de API do Google Maps"
+        },
+        {
+            "label": "google_news",
+            "translation": "Google Notícias"
+        },
+        {
+            "label": "google_news_cache_exp",
+            "translation": "Este sistema usa cache. Assim, os registros no seu arquivo XML serão atualizados automaticamente a cada 15 minutos."
+        },
+        {
+            "label": "google_news_exp",
+            "translation": "De acordo com as regras do Google News, pode haver no máximo 1000 publicações em um arquivo XML. Portanto, não é recomendado aumentar esse limite."
+        },
+        {
+            "label": "google_news_publication_name",
+            "translation": "Nome da publicação do Google Notícias"
+        },
+        {
+            "label": "google_news_rss_content_exp",
+            "translation": "Determina como suas notícias aparecem no aplicativo Google News."
+        },
+        {
+            "label": "google_play",
+            "translation": "Google Play"
+        },
+        {
+            "label": "google_recaptcha",
+            "translation": "Google reCAPTCHA"
+        },
+        {
+            "label": "go_back_to_content",
+            "translation": "Voltar ao conteúdo"
+        },
+        {
+            "label": "go_to_homepage",
+            "translation": "Ir para a página inicial"
+        },
+        {
+            "label": "guest",
+            "translation": "Convidado"
+        },
+        {
+            "label": "hard_paywall",
+            "translation": "Paywall rígido"
+        },
+        {
+            "label": "hard_paywall_exp",
+            "translation": "Oculta o conteúdo completamente logo após o título e a imagem do post."
+        },
+        {
+            "label": "height",
+            "translation": "Altura"
+        },
+        {
+            "label": "help_documents",
+            "translation": "Documentos de ajuda"
+        },
+        {
+            "label": "help_documents_exp",
+            "translation": "Você pode usar estes documentos para gerar seu arquivo CSV"
+        },
+        {
+            "label": "hide",
+            "translation": "Ocultar"
+        },
+        {
+            "label": "highlights",
+            "translation": "Destaques"
+        },
+        {
+            "label": "hit",
+            "translation": "Acesso"
+        },
+        {
+            "label": "home",
+            "translation": "Início"
+        },
+        {
+            "label": "homepage",
+            "translation": "Página inicial"
+        },
+        {
+            "label": "home_page_link",
+            "translation": "Link da página inicial"
+        },
+        {
+            "label": "home_title",
+            "translation": "Título da página inicial"
+        },
+        {
+            "label": "horizontal",
+            "translation": "Horizontal"
+        },
+        {
+            "label": "hour",
+            "translation": "hora"
+        },
+        {
+            "label": "hourly",
+            "translation": "Por hora"
+        },
+        {
+            "label": "hours",
+            "translation": "horas"
+        },
+        {
+            "label": "human_verification",
+            "translation": "Verificação humana"
+        },
+        {
+            "label": "human_verification_exp",
+            "translation": "Valide a atividade do usuário por meio de movimentos do mouse, rolagem e tempo gasto na página para garantir interação genuína e evitar bots."
+        },
+        {
+            "label": "iban",
+            "translation": "IBAN"
+        },
+        {
+            "label": "iban_long",
+            "translation": "Número Internacional de Conta Bancária"
+        },
+        {
+            "label": "icon",
+            "translation": "Ícone"
+        },
+        {
+            "label": "id",
+            "translation": "ID"
+        },
+        {
+            "label": "image",
+            "translation": "Imagem"
+        },
+        {
+            "label": "images",
+            "translation": "Imagens"
+        },
+        {
+            "label": "image_description",
+            "translation": "Descrição da imagem"
+        },
+        {
+            "label": "image_file_format",
+            "translation": "Formato do arquivo de imagem"
+        },
+        {
+            "label": "image_for_video",
+            "translation": "Imagem para vídeo"
+        },
+        {
+            "label": "import",
+            "translation": "Importar"
+        },
+        {
+            "label": "importing_posts",
+            "translation": "Importando posts..."
+        },
+        {
+            "label": "import_completed",
+            "translation": "Importação concluída!"
+        },
+        {
+            "label": "import_completed_skipped_rows",
+            "translation": "Importação concluída. Linhas ignoradas devido a erros:"
+        },
+        {
+            "label": "import_language",
+            "translation": "Importar idioma"
+        },
+        {
+            "label": "import_posts",
+            "translation": "Importar posts"
+        },
+        {
+            "label": "inactive",
+            "translation": "Inativo"
+        },
+        {
+            "label": "index",
+            "translation": "Índice"
+        },
+        {
+            "label": "info",
+            "translation": "Informações"
+        },
+        {
+            "label": "ingredient",
+            "translation": "Ingrediente"
+        },
+        {
+            "label": "ingredients",
+            "translation": "Ingredientes"
+        },
+        {
+            "label": "ingredient_ex",
+            "translation": "Exemplo: 1 colher de sopa de azeite"
+        },
+        {
+            "label": "instagram",
+            "translation": "Instagram"
+        },
+        {
+            "label": "insufficient_balance",
+            "translation": "Saldo insuficiente!"
+        },
+        {
+            "label": "integration_endpoints",
+            "translation": "Endpoints de integração"
+        },
+        {
+            "label": "integration_endpoints_exp",
+            "translation": "Os links a seguir são gerados para você enviar aos serviços do Google."
+        },
+        {
+            "label": "intermediate",
+            "translation": "Intermediário"
+        },
+        {
+            "label": "internal_registration",
+            "translation": "Registro interno"
+        },
+        {
+            "label": "invalid",
+            "translation": "Inválido!"
+        },
+        {
+            "label": "invalid_attempt",
+            "translation": "Tentativa inválida!"
+        },
+        {
+            "label": "invalid_feed_url",
+            "translation": "URL de feed inválida!"
+        },
+        {
+            "label": "invalid_file_type",
+            "translation": "Tipo de arquivo inválido!"
+        },
+        {
+            "label": "invalid_url",
+            "translation": "URL inválida!"
+        },
+        {
+            "label": "invalid_withdrawal_amount",
+            "translation": "Valor de saque inválido!"
+        },
+        {
+            "label": "invoice",
+            "translation": "Fatura"
+        },
+        {
+            "label": "invoice_footer_note",
+            "translation": "Observação do rodapé da fatura"
+        },
+        {
+            "label": "invoice_prefix",
+            "translation": "Prefixo da fatura"
+        },
+        {
+            "label": "ip_address",
+            "translation": "Endereço IP"
+        },
+        {
+            "label": "item_description",
+            "translation": "Descrição do item"
+        },
+        {
+            "label": "item_id",
+            "translation": "ID do item"
+        },
+        {
+            "label": "item_order",
+            "translation": "Ordem do item"
+        },
+        {
+            "label": "item_type",
+            "translation": "Tipo de item"
+        },
+        {
+            "label": "iyzico",
+            "translation": "Iyzico"
+        },
+        {
+            "label": "January",
+            "translation": "janeiro"
+        },
+        {
+            "label": "join",
+            "translation": "Entrar"
+        },
+        {
+            "label": "join_newsletter",
+            "translation": "Assine nossa newsletter"
+        },
+        {
+            "label": "join_this_event",
+            "translation": "Participar deste evento"
+        },
+        {
+            "label": "join_this_event_exp",
+            "translation": "Garanta sua vaga antes que os ingressos acabem."
+        },
+        {
+            "label": "join_to_newsletter",
+            "translation": "Assine nossa newsletter para ficar por dentro das novidades."
+        },
+        {
+            "label": "json_language_file",
+            "translation": "Arquivo de idioma JSON"
+        },
+        {
+            "label": "July",
+            "translation": "julho"
+        },
+        {
+            "label": "June",
+            "translation": "junho"
+        },
+        {
+            "label": "just_now",
+            "translation": "Agora mesmo"
+        },
+        {
+            "label": "keep_original_file_format",
+            "translation": "Manter formato original do arquivo"
+        },
+        {
+            "label": "keywords",
+            "translation": "Palavras-chave"
+        },
+        {
+            "label": "key_id",
+            "translation": "ID da chave"
+        },
+        {
+            "label": "label",
+            "translation": "Rótulo"
+        },
+        {
+            "label": "language",
+            "translation": "Idioma"
+        },
+        {
+            "label": "languages",
+            "translation": "Idiomas"
+        },
+        {
+            "label": "language_code",
+            "translation": "Código do idioma"
+        },
+        {
+            "label": "language_name",
+            "translation": "Nome do idioma"
+        },
+        {
+            "label": "language_settings",
+            "translation": "Configurações de idioma"
+        },
+        {
+            "label": "last_comments",
+            "translation": "Comentários mais recentes"
+        },
+        {
+            "label": "last_contact_messages",
+            "translation": "Mensagens de contato mais recentes"
+        },
+        {
+            "label": "last_modification",
+            "translation": "Última modificação"
+        },
+        {
+            "label": "last_modification_exp",
+            "translation": "Horário da última modificação da URL"
+        },
+        {
+            "label": "last_seen_user",
+            "translation": "Último acesso"
+        },
+        {
+            "label": "latest_posts",
+            "translation": "Posts mais recentes"
+        },
+        {
+            "label": "latest_transactions",
+            "translation": "Transações mais recentes"
+        },
+        {
+            "label": "latest_transactions_exp",
+            "translation": "Visão geral das atividades financeiras recentes"
+        },
+        {
+            "label": "latest_users",
+            "translation": "Usuários mais recentes"
+        },
+        {
+            "label": "latitude",
+            "translation": "Latitude"
+        },
+        {
+            "label": "layout_special",
+            "translation": "Layout e especial"
+        },
+        {
+            "label": "leave_message",
+            "translation": "Enviar mensagem"
+        },
+        {
+            "label": "left",
+            "translation": "Esquerda"
+        },
+        {
+            "label": "left_to_right",
+            "translation": "Da esquerda para a direita"
+        },
+        {
+            "label": "length_of_text",
+            "translation": "Comprimento do texto"
+        },
+        {
+            "label": "level_1",
+            "translation": "Nível 1"
+        },
+        {
+            "label": "level_2",
+            "translation": "Nível 2"
+        },
+        {
+            "label": "level_3",
+            "translation": "Nível 3"
+        },
+        {
+            "label": "lifetime",
+            "translation": "Vitalício"
+        },
+        {
+            "label": "lifetime_access",
+            "translation": "Acesso vitalício"
+        },
+        {
+            "label": "lifetime_plan",
+            "translation": "Plano vitalício"
+        },
+        {
+            "label": "light",
+            "translation": "Claro"
+        },
+        {
+            "label": "like",
+            "translation": "Curtir"
+        },
+        {
+            "label": "limit",
+            "translation": "Limite"
+        },
+        {
+            "label": "link",
+            "translation": "Link"
+        },
+        {
+            "label": "linkedin",
+            "translation": "LinkedIn"
+        },
+        {
+            "label": "link_list_style",
+            "translation": "Estilo da lista de links"
+        },
+        {
+            "label": "link_type",
+            "translation": "Tipo de link"
+        },
+        {
+            "label": "list",
+            "translation": "Lista"
+        },
+        {
+            "label": "list_items",
+            "translation": "Itens da lista"
+        },
+        {
+            "label": "loading",
+            "translation": "Carregando..."
+        },
+        {
+            "label": "load_map",
+            "translation": "Carregar mapa"
+        },
+        {
+            "label": "load_more",
+            "translation": "Carregar mais"
+        },
+        {
+            "label": "load_more_comments",
+            "translation": "Carregar mais comentários"
+        },
+        {
+            "label": "local",
+            "translation": "Local"
+        },
+        {
+            "label": "localized_settings",
+            "translation": "Configurações localizadas"
+        },
+        {
+            "label": "local_storage",
+            "translation": "Armazenamento local"
+        },
+        {
+            "label": "location",
+            "translation": "Localização"
+        },
+        {
+            "label": "location_map_hidden",
+            "translation": "Mapa de localização oculto"
+        },
+        {
+            "label": "location_map_hidden_exp",
+            "translation": "Para proteger sua privacidade, o Google Maps está oculto. Ao carregar o mapa, você concorda em compartilhar seu endereço IP e aceita a Política de Privacidade do Google:"
+        },
+        {
+            "label": "lockout_time",
+            "translation": "Tempo de bloqueio"
+        },
+        {
+            "label": "lockout_time_exp",
+            "translation": "Tempo de espera após exceder os limites de login."
+        },
+        {
+            "label": "login_admin_exp",
+            "translation": "Seu hub central para gerenciar conteúdo de notícias e revista, tudo em um só lugar."
+        },
+        {
+            "label": "login_security",
+            "translation": "Segurança de login"
+        },
+        {
+            "label": "logo",
+            "translation": "Logotipo"
+        },
+        {
+            "label": "logo_email",
+            "translation": "E-mail do logotipo"
+        },
+        {
+            "label": "logo_footer",
+            "translation": "Rodapé do logotipo"
+        },
+        {
+            "label": "logo_size",
+            "translation": "Tamanho do logotipo"
+        },
+        {
+            "label": "log_in",
+            "translation": "Entrar"
+        },
+        {
+            "label": "log_in_admin_exp",
+            "translation": "Faça login para acessar o painel administrativo"
+        },
+        {
+            "label": "log_in_error",
+            "translation": "Usuário ou senha incorretos!"
+        },
+        {
+            "label": "log_in_exp",
+            "translation": "Bem-vindo de volta! Digite seus dados."
+        },
+        {
+            "label": "log_out",
+            "translation": "Sair"
+        },
+        {
+            "label": "long",
+            "translation": "Longo"
+        },
+        {
+            "label": "longitude",
+            "translation": "Longitude"
+        },
+        {
+            "label": "love",
+            "translation": "Amor"
+        },
+        {
+            "label": "mail",
+            "translation": "Correio"
+        },
+        {
+            "label": "mail_host",
+            "translation": "Host de e-mail"
+        },
+        {
+            "label": "mail_password",
+            "translation": "Senha de e-mail"
+        },
+        {
+            "label": "mail_port",
+            "translation": "Porta de e-mail"
+        },
+        {
+            "label": "mail_protocol",
+            "translation": "Protocolo de e-mail"
+        },
+        {
+            "label": "mail_service",
+            "translation": "Serviço de e-mail"
+        },
+        {
+            "label": "mail_title",
+            "translation": "Título do e-mail"
+        },
+        {
+            "label": "mail_username",
+            "translation": "Usuário de e-mail"
+        },
+        {
+            "label": "main",
+            "translation": "Principal"
+        },
+        {
+            "label": "maintenance_mode",
+            "translation": "Modo de manutenção"
+        },
+        {
+            "label": "main_image",
+            "translation": "Imagem principal"
+        },
+        {
+            "label": "main_images",
+            "translation": "Imagens principais"
+        },
+        {
+            "label": "main_menu",
+            "translation": "Menu principal"
+        },
+        {
+            "label": "main_slider",
+            "translation": "Slider principal"
+        },
+        {
+            "label": "manage_all_posts",
+            "translation": "Gerenciar todos os posts"
+        },
+        {
+            "label": "manage_my_subscription",
+            "translation": "Gerenciar minha assinatura"
+        },
+        {
+            "label": "manage_subscription",
+            "translation": "Gerenciar assinatura"
+        },
+        {
+            "label": "manage_subscription_exp",
+            "translation": "Controle sua assinatura premium, gerencie renovações ou ajuste seu plano atual."
+        },
+        {
+            "label": "manual_selection_only",
+            "translation": "Apenas seleção manual"
+        },
+        {
+            "label": "map_drag_maker_exp",
+            "translation": "Arraste o marcador ou digite as coordenadas para atualizar."
+        },
+        {
+            "label": "March",
+            "translation": "março"
+        },
+        {
+            "label": "mastodon",
+            "translation": "Mastodonte"
+        },
+        {
+            "label": "max",
+            "translation": "Máx."
+        },
+        {
+            "label": "max_audio_file_size",
+            "translation": "Tamanho máximo do arquivo de áudio"
+        },
+        {
+            "label": "max_file_size",
+            "translation": "Tamanho máximo do arquivo"
+        },
+        {
+            "label": "max_image_file_size",
+            "translation": "Tamanho máximo do arquivo de imagem"
+        },
+        {
+            "label": "max_login_attempts",
+            "translation": "Máximo de tentativas de login"
+        },
+        {
+            "label": "max_login_attempts_exp",
+            "translation": "Bloqueie a conta após essa quantidade de tentativas falhas."
+        },
+        {
+            "label": "max_posts_per_feed",
+            "translation": "Máximo de posts por feed"
+        },
+        {
+            "label": "max_posts_per_feed_exp",
+            "translation": "Número de posts a exibir em um feed RSS."
+        },
+        {
+            "label": "max_video_file_size",
+            "translation": "Tamanho máximo do arquivo de vídeo"
+        },
+        {
+            "label": "May",
+            "translation": "maio"
+        },
+        {
+            "label": "measurement_id",
+            "translation": "ID de medição"
+        },
+        {
+            "label": "media",
+            "translation": "Mídia"
+        },
+        {
+            "label": "medium",
+            "translation": "Médio"
+        },
+        {
+            "label": "mega_menu_color",
+            "translation": "Cor do mega menu"
+        },
+        {
+            "label": "member",
+            "translation": "Membro"
+        },
+        {
+            "label": "membership",
+            "translation": "Assinatura"
+        },
+        {
+            "label": "membership_plan_details",
+            "translation": "Detalhes do plano de assinatura"
+        },
+        {
+            "label": "membership_plan_details_exp",
+            "translation": "Configure preço, duração e benefícios do usuário."
+        },
+        {
+            "label": "member_since",
+            "translation": "Membro desde"
+        },
+        {
+            "label": "menu_limit",
+            "translation": "Limite do menu"
+        },
+        {
+            "label": "mercado_pago",
+            "translation": "Mercado Pago"
+        },
+        {
+            "label": "message",
+            "translation": "Mensagem"
+        },
+        {
+            "label": "message_ban_error",
+            "translation": "Sua conta foi banida!"
+        },
+        {
+            "label": "message_change_password_error",
+            "translation": "Houve um problema ao alterar sua senha!"
+        },
+        {
+            "label": "message_change_password_success",
+            "translation": "Sua senha foi alterada com sucesso!"
+        },
+        {
+            "label": "message_contact_error",
+            "translation": "Houve um problema ao enviar sua mensagem!"
+        },
+        {
+            "label": "message_contact_success",
+            "translation": "Sua mensagem foi enviada com sucesso!"
+        },
+        {
+            "label": "message_invalid_email",
+            "translation": "Endereço de e-mail inválido!"
+        },
+        {
+            "label": "message_page_auth",
+            "translation": "Você precisa estar logado para ver esta página!"
+        },
+        {
+            "label": "message_post_auth",
+            "translation": "Você precisa estar logado para ver este post!"
+        },
+        {
+            "label": "message_profile_success",
+            "translation": "Seu perfil foi atualizado com sucesso!"
+        },
+        {
+            "label": "meta_description",
+            "translation": "Meta description"
+        },
+        {
+            "label": "meta_keywords",
+            "translation": "Meta keywords"
+        },
+        {
+            "label": "meta_keywords_exp",
+            "translation": "Digite palavras-chave separadas por vírgulas (ex.: tecnologia, ia, futuro)"
+        },
+        {
+            "label": "meta_options",
+            "translation": "Opções de meta"
+        },
+        {
+            "label": "meta_tag",
+            "translation": "Meta tag"
+        },
+        {
+            "label": "meta_title",
+            "translation": "Meta title"
+        },
+        {
+            "label": "min",
+            "translation": "Mín."
+        },
+        {
+            "label": "minute",
+            "translation": "minuto"
+        },
+        {
+            "label": "minutes",
+            "translation": "minutos"
+        },
+        {
+            "label": "minute_short",
+            "translation": "min"
+        },
+        {
+            "label": "min_mouse_movements",
+            "translation": "Movimentos mínimos do mouse"
+        },
+        {
+            "label": "min_password_length",
+            "translation": "Tamanho mínimo da senha"
+        },
+        {
+            "label": "min_password_length_exp",
+            "translation": "Quantidade mínima de caracteres exigidos para novas senhas."
+        },
+        {
+            "label": "min_poyout_amount",
+            "translation": "Valor mínimo de saque"
+        },
+        {
+            "label": "min_poyout_amounts",
+            "translation": "Valores mínimos de saque"
+        },
+        {
+            "label": "min_scroll_movements",
+            "translation": "Movimentos mínimos de rolagem"
+        },
+        {
+            "label": "min_time_spent_on_page",
+            "translation": "Tempo mínimo gasto na página (segundos)"
+        },
+        {
+            "label": "model",
+            "translation": "Modelo"
+        },
+        {
+            "label": "monday",
+            "translation": "Segunda-feira"
+        },
+        {
+            "label": "monetization",
+            "translation": "Monetização"
+        },
+        {
+            "label": "month",
+            "translation": "mês"
+        },
+        {
+            "label": "monthly",
+            "translation": "Mensal"
+        },
+        {
+            "label": "months",
+            "translation": "meses"
+        },
+        {
+            "label": "more",
+            "translation": "Mais"
+        },
+        {
+            "label": "more_info",
+            "translation": "Mais informações"
+        },
+        {
+            "label": "more_main_images",
+            "translation": "Mais imagens principais (o slider ficará ativo)"
+        },
+        {
+            "label": "most_popular",
+            "translation": "Mais populares"
+        },
+        {
+            "label": "most_viewed_posts",
+            "translation": "Posts mais visualizados"
+        },
+        {
+            "label": "msg_added",
+            "translation": "Item adicionado com sucesso!"
+        },
+        {
+            "label": "msg_beforeunload",
+            "translation": "Você tem alterações não salvas! Tem certeza de que deseja sair desta página?"
+        },
+        {
+            "label": "msg_bot_verification_failed",
+            "translation": "Falha na verificação do bot. Tente novamente."
+        },
+        {
+            "label": "msg_bulk_approve",
+            "translation": "Tem certeza de que deseja aprovar os itens selecionados?"
+        },
+        {
+            "label": "msg_bulk_delete",
+            "translation": "Tem certeza de que deseja excluir os itens selecionados?"
+        },
+        {
+            "label": "msg_cancel_email_sending",
+            "translation": "Tem certeza de que deseja cancelar o processo de envio?"
+        },
+        {
+            "label": "msg_comment_sent_successfully",
+            "translation": "Seu comentário foi enviado. Será publicado após revisão pela administração do site."
+        },
+        {
+            "label": "msg_content_generated",
+            "translation": "Conteúdo gerado com sucesso!"
+        },
+        {
+            "label": "msg_cron_feed",
+            "translation": "Com este URL você pode atualizar automaticamente seus feeds."
+        },
+        {
+            "label": "msg_cron_sitemap",
+            "translation": "Com este URL você pode atualizar automaticamente o seu mapa do site."
+        },
+        {
+            "label": "msg_deleted",
+            "translation": "Item excluído com sucesso!"
+        },
+        {
+            "label": "msg_delete_album",
+            "translation": "Exclua primeiro as categorias pertencentes a este álbum!"
+        },
+        {
+            "label": "msg_delete_images",
+            "translation": "Exclua primeiro as imagens pertencentes a esta categoria!"
+        },
+        {
+            "label": "msg_delete_posts",
+            "translation": "Exclua primeiro as postagens pertencentes a esta categoria!"
+        },
+        {
+            "label": "msg_delete_subcategories",
+            "translation": "Exclua primeiro as subcategorias pertencentes a esta categoria!"
+        },
+        {
+            "label": "msg_delete_subpages",
+            "translation": "Exclua subpáginas/sublinks primeiro!"
+        },
+        {
+            "label": "msg_email_sent",
+            "translation": "E-mail enviado com sucesso!"
+        },
+        {
+            "label": "msg_error",
+            "translation": "Ocorreu um erro, tente novamente!"
+        },
+        {
+            "label": "msg_error_email_blacklisted",
+            "translation": "Sua solicitação não pôde ser processada neste momento. Por favor, tente novamente mais tarde."
+        },
+        {
+            "label": "msg_language_delete",
+            "translation": "O idioma padrão não pode ser excluído!"
+        },
+        {
+            "label": "msg_newsletter_error",
+            "translation": "Seu endereço de e-mail já está cadastrado!"
+        },
+        {
+            "label": "msg_newsletter_remove",
+            "translation": "Removemos com sucesso seu e-mail de nossa lista de e-mails. Você não receberá mais nossas notícias, atualizações ou ofertas especiais. Estamos tristes em ver você partir, mas você pode se juntar a nós novamente sempre que quiser!"
+        },
+        {
+            "label": "msg_newsletter_success",
+            "translation": "Você aderiu com sucesso!"
+        },
+        {
+            "label": "msg_not_authorized",
+            "translation": "Você não está autorizado a realizar esta operação!"
+        },
+        {
+            "label": "msg_no_purchase_yet",
+            "translation": "You haven't made a purchase yet."
+        },
+        {
+            "label": "msg_page_delete",
+            "translation": "As páginas padrão não podem ser excluídas!"
+        },
+        {
+            "label": "msg_payout_added",
+            "translation": "O pagamento foi adicionado com sucesso!"
+        },
+        {
+            "label": "msg_request_sent",
+            "translation": "A solicitação foi enviada com sucesso!"
+        },
+        {
+            "label": "msg_reset_cache",
+            "translation": "Todos os arquivos de cache foram excluídos!"
+        },
+        {
+            "label": "msg_rss_warning",
+            "translation": "If you chose to download the images to your server, adding posts will take more time and will use more resources. If you see any problems, increase 'max_execution_time' and 'memory_limit' values from your server settings."
+        },
+        {
+            "label": "msg_select_category",
+            "translation": "Selecione uma categoria."
+        },
+        {
+            "label": "msg_select_csv_file",
+            "translation": "Selecione um arquivo CSV."
+        },
+        {
+            "label": "msg_select_date",
+            "translation": "Selecione uma data."
+        },
+        {
+            "label": "msg_sign_up_success",
+            "translation": "Sua conta foi criada com sucesso!"
+        },
+        {
+            "label": "msg_sign_up_success_email_verify",
+            "translation": "Sua conta foi criada com sucesso! Verifique seu e-mail para verificar sua conta."
+        },
+        {
+            "label": "msg_sitemap_cron_job",
+            "translation": "Ao criar um cron job em seu servidor, você pode atualizar automaticamente seu mapa do site usando este URL"
+        },
+        {
+            "label": "msg_site_under_construction",
+            "translation": "Site em construção! Por favor, tente novamente mais tarde."
+        },
+        {
+            "label": "msg_slug_used",
+            "translation": "O slug que você digitou está sendo usado por outro usuário!"
+        },
+        {
+            "label": "msg_tag_exists",
+            "translation": "Essa tag já existe!"
+        },
+        {
+            "label": "msg_topic_empty",
+            "translation": "Por favor insira um tópico para gerar conteúdo."
+        },
+        {
+            "label": "msg_updated",
+            "translation": "Alterações salvas com sucesso!"
+        },
+        {
+            "label": "msg_upload_file_size_error",
+            "translation": "O arquivo selecionado excede o tamanho de arquivo permitido. Tamanho permitido:"
+        },
+        {
+            "label": "msg_user_added",
+            "translation": "Usuário adicionado com sucesso!"
+        },
+        {
+            "label": "msg_widget_delete",
+            "translation": "Os widgets padrão não podem ser excluídos!"
+        },
+        {
+            "label": "msg_wrong_password",
+            "translation": "Senha errada!"
+        },
+        {
+            "label": "multilingual_system",
+            "translation": "Sistema Multilíngue"
+        },
+        {
+            "label": "musician",
+            "translation": "Músico"
+        },
+        {
+            "label": "must_agree_to_continue",
+            "translation": "Você deve concordar em continuar."
+        },
+        {
+            "label": "my_earnings",
+            "translation": "Meus ganhos"
+        },
+        {
+            "label": "name",
+            "translation": "Nome"
+        },
+        {
+            "label": "navigation",
+            "translation": "Navegação"
+        },
+        {
+            "label": "navigation_exp",
+            "translation": "Você pode gerenciar a navegação arrastando e soltando itens de menu."
+        },
+        {
+            "label": "nav_drag_warning",
+            "translation": "Você não pode arrastar uma categoria abaixo de uma página ou uma página abaixo de um link de categoria!"
+        },
+        {
+            "label": "never",
+            "translation": "Nunca"
+        },
+        {
+            "label": "never_expires",
+            "translation": "Nunca expira"
+        },
+        {
+            "label": "newest_first",
+            "translation": "Mais novo primeiro"
+        },
+        {
+            "label": "newsletter",
+            "translation": "Newsletter"
+        },
+        {
+            "label": "newsletter_email_error",
+            "translation": "Selecione os endereços de e-mail para os quais deseja enviar e-mails!"
+        },
+        {
+            "label": "newsletter_join_desc",
+            "translation": "Receba as últimas notícias e atualizações selecionadas diretamente em sua caixa de entrada. Inscreva-se em nosso boletim informativo."
+        },
+        {
+            "label": "newsletter_popup",
+            "translation": "Pop-up do boletim informativo"
+        },
+        {
+            "label": "newsletter_remove_successful",
+            "translation": "Você saiu da nossa lista de discussão."
+        },
+        {
+            "label": "news_sitemap_for_seo",
+            "translation": "Sitemap de notícias (para SEO e bots)"
+        },
+        {
+            "label": "news_sitemap_for_seo_exp",
+            "translation": "Este arquivo inclui apenas artigos das últimas 48 horas. Copie este URL e envie-o uma vez por meio do Google Search Console > Sitemaps."
+        },
+        {
+            "label": "new_password",
+            "translation": "Nova Senha"
+        },
+        {
+            "label": "new_payout_request",
+            "translation": "Nova solicitação de pagamento"
+        },
+        {
+            "label": "new_question",
+            "translation": "Nova pergunta"
+        },
+        {
+            "label": "next",
+            "translation": "Próximo"
+        },
+        {
+            "label": "next_article",
+            "translation": "Próximo artigo"
+        },
+        {
+            "label": "next_payment",
+            "translation": "Próximo pagamento"
+        },
+        {
+            "label": "next_video",
+            "translation": "Próximo vídeo"
+        },
+        {
+            "label": "no",
+            "translation": "Não"
+        },
+        {
+            "label": "none",
+            "translation": "Nenhum"
+        },
+        {
+            "label": "November",
+            "translation": "novembro"
+        },
+        {
+            "label": "no_action_allow",
+            "translation": "Nenhuma ação (permitir)"
+        },
+        {
+            "label": "no_active_subscription",
+            "translation": "Nenhuma assinatura ativa"
+        },
+        {
+            "label": "no_active_subscription_exp",
+            "translation": "No momento, você não está inscrito em nenhum plano premium. Atualize sua conta hoje para desbloquear recursos exclusivos, remover limitações e aproveitar nossos serviços premium."
+        },
+        {
+            "label": "no_description",
+            "translation": "Sem descrição"
+        },
+        {
+            "label": "no_files_found",
+            "translation": "Nenhum arquivo encontrado"
+        },
+        {
+            "label": "no_files_found_exp",
+            "translation": "Carregue seu primeiro arquivo para começar."
+        },
+        {
+            "label": "no_records_found",
+            "translation": "Nenhum registro encontrado."
+        },
+        {
+            "label": "no_registration_required",
+            "translation": "Não é necessário registro"
+        },
+        {
+            "label": "no_results_found",
+            "translation": "Nenhum resultado encontrado."
+        },
+        {
+            "label": "number",
+            "translation": "Número"
+        },
+        {
+            "label": "number_of_correct_answers",
+            "translation": "Número de respostas corretas"
+        },
+        {
+            "label": "number_of_correct_answers_range",
+            "translation": "A gama de respostas corretas para mostrar este resultado"
+        },
+        {
+            "label": "number_of_days",
+            "translation": "Número de dias"
+        },
+        {
+            "label": "number_of_days_exp",
+            "translation": "Se você adicionar 30 aqui, o sistema excluirá postagens com mais de 30 dias"
+        },
+        {
+            "label": "number_of_images",
+            "translation": "Número de imagens"
+        },
+        {
+            "label": "number_of_links_in_menu",
+            "translation": "O número de links que aparecem no menu"
+        },
+        {
+            "label": "number_of_posts",
+            "translation": "Número de postagens"
+        },
+        {
+            "label": "number_of_posts_import",
+            "translation": "Número de postagens a serem importadas"
+        },
+        {
+            "label": "number_short_billion",
+            "translation": "b"
+        },
+        {
+            "label": "number_short_million",
+            "translation": "eu"
+        },
+        {
+            "label": "number_short_thousand",
+            "translation": "k"
+        },
+        {
+            "label": "nutritional_ex",
+            "translation": "Exemplo: Proteína 34g"
+        },
+        {
+            "label": "nutritional_information",
+            "translation": "Nutritional Information\r\n"
+        },
+        {
+            "label": "occupancy_rate",
+            "translation": "Taxa de ocupação"
+        },
+        {
+            "label": "October",
+            "translation": "Outubro"
+        },
+        {
+            "label": "ok",
+            "translation": "OK"
+        },
+        {
+            "label": "oldest_first",
+            "translation": "Mais antigo primeiro"
+        },
+        {
+            "label": "old_password",
+            "translation": "Senha Antiga"
+        },
+        {
+            "label": "one_time_payment",
+            "translation": "Pagamento único"
+        },
+        {
+            "label": "online",
+            "translation": "on-line"
+        },
+        {
+            "label": "only_csv_files_allowed",
+            "translation": "Somente arquivos .csv são permitidos"
+        },
+        {
+            "label": "only_registered",
+            "translation": "Apenas registrado"
+        },
+        {
+            "label": "operation_completed",
+            "translation": "Operação concluída com sucesso."
+        },
+        {
+            "label": "option",
+            "translation": "Opção"
+        },
+        {
+            "label": "optional",
+            "translation": "Opcional"
+        },
+        {
+            "label": "optional_url",
+            "translation": "URL opcional"
+        },
+        {
+            "label": "optional_url_exp",
+            "translation": "Link externo para um botão na página de postagem."
+        },
+        {
+            "label": "optional_url_name",
+            "translation": "Postar nome do botão de URL opcional"
+        },
+        {
+            "label": "options",
+            "translation": "Opções"
+        },
+        {
+            "label": "or",
+            "translation": "ou"
+        },
+        {
+            "label": "order",
+            "translation": "Ordem do cardápio"
+        },
+        {
+            "label": "order_1",
+            "translation": "Ordem"
+        },
+        {
+            "label": "order_id",
+            "translation": "ID do pedido"
+        },
+        {
+            "label": "order_summary",
+            "translation": "Resumo do pedido"
+        },
+        {
+            "label": "order_token",
+            "translation": "Token de pedido"
+        },
+        {
+            "label": "organizer",
+            "translation": "Organizador"
+        },
+        {
+            "label": "original",
+            "translation": "Original"
+        },
+        {
+            "label": "or_log_in_with_email",
+            "translation": "Ou faça login com e-mail"
+        },
+        {
+            "label": "or_sign_up_with_email",
+            "translation": "Ou inscreva-se com e-mail"
+        },
+        {
+            "label": "page",
+            "translation": "Página"
+        },
+        {
+            "label": "pages",
+            "translation": "Páginas"
+        },
+        {
+            "label": "pageviews",
+            "translation": "Visualizações de página"
+        },
+        {
+            "label": "page_not_found",
+            "translation": "Página não encontrada"
+        },
+        {
+            "label": "page_not_found_sub",
+            "translation": "The page you are looking for doesn't exist."
+        },
+        {
+            "label": "page_settings",
+            "translation": "Configurações de página"
+        },
+        {
+            "label": "page_type",
+            "translation": "Tipo de página"
+        },
+        {
+            "label": "pagination_per_page",
+            "translation": "Paginação (número de postagens por página)"
+        },
+        {
+            "label": "paid",
+            "translation": "Pago"
+        },
+        {
+            "label": "panel",
+            "translation": "Painel"
+        },
+        {
+            "label": "paragraph",
+            "translation": "Parágrafo"
+        },
+        {
+            "label": "parent_category",
+            "translation": "Categoria pai"
+        },
+        {
+            "label": "parent_link",
+            "translation": "Link pai"
+        },
+        {
+            "label": "participants",
+            "translation": "Participantes"
+        },
+        {
+            "label": "password",
+            "translation": "Senha"
+        },
+        {
+            "label": "password_complexity_special_error",
+            "translation": "A senha deve conter pelo menos um número e um caractere especial."
+        },
+        {
+            "label": "password_reset_body",
+            "translation": "Para definir uma nova senha, clique no botão abaixo. Para sua segurança, este link expirará em 2 horas."
+        },
+        {
+            "label": "password_reset_button",
+            "translation": "Redefinir senha"
+        },
+        {
+            "label": "password_reset_description",
+            "translation": "Crie sua nova senha"
+        },
+        {
+            "label": "password_reset_sent_message",
+            "translation": "Um link de redefinição de senha foi enviado para seu endereço de e-mail. Siga as instruções no e-mail para redefinir sua senha."
+        },
+        {
+            "label": "password_reset_subject",
+            "translation": "Redefinir sua senha"
+        },
+        {
+            "label": "password_reset_success",
+            "translation": "Sua senha foi atualizada com sucesso. Agora você pode fazer login com suas novas credenciais."
+        },
+        {
+            "label": "password_reset_title",
+            "translation": "Redefinir senha"
+        },
+        {
+            "label": "password_security",
+            "translation": "Segurança de senha"
+        },
+        {
+            "label": "paste_ad_code",
+            "translation": "Código de anúncio"
+        },
+        {
+            "label": "paste_ad_url",
+            "translation": "URL do anúncio"
+        },
+        {
+            "label": "patreon",
+            "translation": "Patreon"
+        },
+        {
+            "label": "payment",
+            "translation": "Pagamento"
+        },
+        {
+            "label": "payment_details",
+            "translation": "Detalhes de pagamento"
+        },
+        {
+            "label": "payment_history",
+            "translation": "Histórico de pagamentos"
+        },
+        {
+            "label": "payment_history_exp",
+            "translation": "Revise suas transações anteriores, acompanhe seus gastos e baixe suas faturas."
+        },
+        {
+            "label": "payment_method",
+            "translation": "Método de pagamento"
+        },
+        {
+            "label": "payment_method_exp",
+            "translation": "Selecione seu provedor de pagamento preferido. Você finalizará o pagamento na próxima etapa."
+        },
+        {
+            "label": "payment_option_load_error",
+            "translation": "O método de pagamento selecionado não está disponível no momento. Escolha um método diferente ou tente novamente mais tarde."
+        },
+        {
+            "label": "payment_redirect_exp",
+            "translation": "Você será redirecionado com segurança para concluir o pagamento."
+        },
+        {
+            "label": "payment_settings",
+            "translation": "Configurações de pagamento"
+        },
+        {
+            "label": "payment_successful",
+            "translation": "Pagamento realizado com sucesso!"
+        },
+        {
+            "label": "payouts",
+            "translation": "Pagamentos"
+        },
+        {
+            "label": "payout_method",
+            "translation": "Método de pagamento"
+        },
+        {
+            "label": "payout_methods",
+            "translation": "Métodos de pagamento"
+        },
+        {
+            "label": "paypal",
+            "translation": "PayPal"
+        },
+        {
+            "label": "paypal_email_address",
+            "translation": "Endereço de e-mail do PayPal"
+        },
+        {
+            "label": "paytabs",
+            "translation": "Guias de pagamento"
+        },
+        {
+            "label": "paywall_ad_free",
+            "translation": "Experiência de navegação ininterrupta e sem anúncios"
+        },
+        {
+            "label": "paywall_already_member_log_in",
+            "translation": "Já é membro? Conecte-se"
+        },
+        {
+            "label": "paywall_already_purchased_log_in",
+            "translation": "Já comprou? Conecte-se"
+        },
+        {
+            "label": "paywall_appearance",
+            "translation": "Aparência do acesso pago"
+        },
+        {
+            "label": "paywall_elevate_your_experience",
+            "translation": "Eleve sua experiência"
+        },
+        {
+            "label": "paywall_exclusive_content",
+            "translation": "Conteúdo Exclusivo"
+        },
+        {
+            "label": "paywall_exclusive_desc",
+            "translation": "Este é um conteúdo exclusivo. Compre acesso para desbloquear o acesso total e explorar a experiência completa."
+        },
+        {
+            "label": "paywall_interactive_features",
+            "translation": "Recursos interativos e acesso à comunidade"
+        },
+        {
+            "label": "paywall_lifetime_access",
+            "translation": "Acesso vitalício a este conteúdo específico"
+        },
+        {
+            "label": "paywall_one_time_payment",
+            "translation": "Pagamento único, sem necessidade de assinatura"
+        },
+        {
+            "label": "paywall_premium_desc",
+            "translation": "Este é um conteúdo premium. Atualize sua conta para desbloquear acesso total e explorar a experiência completa."
+        },
+        {
+            "label": "paywall_premium_subscription",
+            "translation": "Assinatura Premium"
+        },
+        {
+            "label": "paywall_subscribe_now",
+            "translation": "Assine agora"
+        },
+        {
+            "label": "paywall_unlimited_access_to_contents",
+            "translation": "Acesso ilimitado a todos os conteúdos premium"
+        },
+        {
+            "label": "paywall_unlock_access",
+            "translation": "Desbloquear acesso"
+        },
+        {
+            "label": "paywall_unlock_full_content_premium",
+            "translation": "Desbloqueie o conteúdo completo com Premium"
+        },
+        {
+            "label": "paywall_unlock_this_exclusive_content",
+            "translation": "Desbloqueie este conteúdo exclusivo"
+        },
+        {
+            "label": "pay_per_content",
+            "translation": "Pagamento por conteúdo"
+        },
+        {
+            "label": "pending",
+            "translation": "Pendente"
+        },
+        {
+            "label": "pending_comments",
+            "translation": "Comentários pendentes"
+        },
+        {
+            "label": "pending_comments_exp",
+            "translation": "Comentários aguardando aprovação administrativa."
+        },
+        {
+            "label": "pending_payouts",
+            "translation": "Pagamentos pendentes"
+        },
+        {
+            "label": "pending_posts",
+            "translation": "Postagens pendentes"
+        },
+        {
+            "label": "pending_posts_exp",
+            "translation": "Postagens aguardando aprovação administrativa."
+        },
+        {
+            "label": "permalink",
+            "translation": "Link permanente"
+        },
+        {
+            "label": "permissions",
+            "translation": "Permissões"
+        },
+        {
+            "label": "permission_denied",
+            "translation": "Permissão negada. Sua conta não possui os privilégios necessários!"
+        },
+        {
+            "label": "personality_quiz",
+            "translation": "Questionário de Personalidade"
+        },
+        {
+            "label": "personality_quiz_exp",
+            "translation": "Questionários com resultados personalizados"
+        },
+        {
+            "label": "personal_website_url",
+            "translation": "URL do site pessoal"
+        },
+        {
+            "label": "phone",
+            "translation": "Telefone"
+        },
+        {
+            "label": "photo_gallery",
+            "translation": "Galeria de fotos"
+        },
+        {
+            "label": "photo_gallery_exp",
+            "translation": "Explore nossa coleção completa de histórias visuais, capturando momentos de elegância, estilo e emoção crua."
+        },
+        {
+            "label": "pinterest",
+            "translation": "Pinterest"
+        },
+        {
+            "label": "placeholder_search",
+            "translation": "Procurar..."
+        },
+        {
+            "label": "plans",
+            "translation": "Planos"
+        },
+        {
+            "label": "plan_features",
+            "translation": "Recursos do plano"
+        },
+        {
+            "label": "plan_name",
+            "translation": "Nome do plano"
+        },
+        {
+            "label": "play_again",
+            "translation": "Jogue novamente"
+        },
+        {
+            "label": "play_list_empty",
+            "translation": "A lista de reprodução está vazia."
+        },
+        {
+            "label": "please_select_option",
+            "translation": "Selecione uma opção!"
+        },
+        {
+            "label": "png_format",
+            "translation": "Formato PNG"
+        },
+        {
+            "label": "png_logo_format_exp",
+            "translation": "Versão do logotipo PNG necessária para clientes de e-mail e compartilhamento em mídias sociais."
+        },
+        {
+            "label": "poll",
+            "translation": "Enquete"
+        },
+        {
+            "label": "polls",
+            "translation": "Enquetes"
+        },
+        {
+            "label": "poll_exp",
+            "translation": "Obtenha opiniões de usuários sobre algo"
+        },
+        {
+            "label": "popular",
+            "translation": "Popular"
+        },
+        {
+            "label": "popular_posts",
+            "translation": "Postagens populares"
+        },
+        {
+            "label": "popular_posts_limit",
+            "translation": "Limite de postagens populares"
+        },
+        {
+            "label": "post",
+            "translation": "Post"
+        },
+        {
+            "label": "postcode",
+            "translation": "Código postal"
+        },
+        {
+            "label": "posts",
+            "translation": "Posts"
+        },
+        {
+            "label": "post_comment",
+            "translation": "Postar comentário"
+        },
+        {
+            "label": "post_content",
+            "translation": "Postar conteúdo"
+        },
+        {
+            "label": "post_details",
+            "translation": "Detalhes da postagem"
+        },
+        {
+            "label": "post_format",
+            "translation": "Formato de postagem"
+        },
+        {
+            "label": "post_formats",
+            "translation": "Formatos de postagem"
+        },
+        {
+            "label": "post_options",
+            "translation": "Opções de postagem"
+        },
+        {
+            "label": "post_owner",
+            "translation": "Proprietário da postagem"
+        },
+        {
+            "label": "post_reply",
+            "translation": "Postar resposta"
+        },
+        {
+            "label": "post_tags",
+            "translation": "Etiquetas:"
+        },
+        {
+            "label": "post_url_structure",
+            "translation": "Estrutura de URL de postagem"
+        },
+        {
+            "label": "post_url_structure_exp",
+            "translation": "A alteração da estrutura do URL não afetará os registros antigos."
+        },
+        {
+            "label": "post_url_structure_slug",
+            "translation": "Use Slug em URLs"
+        },
+        {
+            "label": "post_url_structur_id",
+            "translation": "Use números de identificação em URLs"
+        },
+        {
+            "label": "preferences",
+            "translation": "Preferências"
+        },
+        {
+            "label": "premium",
+            "translation": "Prêmio"
+        },
+        {
+            "label": "premium_category",
+            "translation": "Categoria Premium"
+        },
+        {
+            "label": "premium_category_exp",
+            "translation": "Se ativado, todas as postagens nesta categoria exigirão uma assinatura premium para serem visualizadas."
+        },
+        {
+            "label": "premium_content",
+            "translation": "Conteúdo Premium"
+        },
+        {
+            "label": "premium_content_exp",
+            "translation": "Restrinja o acesso apenas a membros premium."
+        },
+        {
+            "label": "premium_content_mode",
+            "translation": "Modo de conteúdo premium"
+        },
+        {
+            "label": "premium_membership",
+            "translation": "Assinatura Premium"
+        },
+        {
+            "label": "premium_users",
+            "translation": "Usuários Premium"
+        },
+        {
+            "label": "prep_time",
+            "translation": "Tempo de preparação"
+        },
+        {
+            "label": "preview",
+            "translation": "Visualização"
+        },
+        {
+            "label": "previous",
+            "translation": "Anterior"
+        },
+        {
+            "label": "previous_article",
+            "translation": "Artigo Anterior"
+        },
+        {
+            "label": "previous_video",
+            "translation": "Vídeo anterior"
+        },
+        {
+            "label": "price",
+            "translation": "Preço"
+        },
+        {
+            "label": "primary_font",
+            "translation": "Fonte Primária (Principal)"
+        },
+        {
+            "label": "print",
+            "translation": "Imprimir"
+        },
+        {
+            "label": "priority",
+            "translation": "Prioridade"
+        },
+        {
+            "label": "priority_exp",
+            "translation": "A prioridade de um URL específico em relação a outras páginas do mesmo site"
+        },
+        {
+            "label": "privacy_policy_url",
+            "translation": "URL da Política de Privacidade"
+        },
+        {
+            "label": "privacy_preference_center",
+            "translation": "Centro de preferências de privacidade"
+        },
+        {
+            "label": "privacy_preference_center_exp",
+            "translation": "Gerencie suas preferências de consentimento."
+        },
+        {
+            "label": "proceed_to_payment",
+            "translation": "Prossiga para o pagamento"
+        },
+        {
+            "label": "proceed_to_payment_exp",
+            "translation": "Você pode verificar seu pedido e os impostos na próxima página antes de qualquer pagamento ser processado."
+        },
+        {
+            "label": "processing",
+            "translation": "Processamento..."
+        },
+        {
+            "label": "production",
+            "translation": "Produção"
+        },
+        {
+            "label": "profile",
+            "translation": "Perfil"
+        },
+        {
+            "label": "profile_id",
+            "translation": "ID do perfil"
+        },
+        {
+            "label": "profile_url",
+            "translation": "URL do perfil"
+        },
+        {
+            "label": "progressive_web_app",
+            "translation": "Aplicativo Web Progressivo (PWA)"
+        },
+        {
+            "label": "publication_date",
+            "translation": "Data de publicação"
+        },
+        {
+            "label": "public_interaction_content",
+            "translation": "Conteúdo de interação pública (comentários, perfis de usuário)"
+        },
+        {
+            "label": "public_key",
+            "translation": "Chave Pública"
+        },
+        {
+            "label": "public_open_to_everyone",
+            "translation": "Público (aberto a todos)"
+        },
+        {
+            "label": "public_url",
+            "translation": "URL público"
+        },
+        {
+            "label": "publish",
+            "translation": "Publicar"
+        },
+        {
+            "label": "publishable_key",
+            "translation": "Chave publicável"
+        },
+        {
+            "label": "publisher_center_feed_app",
+            "translation": "Feed da Central do Editor (para aplicativo)"
+        },
+        {
+            "label": "publisher_center_feed_app_exp",
+            "translation": "Este é o seu feed principal contendo todas as notícias mais recentes. Use este URL na Central do Editor do Google. Para criar seções separadas (por exemplo, categorias ou idiomas específicos), use a ferramenta Feed Link Generator acima."
+        },
+        {
+            "label": "publish_directly",
+            "translation": "Publique diretamente"
+        },
+        {
+            "label": "publish_status",
+            "translation": "Publicar status"
+        },
+        {
+            "label": "purchased",
+            "translation": "Comprado"
+        },
+        {
+            "label": "purchased_content",
+            "translation": "Conteúdo adquirido"
+        },
+        {
+            "label": "purchased_content_exp",
+            "translation": "Acesse e explore todo o conteúdo premium que você comprou."
+        },
+        {
+            "label": "pwa_logo",
+            "translation": "Logo"
+        },
+        {
+            "label": "question",
+            "translation": "Pergunta"
+        },
+        {
+            "label": "questions",
+            "translation": "Questões"
+        },
+        {
+            "label": "quiz_images",
+            "translation": "Imagens do questionário"
+        },
+        {
+            "label": "quora",
+            "translation": "Quora"
+        },
+        {
+            "label": "randomly",
+            "translation": "Aleatoriamente"
+        },
+        {
+            "label": "random_posts",
+            "translation": "Postagens aleatórias"
+        },
+        {
+            "label": "razorpay",
+            "translation": "Razorpay"
+        },
+        {
+            "label": "reading_list",
+            "translation": "Lista de leitura"
+        },
+        {
+            "label": "reading_list_feature",
+            "translation": "Recurso de lista de leitura"
+        },
+        {
+            "label": "read_more_button_text",
+            "translation": "Leia mais texto do botão"
+        },
+        {
+            "label": "recently_added_comments",
+            "translation": "Comentários adicionados recentemente"
+        },
+        {
+            "label": "recently_added_contact_messages",
+            "translation": "Mensagens de contato adicionadas recentemente"
+        },
+        {
+            "label": "recently_added_unapproved_comments",
+            "translation": "Comentários não aprovados adicionados recentemente"
+        },
+        {
+            "label": "recently_registered_users",
+            "translation": "Usuários registrados recentemente"
+        },
+        {
+            "label": "recipe",
+            "translation": "Receita"
+        },
+        {
+            "label": "recipe_exp",
+            "translation": "Uma lista de ingredientes e instruções para cozinhar"
+        },
+        {
+            "label": "recipe_images",
+            "translation": "Imagens de receitas"
+        },
+        {
+            "label": "recipe_video",
+            "translation": "Vídeo de receita"
+        },
+        {
+            "label": "recipe_video_title",
+            "translation": "Veja como fazer"
+        },
+        {
+            "label": "recipient",
+            "translation": "Destinatário"
+        },
+        {
+            "label": "recipients",
+            "translation": "Destinatários"
+        },
+        {
+            "label": "recommended",
+            "translation": "Recomendado"
+        },
+        {
+            "label": "recommended_posts",
+            "translation": "Postagens recomendadas"
+        },
+        {
+            "label": "reddit",
+            "translation": "Reddit"
+        },
+        {
+            "label": "redirect_rss_posts_to_original",
+            "translation": "Redirecionar postagens RSS para o site original"
+        },
+        {
+            "label": "redirect_url",
+            "translation": "URL de redirecionamento"
+        },
+        {
+            "label": "reference",
+            "translation": "Referência"
+        },
+        {
+            "label": "refresh",
+            "translation": "Atualizar"
+        },
+        {
+            "label": "refresh_cache_database_changes",
+            "translation": "Atualizar arquivos de cache quando o banco de dados for alterado"
+        },
+        {
+            "label": "regenerate",
+            "translation": "Regenerado"
+        },
+        {
+            "label": "region",
+            "translation": "Região"
+        },
+        {
+            "label": "registered_emails",
+            "translation": "E-mails cadastrados"
+        },
+        {
+            "label": "registered_users_can_vote",
+            "translation": "Somente usuários registrados podem votar"
+        },
+        {
+            "label": "registered_users_only",
+            "translation": "Somente usuários registrados"
+        },
+        {
+            "label": "register_now",
+            "translation": "Cadastre-se agora"
+        },
+        {
+            "label": "registration_closed",
+            "translation": "Inscrições encerradas"
+        },
+        {
+            "label": "registration_deadline",
+            "translation": "Prazo de inscrição"
+        },
+        {
+            "label": "registration_rate",
+            "translation": "Data de registro"
+        },
+        {
+            "label": "registration_rules",
+            "translation": "Regras de registro"
+        },
+        {
+            "label": "registration_successful",
+            "translation": "Seu cadastro foi concluído com sucesso!"
+        },
+        {
+            "label": "registration_system",
+            "translation": "Sistema de Registro"
+        },
+        {
+            "label": "registration_type",
+            "translation": "Tipo de registro"
+        },
+        {
+            "label": "reject",
+            "translation": "Rejeitar"
+        },
+        {
+            "label": "related_posts",
+            "translation": "Postagens relacionadas"
+        },
+        {
+            "label": "related_posts_limit",
+            "translation": "Limite de postagens relacionadas"
+        },
+        {
+            "label": "related_videos",
+            "translation": "Vídeos relacionados"
+        },
+        {
+            "label": "remove_ban",
+            "translation": "Remover proibição"
+        },
+        {
+            "label": "remove_breaking_news",
+            "translation": "Remover das últimas notícias"
+        },
+        {
+            "label": "remove_featured",
+            "translation": "Remover dos destaques"
+        },
+        {
+            "label": "remove_links_keep_text",
+            "translation": "Remover links (manter texto)"
+        },
+        {
+            "label": "remove_recommended",
+            "translation": "Remover das recomendações"
+        },
+        {
+            "label": "remove_slider",
+            "translation": "Remover do controle deslizante"
+        },
+        {
+            "label": "reply",
+            "translation": "Responder"
+        },
+        {
+            "label": "reply_to",
+            "translation": "Responder para"
+        },
+        {
+            "label": "required",
+            "translation": "Obrigatório"
+        },
+        {
+            "label": "require_admin_approval_edited_posts",
+            "translation": "Exigir aprovação do administrador para postagens editadas"
+        },
+        {
+            "label": "require_admin_approval_new_posts",
+            "translation": "Exigir aprovação do administrador para novas postagens"
+        },
+        {
+            "label": "require_numbers_special_characters",
+            "translation": "Exigir números e caracteres especiais"
+        },
+        {
+            "label": "require_numbers_special_characters_exp",
+            "translation": "Os usuários devem usar pelo menos um número e um caractere especial, se habilitado."
+        },
+        {
+            "label": "reset",
+            "translation": "Reiniciar"
+        },
+        {
+            "label": "reset_cache",
+            "translation": "Redefinir cache"
+        },
+        {
+            "label": "result",
+            "translation": "Resultado"
+        },
+        {
+            "label": "results",
+            "translation": "Resultados"
+        },
+        {
+            "label": "reward_amount",
+            "translation": "Valor da recompensa por 1.000 visualizações de página"
+        },
+        {
+            "label": "reward_system",
+            "translation": "Sistema de recompensa"
+        },
+        {
+            "label": "right",
+            "translation": "Certo"
+        },
+        {
+            "label": "right_to_left",
+            "translation": "Da direita para a esquerda"
+        },
+        {
+            "label": "role",
+            "translation": "Papel"
+        },
+        {
+            "label": "roles",
+            "translation": "Funções"
+        },
+        {
+            "label": "roles_permissions",
+            "translation": "Funções e permissões"
+        },
+        {
+            "label": "role_name",
+            "translation": "Nome da função"
+        },
+        {
+            "label": "routes",
+            "translation": "Rotas"
+        },
+        {
+            "label": "route_settings_warning",
+            "translation": "Você não pode usar caracteres especiais em rotas. Se o seu idioma contém caracteres especiais, tenha cuidado ao editar rotas. Se você inserir uma rota inválida, não conseguirá acessar a página relacionada."
+        },
+        {
+            "label": "rss",
+            "translation": "RSS"
+        },
+        {
+            "label": "rss_content",
+            "translation": "Conteúdo RSS"
+        },
+        {
+            "label": "rss_feeds",
+            "translation": "Feeds RSS"
+        },
+        {
+            "label": "sad",
+            "translation": "Triste"
+        },
+        {
+            "label": "sandbox",
+            "translation": "Caixa de areia"
+        },
+        {
+            "label": "saturday",
+            "translation": "Sábado"
+        },
+        {
+            "label": "save",
+            "translation": "Salvar"
+        },
+        {
+            "label": "save_changes",
+            "translation": "Salvar alterações"
+        },
+        {
+            "label": "save_draft",
+            "translation": "Salvar como rascunho"
+        },
+        {
+            "label": "save_preferences",
+            "translation": "Salvar preferências"
+        },
+        {
+            "label": "scheduled",
+            "translation": "Agendado"
+        },
+        {
+            "label": "scheduled_post",
+            "translation": "Postagem agendada"
+        },
+        {
+            "label": "scheduled_posts",
+            "translation": "Postagens agendadas"
+        },
+        {
+            "label": "search",
+            "translation": "Procurar"
+        },
+        {
+            "label": "searching",
+            "translation": "Procurando..."
+        },
+        {
+            "label": "search_in_post_content",
+            "translation": "Pesquisar no conteúdo da postagem"
+        },
+        {
+            "label": "secondary_font",
+            "translation": "Fonte secundária (títulos)"
+        },
+        {
+            "label": "secret_key",
+            "translation": "Chave secreta"
+        },
+        {
+            "label": "section_title",
+            "translation": "Título da seção"
+        },
+        {
+            "label": "secure_checkout",
+            "translation": "Check-out seguro"
+        },
+        {
+            "label": "secure_key",
+            "translation": "Chave segura"
+        },
+        {
+            "label": "security",
+            "translation": "Segurança"
+        },
+        {
+            "label": "security_check",
+            "translation": "Verificação de segurança"
+        },
+        {
+            "label": "security_check_exp",
+            "translation": "Por favor, complete o captcha para verificar que você é humano."
+        },
+        {
+            "label": "select",
+            "translation": "Selecione"
+        },
+        {
+            "label": "selected_content_only",
+            "translation": "Somente conteúdo selecionado"
+        },
+        {
+            "label": "selected_content_only_exp",
+            "translation": "Aplique regras premium apenas a categorias especificamente selecionadas ou postagens individuais."
+        },
+        {
+            "label": "selected_file_s",
+            "translation": "Arquivo(s) Selecionado(s):"
+        },
+        {
+            "label": "select_ad_spaces",
+            "translation": "Selecione o espaço publicitário"
+        },
+        {
+            "label": "select_an_option",
+            "translation": "Selecione uma opção"
+        },
+        {
+            "label": "select_at_least_one_recipient",
+            "translation": "Selecione pelo menos um destinatário para enviar o e-mail."
+        },
+        {
+            "label": "select_audio",
+            "translation": "Selecione Áudio"
+        },
+        {
+            "label": "select_a_result",
+            "translation": "Selecione um resultado"
+        },
+        {
+            "label": "select_category",
+            "translation": "Selecione uma categoria"
+        },
+        {
+            "label": "select_date",
+            "translation": "Selecione a data"
+        },
+        {
+            "label": "select_date_range",
+            "translation": "Selecione o período"
+        },
+        {
+            "label": "select_file",
+            "translation": "Selecione o arquivo"
+        },
+        {
+            "label": "select_image",
+            "translation": "Selecione a imagem"
+        },
+        {
+            "label": "select_multiple_images",
+            "translation": "Você pode selecionar várias imagens."
+        },
+        {
+            "label": "select_plan",
+            "translation": "Selecione o plano"
+        },
+        {
+            "label": "select_video",
+            "translation": "Selecione Vídeo"
+        },
+        {
+            "label": "select_your_subscription_plan",
+            "translation": "Selecione seu plano de assinatura"
+        },
+        {
+            "label": "select_your_subscription_plan_exp",
+            "translation": "Obtenha acesso total a todo o conteúdo premium. Escolha o plano mais adequado para você para desfrutar de uma experiência de leitura ininterrupta e sem anúncios em todos os seus dispositivos."
+        },
+        {
+            "label": "sender_email_address",
+            "translation": "Endereço de e-mail do remetente"
+        },
+        {
+            "label": "sending",
+            "translation": "Enviando"
+        },
+        {
+            "label": "send_contact_to_mail",
+            "translation": "Enviar mensagens de contato para endereço de e-mail"
+        },
+        {
+            "label": "send_email",
+            "translation": "Enviar e-mail"
+        },
+        {
+            "label": "send_email_registered",
+            "translation": "Enviar e-mail para e-mails registrados"
+        },
+        {
+            "label": "send_test_email",
+            "translation": "Enviar e-mail de teste"
+        },
+        {
+            "label": "send_test_email_exp",
+            "translation": "Você pode enviar um e-mail de teste para verificar se o seu servidor de e-mail está funcionando."
+        },
+        {
+            "label": "send_verification_email",
+            "translation": "Enviar e-mail de verificação"
+        },
+        {
+            "label": "seo_options",
+            "translation": "Opções de SEO"
+        },
+        {
+            "label": "seo_tools",
+            "translation": "Ferramentas de SEO"
+        },
+        {
+            "label": "September",
+            "translation": "Setembro"
+        },
+        {
+            "label": "serving",
+            "translation": "Servindo"
+        },
+        {
+            "label": "settings",
+            "translation": "Configurações"
+        },
+        {
+            "label": "settings_language",
+            "translation": "Idioma de configurações"
+        },
+        {
+            "label": "set_as_album_cover",
+            "translation": "Definir como capa do álbum"
+        },
+        {
+            "label": "set_as_default",
+            "translation": "Definir como padrão"
+        },
+        {
+            "label": "set_payout_account",
+            "translation": "Definir conta de pagamento"
+        },
+        {
+            "label": "share",
+            "translation": "Compartilhar"
+        },
+        {
+            "label": "shared",
+            "translation": "Compartilhado"
+        },
+        {
+            "label": "short",
+            "translation": "Curto"
+        },
+        {
+            "label": "short_form",
+            "translation": "Formulário curto"
+        },
+        {
+            "label": "show",
+            "translation": "Mostrar"
+        },
+        {
+            "label": "show_all_files",
+            "translation": "Mostrar todos os arquivos"
+        },
+        {
+            "label": "show_breadcrumb",
+            "translation": "Mostrar localização atual"
+        },
+        {
+            "label": "show_email_on_profile",
+            "translation": "Mostrar e-mail na página de perfil"
+        },
+        {
+            "label": "show_featured_section",
+            "translation": "Mostrar seção em destaque"
+        },
+        {
+            "label": "show_full_content",
+            "translation": "Mostrar conteúdo completo"
+        },
+        {
+            "label": "show_images_from_original_source",
+            "translation": "Mostrar imagens da fonte original"
+        },
+        {
+            "label": "show_item_numbers",
+            "translation": "Mostrar números de itens na página de detalhes da postagem"
+        },
+        {
+            "label": "show_latest_posts_homepage",
+            "translation": "Mostrar postagens mais recentes na página inicial"
+        },
+        {
+            "label": "show_list_style_post_text",
+            "translation": "Mostrar estilo de lista no texto da postagem"
+        },
+        {
+            "label": "show_only_own_files",
+            "translation": "Mostrar apenas os próprios arquivos dos usuários"
+        },
+        {
+            "label": "show_only_registered",
+            "translation": "Mostrar apenas para usuários registrados"
+        },
+        {
+            "label": "show_on_homepage",
+            "translation": "Mostrar na página inicial"
+        },
+        {
+            "label": "show_on_menu",
+            "translation": "Mostrar no menu"
+        },
+        {
+            "label": "show_post_author",
+            "translation": "Mostrar autor da postagem"
+        },
+        {
+            "label": "show_post_dates",
+            "translation": "Mostrar data de postagem"
+        },
+        {
+            "label": "show_post_view_counts",
+            "translation": "Mostrar contagem de visualizações de postagens"
+        },
+        {
+            "label": "show_read_more_button",
+            "translation": "Mostrar botão Leia mais"
+        },
+        {
+            "label": "show_sidebar",
+            "translation": "Mostrar barra lateral"
+        },
+        {
+            "label": "show_summary_only",
+            "translation": "Mostrar apenas resumo"
+        },
+        {
+            "label": "show_title",
+            "translation": "Mostrar título"
+        },
+        {
+            "label": "show_user_email_profile",
+            "translation": "Show User's Email on Profile"
+        },
+        {
+            "label": "sidebar",
+            "translation": "Barra lateral"
+        },
+        {
+            "label": "sign_up",
+            "translation": "Inscrever-se"
+        },
+        {
+            "label": "single_content_sales",
+            "translation": "Vendas de conteúdo único"
+        },
+        {
+            "label": "single_content_sales_exp",
+            "translation": "Permite vender posts específicos individualmente, mesmo para usuários não inscritos."
+        },
+        {
+            "label": "sitemap",
+            "translation": "Sitemap"
+        },
+        {
+            "label": "sitemap_generate_exp",
+            "translation": "Se o seu site tiver mais de 49.000 links, o arquivo sitemap.xml será criado em partes."
+        },
+        {
+            "label": "site_color",
+            "translation": "Cor do site"
+        },
+        {
+            "label": "site_description",
+            "translation": "Descrição do local"
+        },
+        {
+            "label": "site_font",
+            "translation": "Fonte do site"
+        },
+        {
+            "label": "site_key",
+            "translation": "Chave do site"
+        },
+        {
+            "label": "site_title",
+            "translation": "Título do site"
+        },
+        {
+            "label": "slider",
+            "translation": "Slider"
+        },
+        {
+            "label": "slider_order",
+            "translation": "Ordem do controle deslizante"
+        },
+        {
+            "label": "slider_posts",
+            "translation": "Postagens deslizantes"
+        },
+        {
+            "label": "slug",
+            "translation": "Slug"
+        },
+        {
+            "label": "slug_exp",
+            "translation": "Se você deixar em branco, ele será gerado automaticamente."
+        },
+        {
+            "label": "smtp",
+            "translation": "SMTP"
+        },
+        {
+            "label": "snapchat",
+            "translation": "Snapchat"
+        },
+        {
+            "label": "social_accounts",
+            "translation": "Contas Sociais"
+        },
+        {
+            "label": "social_accounts_exp",
+            "translation": "Vincule seus perfis de mídia social para exibi-los publicamente."
+        },
+        {
+            "label": "social_login",
+            "translation": "Login social"
+        },
+        {
+            "label": "social_media",
+            "translation": "Mídias Sociais"
+        },
+        {
+            "label": "sorted_list",
+            "translation": "Lista ordenada"
+        },
+        {
+            "label": "sorted_list_exp",
+            "translation": "Um artigo baseado em lista"
+        },
+        {
+            "label": "sorting_logic",
+            "translation": "Lógica de classificação"
+        },
+        {
+            "label": "sort_order",
+            "translation": "Ordem de classificação"
+        },
+        {
+            "label": "soundcloud",
+            "translation": "SoundCloud"
+        },
+        {
+            "label": "space_separator",
+            "translation": "Espaço"
+        },
+        {
+            "label": "spam_protection",
+            "translation": "Proteção contra spam"
+        },
+        {
+            "label": "spam_protection_exp",
+            "translation": "Gerencie como os links externos são processados ​​para proteger sua pontuação de SEO e evitar spam."
+        },
+        {
+            "label": "speakers_guests",
+            "translation": "Palestrantes e convidados"
+        },
+        {
+            "label": "start",
+            "translation": "Começar"
+        },
+        {
+            "label": "start_date",
+            "translation": "Data de início"
+        },
+        {
+            "label": "start_exploring",
+            "translation": "Comece a explorar"
+        },
+        {
+            "label": "start_import",
+            "translation": "Iniciar importação"
+        },
+        {
+            "label": "state",
+            "translation": "Estado"
+        },
+        {
+            "label": "status",
+            "translation": "Status"
+        },
+        {
+            "label": "stay_updated",
+            "translation": "Fique atualizado"
+        },
+        {
+            "label": "steam",
+            "translation": "Steam"
+        },
+        {
+            "label": "sticky_sidebar",
+            "translation": "Barra lateral fixa"
+        },
+        {
+            "label": "storage",
+            "translation": "Armazenar"
+        },
+        {
+            "label": "strictly_necessary",
+            "translation": "Estritamente necessário"
+        },
+        {
+            "label": "strictly_necessary_exp",
+            "translation": "Necessário para segurança e funções básicas. Não pode ser desativado."
+        },
+        {
+            "label": "strict_paywall",
+            "translation": "Acesso pago estrito"
+        },
+        {
+            "label": "strict_paywall_exp",
+            "translation": "Bloqueia completamente o acesso à página de postagem. Não recomendado para SEO."
+        },
+        {
+            "label": "stripe",
+            "translation": "Stripe"
+        },
+        {
+            "label": "style",
+            "translation": "Estilo"
+        },
+        {
+            "label": "subcategory",
+            "translation": "Subcategoria"
+        },
+        {
+            "label": "subject",
+            "translation": "Assunto"
+        },
+        {
+            "label": "submit",
+            "translation": "Enviar"
+        },
+        {
+            "label": "submitting",
+            "translation": "Enviando..."
+        },
+        {
+            "label": "subscribe",
+            "translation": "Inscrever-se"
+        },
+        {
+            "label": "subscribers",
+            "translation": "Assinantes"
+        },
+        {
+            "label": "subscribe_button",
+            "translation": "Botão de inscrição"
+        },
+        {
+            "label": "subscription",
+            "translation": "Subscrição"
+        },
+        {
+            "label": "subscription_already_subscribed",
+            "translation": "Você já está inscrito neste plano."
+        },
+        {
+            "label": "subscription_badges",
+            "translation": "Selos de assinatura"
+        },
+        {
+            "label": "subscription_button_text_change",
+            "translation": "The button text can be changed in the language settings section by translating the \"btn_subscribe\" key."
+        },
+        {
+            "label": "subscription_cancelled_successfully",
+            "translation": "Sua assinatura foi cancelada com sucesso. Você continuará tendo acesso a todos os recursos premium até o final do período de faturamento atual."
+        },
+        {
+            "label": "subscription_free_plan_activated",
+            "translation": "Ótimo! Seu plano gratuito foi ativado com sucesso. Você pode ver os detalhes da sua assinatura abaixo e começar a explorar a plataforma imediatamente."
+        },
+        {
+            "label": "subscription_free_plan_used",
+            "translation": "Plano gratuito usado"
+        },
+        {
+            "label": "subscription_plan",
+            "translation": "Plano de assinatura"
+        },
+        {
+            "label": "subscription_plans",
+            "translation": "Planos de assinatura"
+        },
+        {
+            "label": "subscription_system_status_exp",
+            "translation": "Ative para ativar planos de assinatura e acesso pago em seu site."
+        },
+        {
+            "label": "subtotal",
+            "translation": "Subtotal"
+        },
+        {
+            "label": "succeeded",
+            "translation": "Sucesso"
+        },
+        {
+            "label": "success",
+            "translation": "Sucesso"
+        },
+        {
+            "label": "success_message",
+            "translation": "Mensagem de sucesso"
+        },
+        {
+            "label": "success_message_exp",
+            "translation": "Mensagem mostrada após o envio"
+        },
+        {
+            "label": "summary",
+            "translation": "Resumo"
+        },
+        {
+            "label": "sunday",
+            "translation": "Domingo"
+        },
+        {
+            "label": "swift",
+            "translation": "Rápido"
+        },
+        {
+            "label": "swift_code",
+            "translation": "Código Swift"
+        },
+        {
+            "label": "swift_iban",
+            "translation": "Número da conta bancária/IBAN"
+        },
+        {
+            "label": "symbol_direction",
+            "translation": "Direção do Símbolo"
+        },
+        {
+            "label": "system",
+            "translation": "Sistema"
+        },
+        {
+            "label": "system_tools",
+            "translation": "Ferramentas do sistema"
+        },
+        {
+            "label": "table_of_contents",
+            "translation": "Índice"
+        },
+        {
+            "label": "table_of_contents_exp",
+            "translation": "Lista de links com base nos títulos"
+        },
+        {
+            "label": "table_of_contents_items",
+            "translation": "Itens do índice"
+        },
+        {
+            "label": "tag",
+            "translation": "Tag"
+        },
+        {
+            "label": "tags",
+            "translation": "Tags"
+        },
+        {
+            "label": "tax",
+            "translation": "Imposto"
+        },
+        {
+            "label": "tax_configuration",
+            "translation": "Configuração Fiscal"
+        },
+        {
+            "label": "tax_configuration_exp",
+            "translation": "Gerencie o IVA global e substituições específicas do país."
+        },
+        {
+            "label": "tax_vat_number",
+            "translation": "Número fiscal/IVA"
+        },
+        {
+            "label": "telegram",
+            "translation": "Telegram"
+        },
+        {
+            "label": "terms_conditions",
+            "translation": "Termos e Condições"
+        },
+        {
+            "label": "terms_conditions_exp",
+            "translation": "Eu li e concordo com o"
+        },
+        {
+            "label": "test_api",
+            "translation": "API de teste"
+        },
+        {
+            "label": "text_direction",
+            "translation": "Direção do texto"
+        },
+        {
+            "label": "text_editor_language",
+            "translation": "Idioma do editor de texto"
+        },
+        {
+            "label": "text_input",
+            "translation": "Entrada de texto"
+        },
+        {
+            "label": "text_list_empty",
+            "translation": "Sua lista de leitura está vazia."
+        },
+        {
+            "label": "themes",
+            "translation": "Temas"
+        },
+        {
+            "label": "theme_color",
+            "translation": "Cor do tema"
+        },
+        {
+            "label": "theme_settings",
+            "translation": "Configurações de tema"
+        },
+        {
+            "label": "this_month",
+            "translation": "Este mês"
+        },
+        {
+            "label": "this_week",
+            "translation": "Essa semana"
+        },
+        {
+            "label": "thousand_separator",
+            "translation": "Separador de Mil"
+        },
+        {
+            "label": "threads",
+            "translation": "Threads"
+        },
+        {
+            "label": "thursday",
+            "translation": "Quinta-feira"
+        },
+        {
+            "label": "tiktok",
+            "translation": "Tiktok"
+        },
+        {
+            "label": "time",
+            "translation": "Tempo"
+        },
+        {
+            "label": "timezone",
+            "translation": "Fuso horário"
+        },
+        {
+            "label": "title",
+            "translation": "Título"
+        },
+        {
+            "label": "titles",
+            "translation": "Títulos"
+        },
+        {
+            "label": "title_multiline_error",
+            "translation": "Corrija os seguintes erros:"
+        },
+        {
+            "label": "to",
+            "translation": "Para:"
+        },
+        {
+            "label": "today",
+            "translation": "Hoje"
+        },
+        {
+            "label": "token",
+            "translation": "Token"
+        },
+        {
+            "label": "tone_academic",
+            "translation": "Acadêmico"
+        },
+        {
+            "label": "tone_casual",
+            "translation": "Casual"
+        },
+        {
+            "label": "tone_critical",
+            "translation": "Crítico"
+        },
+        {
+            "label": "tone_formal",
+            "translation": "Formal"
+        },
+        {
+            "label": "tone_humorous",
+            "translation": "Bem-humorado"
+        },
+        {
+            "label": "tone_inspirational",
+            "translation": "Inspirador"
+        },
+        {
+            "label": "tone_neutral",
+            "translation": "Neutro"
+        },
+        {
+            "label": "tone_persuasive",
+            "translation": "Persuasivo"
+        },
+        {
+            "label": "tone_professional",
+            "translation": "Profissional"
+        },
+        {
+            "label": "tone_style",
+            "translation": "Tom/Estilo"
+        },
+        {
+            "label": "too_many_login_attempts",
+            "translation": "Muitas tentativas de login. Por favor, tente novamente após o tempo de espera."
+        },
+        {
+            "label": "topic",
+            "translation": "Tópico"
+        },
+        {
+            "label": "topic_ai_exp",
+            "translation": "Descreva resumidamente sobre o que você deseja que o artigo trate."
+        },
+        {
+            "label": "topic_ai_placeholder",
+            "translation": "por exemplo Benefícios de beber chá verde..."
+        },
+        {
+            "label": "top_headlines",
+            "translation": "Principais manchetes"
+        },
+        {
+            "label": "top_menu",
+            "translation": "Menu superior"
+        },
+        {
+            "label": "total",
+            "translation": "Total"
+        },
+        {
+            "label": "total_earnings",
+            "translation": "Ganhos totais"
+        },
+        {
+            "label": "total_pageviews",
+            "translation": "Total de visualizações de página"
+        },
+        {
+            "label": "total_paid",
+            "translation": "Total pago"
+        },
+        {
+            "label": "total_payouts",
+            "translation": "Pagamentos totais"
+        },
+        {
+            "label": "total_registered_users",
+            "translation": "Total de usuários registrados"
+        },
+        {
+            "label": "total_submitted_posts",
+            "translation": "Total de postagens enviadas"
+        },
+        {
+            "label": "total_vote",
+            "translation": "Votação total:"
+        },
+        {
+            "label": "total_votes",
+            "translation": "Total de votos"
+        },
+        {
+            "label": "transactions",
+            "translation": "Transações"
+        },
+        {
+            "label": "transaction_details",
+            "translation": "Detalhes da transação"
+        },
+        {
+            "label": "transaction_fee",
+            "translation": "Taxa de transação"
+        },
+        {
+            "label": "transaction_fee_rate",
+            "translation": "Taxa de transação"
+        },
+        {
+            "label": "transaction_id",
+            "translation": "ID da transação"
+        },
+        {
+            "label": "transaction_type",
+            "translation": "Tipo de transação"
+        },
+        {
+            "label": "translation",
+            "translation": "Tradução"
+        },
+        {
+            "label": "trending_posts",
+            "translation": "Postagens populares"
+        },
+        {
+            "label": "trivia_quiz",
+            "translation": "Questionário de curiosidades"
+        },
+        {
+            "label": "trivia_quiz_exp",
+            "translation": "Questionários com respostas certas e erradas"
+        },
+        {
+            "label": "tuesday",
+            "translation": "Terça-feira"
+        },
+        {
+            "label": "tumblr",
+            "translation": "Tumblr"
+        },
+        {
+            "label": "twitch",
+            "translation": "Twitch"
+        },
+        {
+            "label": "type",
+            "translation": "Tipo"
+        },
+        {
+            "label": "type_location_name",
+            "translation": "Digite um nome de local..."
+        },
+        {
+            "label": "type_tag",
+            "translation": "Digite tag e pressione Enter"
+        },
+        {
+            "label": "unfollow",
+            "translation": "Deixar de seguir"
+        },
+        {
+            "label": "unique_pageviews",
+            "translation": "Visualizações de página únicas"
+        },
+        {
+            "label": "unsubscribe",
+            "translation": "Cancelar inscrição"
+        },
+        {
+            "label": "unverified",
+            "translation": "Não verificado"
+        },
+        {
+            "label": "upcoming_events",
+            "translation": "Próximos eventos"
+        },
+        {
+            "label": "upcoming_events_exp",
+            "translation": "Visão geral da próxima programação"
+        },
+        {
+            "label": "update",
+            "translation": "Atualizar"
+        },
+        {
+            "label": "updated",
+            "translation": "Atualizado"
+        },
+        {
+            "label": "update_album",
+            "translation": "Atualizar álbum"
+        },
+        {
+            "label": "update_article",
+            "translation": "Atualizar artigo"
+        },
+        {
+            "label": "update_audio",
+            "translation": "Atualizar áudio"
+        },
+        {
+            "label": "update_category",
+            "translation": "Atualizar categoria"
+        },
+        {
+            "label": "update_event",
+            "translation": "Evento de atualização"
+        },
+        {
+            "label": "update_feed",
+            "translation": "Atualizar feed"
+        },
+        {
+            "label": "update_font",
+            "translation": "Atualizar fonte"
+        },
+        {
+            "label": "update_gallery",
+            "translation": "Atualizar Galeria"
+        },
+        {
+            "label": "update_image",
+            "translation": "Atualizar imagem"
+        },
+        {
+            "label": "update_language",
+            "translation": "Atualizar idioma"
+        },
+        {
+            "label": "update_link",
+            "translation": "Atualizar link do menu"
+        },
+        {
+            "label": "update_page",
+            "translation": "Atualizar página"
+        },
+        {
+            "label": "update_personality_quiz",
+            "translation": "Atualizar questionário de personalidade"
+        },
+        {
+            "label": "update_poll",
+            "translation": "Atualizar enquete"
+        },
+        {
+            "label": "update_post",
+            "translation": "Atualizar postagem"
+        },
+        {
+            "label": "update_profile",
+            "translation": "Atualizar perfil"
+        },
+        {
+            "label": "update_recipe",
+            "translation": "Atualizar receita"
+        },
+        {
+            "label": "update_sorted_list",
+            "translation": "Atualizar lista classificada"
+        },
+        {
+            "label": "update_subcategory",
+            "translation": "Atualizar subcategoria"
+        },
+        {
+            "label": "update_table_of_contents",
+            "translation": "Atualizar índice"
+        },
+        {
+            "label": "update_trivia_quiz",
+            "translation": "Atualizar questionário de curiosidades"
+        },
+        {
+            "label": "update_video",
+            "translation": "Atualizar vídeo"
+        },
+        {
+            "label": "update_widget",
+            "translation": "Atualizar widget"
+        },
+        {
+            "label": "upload",
+            "translation": "Carregar"
+        },
+        {
+            "label": "uploading",
+            "translation": "Fazendo upload..."
+        },
+        {
+            "label": "upload_csv_file",
+            "translation": "Carregar arquivo CSV"
+        },
+        {
+            "label": "upload_image",
+            "translation": "Carregar imagem"
+        },
+        {
+            "label": "upload_up_to_10_files",
+            "translation": "Carregue até 10 arquivos"
+        },
+        {
+            "label": "upload_video",
+            "translation": "Enviar vídeo"
+        },
+        {
+            "label": "upload_your_banner",
+            "translation": "Criar código de anúncio"
+        },
+        {
+            "label": "url",
+            "translation": "URL"
+        },
+        {
+            "label": "user",
+            "translation": "Usuário"
+        },
+        {
+            "label": "username",
+            "translation": "Nome de usuário"
+        },
+        {
+            "label": "users",
+            "translation": "Usuários"
+        },
+        {
+            "label": "users_and_permissions",
+            "translation": "Usuários e permissões"
+        },
+        {
+            "label": "users_permissions",
+            "translation": "Usuários e permissões"
+        },
+        {
+            "label": "user_agent",
+            "translation": "Agente do usuário"
+        },
+        {
+            "label": "user_agreement",
+            "translation": "Contrato do usuário"
+        },
+        {
+            "label": "user_details",
+            "translation": "Detalhes do usuário"
+        },
+        {
+            "label": "user_id",
+            "translation": "ID do usuário"
+        },
+        {
+            "label": "user_profile_badge",
+            "translation": "Selo de perfil de usuário"
+        },
+        {
+            "label": "user_profile_options",
+            "translation": "Opções de perfil de usuário"
+        },
+        {
+            "label": "user_profile_options_exp",
+            "translation": "Selecione plataformas permitidas para usuários."
+        },
+        {
+            "label": "use_content",
+            "translation": "Usar conteúdo"
+        },
+        {
+            "label": "value",
+            "translation": "Valor"
+        },
+        {
+            "label": "vat",
+            "translation": "VAT"
+        },
+        {
+            "label": "venue_name",
+            "translation": "Nome do local"
+        },
+        {
+            "label": "verified",
+            "translation": "Verificado"
+        },
+        {
+            "label": "verify_post_comment",
+            "translation": "Verificar e postar comentário"
+        },
+        {
+            "label": "version",
+            "translation": "Versão"
+        },
+        {
+            "label": "vertical",
+            "translation": "Vertical"
+        },
+        {
+            "label": "very_long",
+            "translation": "Muito Longo"
+        },
+        {
+            "label": "very_short",
+            "translation": "Muito curto"
+        },
+        {
+            "label": "via_url",
+            "translation": "Através de URL"
+        },
+        {
+            "label": "video",
+            "translation": "Vídeo"
+        },
+        {
+            "label": "videos",
+            "translation": "Vídeos"
+        },
+        {
+            "label": "video_embed_code",
+            "translation": "Código de incorporação de vídeo"
+        },
+        {
+            "label": "video_file",
+            "translation": "Arquivo de vídeo"
+        },
+        {
+            "label": "video_name",
+            "translation": "Nome do vídeo"
+        },
+        {
+            "label": "video_post_exp",
+            "translation": "Carregar ou incorporar vídeos"
+        },
+        {
+            "label": "video_thumbnails",
+            "translation": "Miniatura do vídeo"
+        },
+        {
+            "label": "video_url",
+            "translation": "URL do vídeo"
+        },
+        {
+            "label": "view",
+            "translation": "Visualizar"
+        },
+        {
+            "label": "view_all",
+            "translation": "Ver tudo"
+        },
+        {
+            "label": "view_all_posts",
+            "translation": "Ver todas as postagens"
+        },
+        {
+            "label": "view_content",
+            "translation": "Ver conteúdo"
+        },
+        {
+            "label": "view_details",
+            "translation": "Ver detalhes"
+        },
+        {
+            "label": "view_google_privacy_policy",
+            "translation": "Veja a Política de Privacidade do Google"
+        },
+        {
+            "label": "view_more_replies",
+            "translation": "Ver mais respostas"
+        },
+        {
+            "label": "view_my_purchases",
+            "translation": "Ver minhas compras"
+        },
+        {
+            "label": "view_options",
+            "translation": "Ver opções"
+        },
+        {
+            "label": "view_post",
+            "translation": "Ver postagem"
+        },
+        {
+            "label": "view_results",
+            "translation": "Ver resultados"
+        },
+        {
+            "label": "view_site",
+            "translation": "Ver site"
+        },
+        {
+            "label": "vimeo",
+            "translation": "Vimeo"
+        },
+        {
+            "label": "visibility",
+            "translation": "Visibilidade"
+        },
+        {
+            "label": "visit_hash",
+            "translation": "Visite Hash"
+        },
+        {
+            "label": "vk",
+            "translation": "VKontakte"
+        },
+        {
+            "label": "vote",
+            "translation": "Votar"
+        },
+        {
+            "label": "voted_message",
+            "translation": "Você já votou nesta enquete antes."
+        },
+        {
+            "label": "vote_permission",
+            "translation": "Permissão de Voto"
+        },
+        {
+            "label": "wait_time",
+            "translation": "Tempo de espera"
+        },
+        {
+            "label": "warning",
+            "translation": "Aviso"
+        },
+        {
+            "label": "warning_documentation",
+            "translation": "Leia a documentação antes de ativar esta opção"
+        },
+        {
+            "label": "warning_edit_profile_image",
+            "translation": "Clique no botão salvar alterações após selecionar sua imagem"
+        },
+        {
+            "label": "warning_email_button_click",
+            "translation": "Está com problemas para clicar no botão? Copie e cole a URL abaixo no seu navegador:"
+        },
+        {
+            "label": "warning_invalid_email_request",
+            "translation": "Se você não fez esta solicitação, pode ignorar este e-mail com segurança. O link expirará em 24 horas."
+        },
+        {
+            "label": "webhook_secret_id",
+            "translation": "Segredo/ID do webhook"
+        },
+        {
+            "label": "website",
+            "translation": "Site"
+        },
+        {
+            "label": "website_social_links",
+            "translation": "Links sociais do site"
+        },
+        {
+            "label": "website_social_links_exp",
+            "translation": "Digite a URL para ativar. Deixe em branco para desativar."
+        },
+        {
+            "label": "wednesday",
+            "translation": "Quarta-feira"
+        },
+        {
+            "label": "week",
+            "translation": "Semana"
+        },
+        {
+            "label": "weekly",
+            "translation": "Semanal"
+        },
+        {
+            "label": "welcome",
+            "translation": "Bem-vindo"
+        },
+        {
+            "label": "welcome_exp_mobile",
+            "translation": "Desbloqueie sua experiência personalizada."
+        },
+        {
+            "label": "whatsapp",
+            "translation": "WhatsApp"
+        },
+        {
+            "label": "whats_your_reaction",
+            "translation": "Qual é a sua reação?"
+        },
+        {
+            "label": "where_to_display",
+            "translation": "Onde exibir"
+        },
+        {
+            "label": "where_to_display_exp",
+            "translation": "Apenas categorias com o Estilo de Bloco 2, 3 ou 4 podem ser selecionadas. As demais categorias não serão exibidas como opção."
+        },
+        {
+            "label": "widget",
+            "translation": "Widget"
+        },
+        {
+            "label": "widgets",
+            "translation": "Widgets"
+        },
+        {
+            "label": "width",
+            "translation": "Largura"
+        },
+        {
+            "label": "withdraw_amount",
+            "translation": "Valor do saque"
+        },
+        {
+            "label": "withdraw_method",
+            "translation": "Método de saque"
+        },
+        {
+            "label": "wow",
+            "translation": "Uau"
+        },
+        {
+            "label": "write_a_comment",
+            "translation": "Escreva um comentário..."
+        },
+        {
+            "label": "write_a_reply",
+            "translation": "Escreva uma resposta..."
+        },
+        {
+            "label": "wrong_answer",
+            "translation": "Resposta incorreta"
+        },
+        {
+            "label": "wrong_password_error",
+            "translation": "Senha antiga incorreta!"
+        },
+        {
+            "label": "x_twitter",
+            "translation": "X (Twitter)"
+        },
+        {
+            "label": "year",
+            "translation": "ano"
+        },
+        {
+            "label": "yearly",
+            "translation": "Anual"
+        },
+        {
+            "label": "years",
+            "translation": "anos"
+        },
+        {
+            "label": "yes",
+            "translation": "Sim"
+        },
+        {
+            "label": "yesterday",
+            "translation": "Ontem"
+        },
+        {
+            "label": "you",
+            "translation": "Você"
+        },
+        {
+            "label": "your_balance",
+            "translation": "Seu saldo"
+        },
+        {
+            "label": "your_subscription_currently_active",
+            "translation": "Sua assinatura está ativa no momento."
+        },
+        {
+            "label": "youtube",
+            "translation": "YouTube"
+        },
+        {
+            "label": "you_dont_have_active_subscription",
+            "translation": "Você não tem uma assinatura ativa no momento."
+        },
+        {
+            "label": "zip_postal_code",
+            "translation": "CEP"
+        }
+    ]
+}

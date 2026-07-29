@@ -1,0 +1,10 @@
+<?php if (!empty($gateway) && $gateway->name_key === 'paytabs' && !empty($paymentUrl)): ?>
+    <a href="<?= $paymentUrl; ?>" class="btn-primary-custom">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="16" r="1"/>
+            <rect x="3" y="10" width="18" height="12" rx="2"/>
+            <path d="M7 10V7a5 5 0 0 1 10 0v3"/>
+        </svg>
+        <?= trans("complete_payment"); ?>
+    </a>
+<?php endif; ?>

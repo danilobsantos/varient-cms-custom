@@ -1,0 +1,41 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: varient-app
+    ports:
+      - "8080:80"
+    volumes:
+      - ./varient:/var/www/html/varient
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: no
+
+  db:
+    image: mysql:8.0
+    container_name: varient-db
+    command:
+      - --default-authentication-plugin=mysql_native_password
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_general_ci
+    environment:
+      MYSQL_DATABASE: varient
+      MYSQL_USER: varient
+      MYSQL_PASSWORD: varient_password
+      MYSQL_ROOT_PASSWORD: root_password
+    ports:
+      - "3306:3306"
+    volumes:
+      - varient-db-data:/var/lib/mysql
+    healthcheck:
+      test: [ "CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -uroot -p$$MYSQL_ROOT_PASSWORD --silent" ]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: no
+
+volumes:
+  varient-db-data:
+

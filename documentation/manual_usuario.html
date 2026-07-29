@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual do Usuário</title>
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+
+<body>
+
+    <div class="mobile-header">
+        <div class="d-flex align-items-center gap-2">
+            <div class="text-white rounded d-flex align-items-center justify-content-center fw-bold"
+                style="background-color: var(--accent-color); width: 32px; height: 32px;">V</div>
+            <span class="fw-bold text-dark">DevStudio CMS</span>
+        </div>
+        <button id="sidebarToggle" class="btn btn-light border-0 shadow-none p-2">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="4" x2="20" y1="12" y2="12" />
+                <line x1="4" x2="20" y1="6" y2="6" />
+                <line x1="4" x2="20" y1="18" y2="18" />
+            </svg>
+        </button>
+    </div>
+
+    <div id="layout-wrapper">
+
+        <aside id="sidebar-wrapper">
+            <div class="sidebar-brand">
+                <div class="d-flex align-items-center gap-3">
+                    <div class="text-white rounded-3 d-flex align-items-center justify-content-center fw-bold fs-5 shadow-sm"
+                        style="background-color: var(--accent-color); width: 40px; height: 40px;">
+                        V
+                    </div>
+                    <div>
+                        <h1 class="m-0 fs-6 fw-bold text-dark lh-1">DevStudio CMS</h1>
+                        <span class="fw-semibold"
+                            style="color: var(--accent-color); font-size: 0.7rem; letter-spacing: 0.05em;">MANUAL DO
+                            USUÁRIO</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-3 border-bottom border-light bg-white" style="position: sticky; top: 0; z-index: 10;">
+                <div class="search-wrapper">
+                    <input type="text" id="searchInput" class="form-control premium-search-input"
+                        placeholder="Pesquisar manual...">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="search-icon">
+                        <circle cx="11" cy="11" r="8" />
+                        <path d="m21 21-4.3-4.3" />
+                    </svg>
+                    <div class="search-shortcut">
+                        <kbd>⌘</kbd> <kbd>K</kbd>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="sidebar-nav-container">
+                <div class="sidebar-heading-text mt-0">Visão Geral</div>
+                <a href="#welcome" class="sidebar-link">Boas-vindas</a>
+                <a href="#introducao" class="sidebar-link">Introdução</a>
+
+                <div class="sidebar-heading-text">Conteúdo & Estrutura</div>
+                <a href="#painel_admin" class="sidebar-link">Painel Administrativo</a>
+                <a href="#navegacao_paginas" class="sidebar-link">Menus e Páginas</a>
+                <a href="#adicionar_post" class="sidebar-link">Criar Publicação</a>
+                <a href="#formatos_post" class="sidebar-link">Formatos de Post</a>
+                <a href="#posts_gerenciamento" class="sidebar-link">Gerenciar Posts</a>
+                <a href="#rss_feeds" class="sidebar-link">Canais RSS</a>
+                <a href="#categorias_tags" class="sidebar-link">Categorias e Tags</a>
+                <a href="#midia_galeria" class="sidebar-link">Mídia e Galeria</a>
+
+                <div class="sidebar-heading-text">Engajamento</div>
+                <a href="#widgets_enquetes" class="sidebar-link">Widgets e Enquetes</a>
+                <a href="#comentarios_contatos" class="sidebar-link">Comentários e Contatos</a>
+                <a href="#newsletter" class="sidebar-link">Boletins (Newsletter)</a>
+
+                <div class="sidebar-heading-text">Monetização & Usuários</div>
+                <a href="#premium_membership" class="sidebar-link">Assinatura Premium</a>
+                <a href="#espaco_anuncios" class="sidebar-link">Espaços de Anúncios</a>
+                <a href="#sistema_recompensas" class="sidebar-link">Recompensas (Ganhos)</a>
+                <a href="#usuarios_badges" class="sidebar-link">Usuários e Conquistas</a>
+            </nav>
+
+            <div class="p-3 mt-auto border-top border-light bg-white" style="position: sticky; bottom: 0; z-index: 10;">
+                <div class="text-center" style="font-size: 0.75rem; color: var(--text-muted);">
+                    DevStudio CMS &copy; 2026
+                </div>
+            </div>
+        </aside>
+
+        <main id="main-content">
+            <div class="content-container">
+
+                <!-- BOAS-VINDAS -->
+                <section id="welcome" class="mb-5">
+                    <div class="premium-badge">
+                        <span></span> Guia Atualizado para a Versão 3.0
+                    </div>
+
+                    <h1 class="display-5 fw-bolder mb-3">
+                        DevStudio CMS <br />
+                        <span class="text-gradient">Manual de Uso do Sistema</span>
+                    </h1>
+                    <p class="lead text-muted mb-5" style="max-width: 600px;">
+                        O guia prático definitivo projetado para ajudar criadores de conteúdo, editores e
+                        administradores a operar o portal de notícias com facilidade e eficiência.
+                    </p>
+
+                    <div class="hero-card">
+                        <div>
+                            <div class="hero-card-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z" />
+                                </svg>
+                            </div>
+                            <h3 class="h5 fw-bold mb-2">Seja bem-vindo!</h3>
+                            <p class="mb-4" style="font-size: 0.95rem;">
+                                Este documento foi elaborado para facilitar o seu dia a dia operacional. Aqui você
+                                aprenderá a publicar artigos, criar enquetes e testes, gerenciar anúncios, boletins
+                                informativos e acompanhar suas recompensas financeiras sem a necessidade de lidar com
+                                termos técnicos complexos ou códigos de programação.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="section-separator"></div>
+
+                <!-- INTRODUÇÃO -->
+                <section id="introducao" class="mb-5">
+                    <h2 class="h2 mb-4 fw-bold">Introdução</h2>
+                    <p class="mb-4">
+                        O <b>DevStudio CMS</b> é um sistema completo de gerenciamento de conteúdo (CMS) voltado para
+                        portais
+                        de notícias, blogs, revistas digitais e criadores de conteúdo independentes. O sistema foi
+                        desenvolvido com foco em alta performance e em proporcionar uma leitura limpa e atrativa para os
+                        leitores em qualquer dispositivo (celulares, tablets e computadores).
+                    </p>
+                    <p class="mb-4">
+                        Sua estrutura operacional divide-se de forma inteligente entre redatores, editores e
+                        administradores, oferecendo um fluxo de trabalho estruturado e seguro. Veja os principais
+                        pilares de atuação da plataforma:
+                    </p>
+
+                    <div class="premium-feature-grid mt-4">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 20h9" />
+                                    <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z" />
+                                </svg>
+                            </div>
+                            <div class="feature-text"><strong>Criação Flexível:</strong> 11 formatos de postagens
+                                dinâmicas, incluindo notícias simples, galerias passo a passo, testes interativos e
+                                receitas detalhadas.</div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect width="20" height="14" x="2" y="3" rx="2" />
+                                    <line x1="8" x2="16" y1="21" y2="21" />
+                                    <line x1="12" x2="12" y1="17" y2="21" />
+                                </svg>
+                            </div>
+                            <div class="feature-text"><strong>Gestão de Anúncios:</strong> Espaços otimizados para
+                                publicidade, permitindo configurar banners distintos para desktop e celular sem quebrar
+                                o visual da página.</div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <path d="M12 8v8" />
+                                    <path d="M8 12h8" />
+                                </svg>
+                            </div>
+                            <div class="feature-text"><strong>Monetização Premium:</strong> Sistema nativo de
+                                assinaturas que permite criar planos pagos e fechar o acesso a conteúdos exclusivos
+                                através de barreiras de leitura (Paywalls).</div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="12" x2="12" y1="1" y2="23" />
+                                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                                </svg>
+                            </div>
+                            <div class="feature-text"><strong>Sistema de Recompensas:</strong> Estimule seus redatores
+                                dividindo a receita gerada por cliques. O sistema calcula automaticamente os ganhos com
+                                base em visualizações únicas qualificadas.</div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="section-separator"></div>
+
+                <!-- PAINEL ADMINISTRATIVO -->
+                <section id="painel_admin" class="mb-5">
+                    <h2 class="h2 mb-4 fw-bold">Painel Administrativo</h2>
+                    <p class="mb-4">
+                        Para gerenciar a plataforma, você deve acessar a área administrativa utilizando o link de login
+                        do site (geralmente sob a extensão <code>/admin</code> ou clicando em "Entrar" no menu superior
+                        da página pública).
+                    </p>
+                    <p class="mb-4">
+                        Uma vez logado, você é direcionado para a tela inicial do Painel (Dashboard), onde terá acesso a
+                        um resumo visual de dados do site:
+                    </p>
+
+                    <ul class="mb-4" style="line-height: 1.8;">
+                        <li class="mb-2"><strong>Contadores Rápidos:</strong> Número total de publicações ativas,
+                            rascunhos salvos, comentários feitos por leitores e assinantes da newsletter.</li>
+                        <li class="mb-2"><strong>Gráficos de Acessos:</strong> Monitoramento visual das estatísticas
+                            recentes de visualizações de páginas para entender quais períodos geraram maior audiência.
+                        </li>
+                        <li class="mb-2"><strong>Últimos Comentários e Mensagens:</strong> Caixa de exibição com os
+                            comentários recentes aguardando moderação e as últimas solicitações de contato enviadas
+                            pelos leitores.</li>
+                        <li class="mb-2"><strong>Posts Pendentes:</strong> Área de acesso rápido para visualizar
+                            matérias produzidas por colaboradores e redatores parceiros que precisam ser revisadas por
+                            um editor antes de ir ao ar.</li>
+                    </ul>
+
+                    <div class="callout callout-info">
+                        <div class="callout-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10" />
+                                <line x1="12" y1="16" x2="12" y2="12" />
+                                <line x1="12" y1="8" x2="12.01" y2="8" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="fw-bold">Visualização Personalizada</h4>
+                            <p class="mb-0">As opções de menu exibidas no menu lateral do Painel Administrativo mudam de
+                                acordo com o nível de permissão da sua conta (Administrador, Editor, Moderador, Autor ou
+                                Colaborador). Se alguma das opções a seguir não estiver visível, entre em contato com o
+                                administrador do site para verificar as regras do seu papel.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="section-separator"></div>
+
+                <!-- NAVEGAÇÃO E PÁGINAS -->
+                <section id="navegacao_paginas" class="mb-5">
+                    <h2 class="h2 mb-4 fw-bold">Menus e Páginas</h2>
+                    <p class="mb-4">
+                        O gerenciamento visual das seções fixas do site e das páginas informativas pode ser feito
+                        diretamente pelos menus de controle:
+                    </p>
+
+                    <h3 class="h5 fw-bold mb-3 text-dark mt-4">1. Menu e Navegação</h3>
+                    <p class="mb-4">
+                        Este construtor permite montar o menu principal exibido no cabeçalho do portal de maneira
+                        visual:
+                    </p>
+                    <ul class="mb-4" style="line-height: 1.8;">
+                        <li class="mb-2"><strong>Adicionar Links:</strong> Adicione novos botões apontando para links
+                            externos, páginas internas específicas ou categorias de posts.</li>
+                        <li class="mb-2"><strong>Ordenação Arrastar e Soltar (Drag & Drop):</strong> Altere a ordem de
+                            exibição dos links apenas clicando e arrastando-os para cima ou para baixo. Para criar um
+                            menu suspenso (submenu), arraste o item levemente para a direita sob um item pai.</li>
+                        <li class="mb-2"><strong>Mega Menu:</strong> Tópicos de categorias principais podem ser
+                            definidos como "Mega Menu". Quando o leitor passa o mouse sobre esse item na página inicial,
+                            o menu exibe automaticamente miniaturas e links das últimas postagens daquela categoria.
+                        </li>
+                    </ul>
+
+                    <h3 class="h5 fw-bold mb-3 text-dark mt-5">2. Páginas Estáticas</h3>
+                    <p class="mb-4">
+                        A seção de <strong>Páginas</strong> serve para criar textos de leitura contínua que não
+                        pertencem ao feed de notícias, como "Sobre Nós", "Contato", "Política de Privacidade" e "Termos
+                        de Serviço".
+                    </p>
+                    <div class="p-4 bg-light rounded border border-light-subtle">
+                        <h6 class="fw-bold text-dark mb-2">Campos Principais de Páginas:</h6>
+                        <ul class="mb-0 ps-3">
+                            <li class="mb-2"><strong>Título e Conteúdo:</strong> Editor de texto completo para
+                                formatação e inserção de imagens explicativas.</li>
+                            <li class="mb-2"><strong>Controles de Visibilidade:</strong> Caixa de marcação para definir
+                                se o link da página recém-criada deve ser exibido automaticamente no menu do topo, no
+                                menu do rodapé ou mantido apenas via link direto.</li>
+                            <li><strong>Otimização de Buscas (SEO):</strong> Definição personalizada de Título da Aba
+                                (Meta Title) e descrição resumida para listagem no Google.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <div class="section-separator"></div>
+
+                <!-- ADICIONAR PUBLICAÇÃO -->
+                <section id="adicionar_post" class="mb-5">
+                    <h2 class="h2 mb-4 fw-bold">Criar Publicação</h2>
+                    <p class="mb-4">
+                        O módulo de publicação é a engrenagem principal de geração de conteúdo do seu portal. Todos os
+                        tipos de publicações compartilham um conjunto de regras fundamentais localizadas no formulário
+                        principal e na barra lateral direita.
+                    </p>
+
+                    <h3 class="h5 fw-bold mb-4 text-dark">Configurações Gerais de Postagem</h3>
+                    <div class="premium-table-wrapper mb-5">
+                        <table class="premium-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 25%;">Grupo de Configurações</th>
+                                    <th>Campos e Utilização Prática</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong class="text-dark">Informações do Texto</strong></td>
+                                    <td>
+                                        <ul class="mb-0 ps-3">
+                                            <li class="mb-2"><strong>Título & Slug:</strong> A manchete da matéria. O
+                                                campo "Slug" é o endereço URL do post gerado automaticamente, mas você
+                                                pode editá-lo para deixá-lo mais amigável.</li>
+                                            <li class="mb-2"><strong>Resumo / Excerpt:</strong> Uma pequena introdução
+                                                da notícia de 1 a 2 frases que aparece nos cartões da página inicial e
+                                                nos resultados de busca do Google.</li>
+                                            <li class="mb-2"><strong>Tags:</strong> Palavras-chave associadas (ex:
+                                                "Tecnologia", "Futebol"). Digite o termo e aperte Enter.</li>
+                                            <li class="mb-2"><strong>Editor de Conteúdo:</strong> Área de digitação.
+                                                Conta com o botão <strong>Escritor IA</strong> para sugerir ou completar
+                                                trechos de texto utilizando inteligência artificial, e o botão
+                                                <strong>Adicionar Imagem</strong> para inserir fotos internas
+                                                diretamente do Gerenciador de Arquivos.
+                                            </li>
+                                            <li><strong>Anexos:</strong> Envie arquivos que os leitores podem baixar
+                                                (manuais em PDF, planilhas, arquivos compactados ZIP). O sistema criará
+                                                botões de download atraentes na página final.</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong class="text-dark">Imagem de Destaque (Capa)</strong></td>
+                                    <td>
+                                        <ul class="mb-0 ps-3">
+                                            <li class="mb-2"><strong>Selecionar Capa:</strong> Escolha a imagem de
+                                                miniatura que representará o post em todo o site.</li>
+                                            <li class="mb-2"><strong>URL de Imagem Externa:</strong> Caso não queira
+                                                fazer upload do arquivo para o seu servidor, você pode colar o link
+                                                direto de uma imagem hospedada externamente.</li>
+                                            <li><strong>Legenda da Capa:</strong> Texto que aparecerá impresso logo
+                                                abaixo da imagem na página do post.</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong class="text-dark">Destaques e Visibilidade</strong></td>
+                                    <td>
+                                        Opções na barra lateral para fixar o post em locais estratégicos:
+                                        <ul class="mb-0 mt-2 ps-3">
+                                            <li class="mb-2"><strong>Slider Principal:</strong> Envia o post para o
+                                                carrossel de fotos rotativo no topo do site. Você pode definir o número
+                                                de ordem para ajustar a sequência visual.</li>
+                                            <li class="mb-2"><strong>Notícia de Última Hora (Breaking News):</strong>
+                                                Coloca o post no letreiro de notícias urgentes do portal.</li>
+                                            <li><strong>Recomendados:</strong> Exibe a matéria no bloco lateral ou
+                                                inferior de recomendações de leitura.</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong class="text-dark">Agendamento e Acesso</strong></td>
+                                    <td>
+                                        <ul class="mb-0 ps-3">
+                                            <li class="mb-2"><strong>Publicação Agendada:</strong> Ative e utilize o
+                                                calendário para programar o dia e horário que o post deve ir ao ar de
+                                                forma automatizada.</li>
+                                            <li class="mb-2"><strong>Restringir a Leitores Cadastrados:</strong> Oculta
+                                                o post para visitantes anônimos, exigindo a criação de uma conta
+                                                gratuita para liberar a leitura.</li>
+                                            <li><strong>Post Premium ou Exclusivo:</strong> Define o post como conteúdo
+                                                pago. Leitores precisam ter uma assinatura premium ativa ou realizar o
+                                                pagamento único do valor estipulado no campo de preço para ler o artigo.
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <div class="section-separator"></div>
+
+                <!-- FORMATOS DE POST -->
+                <section id="formatos_post" class="mb-5">
+                    <h2 class="h2 mb-4 fw-bold">Formatos de Post</h2>
+                    <p class="mb-4">
+                        O DevStudio CMS disponibiliza 11 formatos especializados de postagem para dinamizar o seu portal
+                        de notícias. Abaixo estão listadas as características e campos específicos de cada formato.
+                    </p>
+
+                    <!-- Artigo -->
+                    <section class="nested-section">
+                        <div class="d-flex align-items-center gap-3 mb-4">
+                            <div class="p-2 bg-light rounded border border-light-subtle text-accent-color shadow-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5">
+                                    </path>
+                                    <path
+                                        d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h4 class="h5 fw-bold m-0 text-dark">Artigo</h4>
+                        </div>
+                        <p class="mb-4">O formato básico e ideal para notícias tradicionais, comunicados cotidianos e
+                            textos opinativos.</p>
+                        <div class="p-4 bg-light rounded border border-light-subtle">
+                            <h6 class="fw-bold text-dark mb-2">Recurso Adicional: Galeria de Imagens na Capa</h6>
+                            <p class="mb-0">Ao rolar até o painel de imagens na criação do Artigo, utilize a opção
+                                "Imagens Adicionais" para enviar várias fotos. O sistema criará automaticamente um
+                                carrossel deslizante interativo para os leitores folhearem as imagens no topo da
+                                publicação.</p>
+                        </div>
+                    </section>
+
+                    <!-- Galeria -->
+                    <section class="nested-section">
+                        <div class="d-flex align-items-center gap-3 mb-4">
+                            <div class="p-2 bg-light rounded border border-light-subtle text-accent-color shadow-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    viewBox="0 0 16 16">
+                                    <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"></path>
+                                    <path
+                                        d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2M14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1M2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h4 class="h5 fw-bold m-0 text-dark">Galeria</h4>
+                        </div>
+                        <p class="mb-4">Projetado para posts baseados em álbuns e contações de histórias por imagem,
+                            onde o leitor avança usando os botões "Anterior" e "Próximo".</p>
+                        <div class="p-4 bg-light rounded border border-light-subtle">
+                            <h6 class="fw-bold text-dark mb-2">Estrutura de Itens da Galeria:</h6>
+                            <p class="mb-0">Em vez de escrever todo o texto na caixa de edição principal, crie "Itens da
+                                Lista". Cada item exige um Título, uma Imagem específica e uma descrição de conteúdo
+                                formatada. No painel público, o leitor visualizará apenas uma imagem e seu texto
+                                correspondente por vez, tendo que clicar nos botões de navegação para avançar no álbum.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- Lista Ordenada -->
+                    <section class="nested-section">
+                        <div class="d-flex align-items-center gap-3 mb-4">
+                            <div class="p-2 bg-light rounded border border-light-subtle text-accent-color shadow-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5">
+                                    </path>
+                                    <path
+                                        d="M1.713 11.865v-.474H2c.217 0 .363-.137.363-.317 0-.185-.158-.31-.361-.31-.223 0-.367.152-.373.31h-.59c.016-.467.373-.787.986-.787.588-.002.954.291.957.703a.595.595 0 0 1-.492.594v.033a.615.615 0 0 1 .569.631c.003.533-.502.8-1.051.8-.656 0-1-.37-1.008-.794h.582c.008.178.186.306.422.309.254 0 .424-.145.422-.35-.002-.195-.155-.348-.414-.348h-.3zm-.004-4.699h-.604v-.035c0-.408.295-.844.958-.844.583 0 .96.326.96.756 0 .389-.257.617-.476.848l-.537.572v.03h1.054V9H1.143v-.395l.957-.99c.138-.142.293-.304.293-.508 0-.18-.147-.32-.342-.32a.33.33 0 0 0-.342.338zM2.564 5h-.635V2.924h-.031l-.598.42v-.567l.629-.443h.635z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h4 class="h5 fw-bold m-0 text-dark">Lista Ordenada</h4>
+                        </div>
+                        <p class="mb-4">Perfeito para artigos que listam itens de forma sequencial (ex: "As 10 Melhores
+                            Praias de 2026").</p>
+                        <div class="p-4 bg-light rounded border border-light-subtle">
+                            <h6 class="fw-bold text-dark mb-2">Exibição em Pilha Vertical:</h6>
+                            <p class="mb-0">Embora a criação dos itens funcione de forma idêntica à Galeria (com campos
+                                individuais de título, imagem e texto para cada item), a Lista Ordenada empilha o
+                                conteúdo verticalmente na página. Cada item recebe uma numeração automatizada de
+                                destaque (ex: 1, 2, 3...) para facilitar a leitura contínua.</p>
+                        </div>
+                    </section>
+
+                    <!-- Tabela de Conteúdos -->
+                    <section class="nested-section">
+                        <div class="d-flex align-items-center gap-3 mb-4">
+                            <div class="p-2 bg-light rounded border border-light-subtle text-accent-color shadow-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z">
+                                    </path>
+                                    <path
+                                        d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h4 class="h5 fw-bold m-0 text-dark">Tabela de Conteúdos (Anchor Links)</h4>
+                        </div>
+                        <p class="mb-4">Estrutura recomendada para tutoriais e artigos extremamente longos, onde é
+                            gerado um sumário interativo no início do texto.</p>
+                        <div class="p-4 bg-light rounded border border-light-subtle">
+                            <h6 class="fw-bold text-dark mb-2">Como Funciona o Aninhamento:</h6>
+                            <p class="mb-0">Ao criar os itens deste post, você pode marcar um item como pertencente a
+                                outro (Item Filho). Isso permite montar um sumário indexado em até 3 níveis. O leitor
+                                pode clicar em qualquer link do sumário para ser deslocado suavemente direto para a
+                                respectiva seção do artigo.</p>
+                        </div>
+                    </section>
+
+                    <!-- Vídeo -->
+                    <section class="nested-section">
+                        <div class="d-flex align-items-center gap-3 mb-4">
+                            <div class="p-2 bg-light rounded border border-light-subtle text-accent-color shadow-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16">
+                                    </path>
+                                    <path
+                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h4 class="h5 fw-bold m-0 text-dark">Vídeo</h4>
+                        </div>
+                        <p class="mb-4">Insere um player de vídeo em destaque na postagem.</p>
+                        <div class="p-4 bg-light rounded border border-light-subtle">
+                            <h6 class="fw-bold text-dark mb-2">Importação e Envio de Mídia:</h6>
+                            <p class="mb-0">Você pode adicionar o vídeo colando um link público (do
+                                YouTube, Vimeo ou DailyMotion) e clicando em <strong>Buscar Vídeo</strong> (o sistema
+                                obterá automaticamente o código do player e a foto de capa).</p>
+                        </div>
+                    </section>
+
+                    <!-- Áudio -->
+                    <section class="nested-section">
+                        <div class="d-flex align-items-center gap-3 mb-4">
+                            <div class="p-2 bg-light rounded border border-light-subtle text-accent-color shadow-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13s1.12-2 2.5-2 2.5.896 2.5 2m9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2">
+                                    </path>
+                                    <path fill-rule="evenodd" d="M14 11V2h1v9zM6 3v10H5V3z"></path>
+                                    <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4z"></path>
+                                </svg>
+                            </div>
+                            <h4 class="h5 fw-bold m-0 text-dark">Áudio</h4>
+                        </div>
+                        <p class="mb-4">Ideal para canais de podcast, leituras de notícias por áudio ou postagens sobre
+                            música.</p>
+                        <div class="p-4 bg-light rounded border border-light-subtle">
+                            <h6 class="fw-bold text-dark mb-2">Geração de Playlists Integradas:</h6>
+                            <p class="mb-0">Permite selecionar um ou mais arquivos de áudio (MP3, WAV ou OGG) do
+                                Gerenciador de Mídia. O sistema monta automaticamente um painel reprodutor de áudio com
+                                lista de faixas para o leitor escutar direto no site.</p>
+                        </div>
+                    </section>
+
+                    <!-- Quiz de Trivia -->
+                    <section class="nested-section">
+                        <div class="d-flex align-items-center gap-3 mb-4">
+                            <div class="p-2 bg-light rounded border border-light-subtle text-accent-color shadow-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M2 10h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1m9-9h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-3a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1m0 9a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1zm0-10a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM2 9a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2zm7 2a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-3a2 2 0 0 1-2-2zM0 2a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm5.354.854a.5.5 0 1 0-.708-.708L3 3.793l-.646-.647a.5.5 0 1 0-.708.708l1 1a.5.5 0 0 0 .708 0z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h4 class="h5 fw-bold m-0 text-dark">Quiz de Trivia</h4>
+                        </div>
+                        <p class="mb-4">Um jogo de perguntas e respostas objetivas para testar os conhecimentos do
+                            leitor.</p>
+                        <div class="row g-3">
+                            <div class="col-12 col-md-6">
+                                <div class="p-3 border rounded bg-white">
+                                    <strong>Perguntas e Resposta Correta:</strong> Adicione as perguntas, escolha o
+                                    formato de exibição visual (Grade de Imagens, Lista de Texto ou Imagem Grande) e
+                                    marque obrigatoriamente qual alternativa é a <strong>Correta</strong>.
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="p-3 border rounded bg-white">
+                                    <strong>Intervalo de Resultados:</strong> Configure o resultado exibido com base na
+                                    quantidade de acertos (ex: se o leitor acertar de 0 a 3 respostas, exibe o cartão
+                                    "Iniciante", se acertar de 8 a 10, exibe "Expert").
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Quiz de Personalidade -->
+                    <section class="nested-section">
+                        <div class="d-flex align-items-center gap-3 mb-4">
+                            <div class="p-2 bg-light rounded border border-light-subtle text-accent-color shadow-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M7 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zM2 1a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm0 8a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2zm.854-3.646a.5.5 0 0 1-.708 0l-1-1a.5.5 0 1 1 .708-.708l.646.647 1.646-1.647a.5.5 0 1 1 .708.708zm0 8a.5.5 0 0 1-.708 0l-1-1a.5.5 0 0 1 .708-.708l.646.647 1.646-1.647a.5.5 0 0 1 .708.708zM7 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h4 class="h5 fw-bold m-0 text-dark">Quiz de Personalidade</h4>
+                        </div>
+                        <p class="mb-4">Crie testes divertidos sem respostas certas ou erradas (ex: "Com qual personagem
+                            você mais se parece?").</p>
+                        <div class="p-4 bg-light rounded border border-light-subtle">
+                            <h6 class="fw-bold text-dark mb-2">Primeiro os Resultados, depois as Perguntas:</h6>
+                            <p class="mb-0"><strong>Dica operacional:</strong> Cadastre primeiro todos os perfis de
+                                resultados possíveis no bloco "Resultados". Depois, ao formular as perguntas e
+                                alternativas de resposta, use a caixa de seleção para vincular cada resposta a um
+                                resultado específico. Ao jogar, o sistema contabilizará os votos e mostrará o resultado
+                                que obteve maior afinidade.</p>
+                        </div>
+                    </section>
+
+                    <!-- Enquete (Poll) -->
+                    <section class="nested-section">
+                        <div class="d-flex align-items-center gap-3 mb-4">
+                            <div class="p-2 bg-light rounded border border-light-subtle text-accent-color shadow-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.5 15a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5m9-9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5m0 9a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5M16 3.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m-9 9a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m5.5 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m-9-11a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m0 2a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h4 class="h5 fw-bold m-0 text-dark">Enquete</h4>
+                        </div>
+                        <p class="mb-4">Uma votação rápida para interagir com o público e descobrir as preferências da
+                            comunidade.</p>
+                        <div class="p-4 bg-light rounded border border-light-subtle">
+                            <h6 class="fw-bold text-dark mb-2">Opções de Controle de Votação:</h6>
+                            <p class="mb-0">Nas opções de criação, defina se a enquete é aberta a qualquer visitante ou
+                                fechada apenas para leitores autenticados (evita a manipulação de resultados e robôs de
+                                voto). As opções de resposta da enquete podem ser exibidas como texto simples, miniatura
+                                de foto ou cartões visuais amplos.</p>
+                        </div>
+                    </section>
+
+                    <!-- Receita -->
+                    <section class="nested-section">
+                        <div class="d-flex align-items-center gap-3 mb-4">
+                            <div class="p-2 bg-light rounded border border-light-subtle text-accent-color shadow-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z">
+                                    </path>
+                                    <path d="M6 17h12"></path>
+                                </svg>
+                            </div>
+                            <h4 class="h5 fw-bold m-0 text-dark">Receita</h4>
+                        </div>
+                        <p class="mb-4">Layout exclusivo e rico em dados estruturados para a publicação de dicas de
+                            culinária e receitas.</p>
+                        <div class="row g-3">
+                            <div class="col-12 col-md-4">
+                                <div class="p-3 border rounded bg-white h-100">
+                                    <strong>Informações Básicas:</strong> Campos dedicados a registrar o Tempo de
+                                    Preparo, Tempo de Cozimento, Rendimento (porções) e Nível de Dificuldade (Fácil,
+                                    Médio ou Avançado).
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="p-3 border rounded bg-white h-100">
+                                    <strong>Listas de Ingredientes:</strong> Insira os itens individualmente na lista
+                                    dinâmica de ingredientes e inclua também os dados de tabela nutricional.
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="p-3 border rounded bg-white h-100">
+                                    <strong>Modo de Preparo:</strong> Monte o passo a passo em ordem lógica. Cada passo
+                                    suporta um título curto, texto descritivo e uma imagem demonstrativa do andamento.
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Evento -->
+                    <section class="nested-section mb-0">
+                        <div class="d-flex align-items-center gap-3 mb-4">
+                            <div class="p-2 bg-light rounded border border-light-subtle text-accent-color shadow-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M8 2v4"></path>
+                                    <path d="M16 2v4"></path>
+                                    <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                                    <path d="M3 10h18"></path>
+                                    <path d="M8 14h.01"></path>
+                                    <path d="M12 14h.01"></path>
+                                    <path d="M16 14h.01"></path>
+                                    <path d="M8 18h.01"></path>
+                                    <path d="M12 18h.01"></path>
+                                    <path d="M16 18h.01"></path>
+                                </svg>
+                            </div>
+                            <h4 class="h5 fw-bold m-0 text-dark">Evento</h4>
+                        </div>
+                        <p class="mb-4">Ideal para anunciar shows, webinários, congressos ou encontros, agregando
+                            formulários de inscrição e mapas de localização.</p>
+                        <div class="p-4 bg-light rounded border border-light-subtle">
+                            <h6 class="fw-bold text-dark mb-2">Configuração de Inscrição e Detalhes do Evento:</h6>
+                            <ul class="mb-0 ps-3">
+                                <li class="mb-2"><strong>Data e Endereço:</strong> Defina o período de realização e o
+                                    local. A busca integrada por mapas permite digitar o endereço e puxar as coordenadas
+                                    exatas da localização.</li>
+                                <li class="mb-2"><strong>Agenda & Palestrantes:</strong> Construtores dinâmicos para
+                                    montar o cronograma de horários e cadastrar as fotos/nomes dos convidados
+                                    principais.</li>
+                                <li><strong>Formas de Registro:</strong> Redirecione o usuário para uma plataforma de
+                                    venda externa de ingressos ou ative a <strong>Inscrição Interna</strong>. Nela, você
+                                    pode limitar as vagas, estipular a data final de inscrição e cadastrar campos extras
+                                    no formulário (ex: telefone ou empresa).</li>
+                            </ul>
+                        </div>
+                    </section>
+                </section>
+
+                <div class="section-separator"></div>
+
+                <!-- GERENCIAR POSTS -->
+                <section id="posts_gerenciamento" class="mb-5">
+                    <h2 class="h2 mb-4 fw-bold">Gerenciar Posts</h2>
+                    <p class="mb-4">
+                        O gerenciamento diário das suas publicações é feito de forma simples pela tela
+                        <strong>Posts</strong> no menu lateral:
+                    </p>
+                    <ul class="mb-4" style="line-height: 1.8;">
+                        <li class="mb-2"><strong>Filtros Rápidos:</strong> Localize publicações filtrando por Autor,
+                            Categoria, Idioma, ou filtre para listar apenas posts Pendentes, Agendados, Rascunhos ou
+                            Excluídos.</li>
+                        <li class="mb-2"><strong>Edição Rápida:</strong> Clique sobre o título de qualquer post da lista
+                            para abrir o formulário de modificação de conteúdo, imagens ou tags.</li>
+                        <li class="mb-2"><strong>Aprovação de Matérias:</strong> Se você atua como Editor ou
+                            Administrador, revise posts pendentes criados por Redatores no bloco "Pending Posts". Você
+                            pode aprová-los para irei ao ar imediatamente ou retornar ao rascunho com observações.</li>
+                    </ul>
+                </section>
+
+                <div class="section-separator"></div>
+
+                <!-- CANAIS RSS -->
+                <section id="rss_feeds" class="mb-5">
+                    <h2 class="h2 mb-4 fw-bold">Canais RSS</h2>
+                    <p class="mb-4">
+                        O agregador de RSS permite importar automaticamente notícias de outras fontes externas de
+                        confiança para alimentar o seu site.
+                    </p>
+                    <div class="p-4 bg-light rounded border border-light-subtle">
+                        <h6 class="fw-bold text-dark mb-2">Adicionar Novo Canal de RSS:</h6>
+                        <ul class="mb-0 ps-3">
+                            <li class="mb-2"><strong>URL do Feed:</strong> Insira o link do canal XML RSS da fonte
+                                externa.</li>
+                            <li class="mb-2"><strong>Categoria de Destino:</strong> Indique em qual categoria do seu
+                                site as notícias importadas desse canal devem ser postadas.</li>
+                            <li class="mb-2"><strong>Controle de Imagens:</strong> Defina se o sistema deve tentar
+                                buscar a imagem principal do post original ou usar uma imagem padrão definida por você.
+                            </li>
+                            <li><strong>Moderação Automática:</strong> Configure se os posts importados vão ao ar
+                                imediatamente de forma ativa ou se entram como rascunhos para serem revisados pela sua
+                                equipe editorial antes da publicação.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <div class="section-separator"></div>
+
+                <!-- CATEGORIAS E TAGS -->
+                <section id="categorias_tags" class="mb-5">
+                    <h2 class="h2 mb-4 fw-bold">Categorias e Tags</h2>
+                    <p class="mb-4">
+                        A organização estruturada do conteúdo garante que os leitores encontrem facilmente o que
+                        procuram no seu portal.
+                    </p>
+
+                    <h3 class="h5 fw-bold mb-3 text-dark mt-4">1. Categorias Aninhadas</h3>
+                    <p class="mb-4">
+                        As categorias estruturam o portal de forma hierárquica (Categoria Pai > Categoria Filho >
+                        Categoria Neto):
+                    </p>
+                    <ul class="mb-4" style="line-height: 1.8;">
+                        <li class="mb-2"><strong>Hierarquia Infinita:</strong> Crie subcategorias para nichos
+                            específicos (ex: Esportes > Futebol > Liga dos Campeões) selecionando a categoria mãe
+                            desejada no campo "Parent Category".</li>
+                        <li class="mb-2"><strong>Configurações de SEO:</strong> Defina um título exclusivo e uma
+                            descrição meta curta para cada categoria para ajudar no ranqueamento orgânico das listagens.
+                        </li>
+                    </ul>
+
+                    <h3 class="h5 fw-bold mb-3 text-dark mt-5">2. Gerenciamento de Tags</h3>
+                    <p class="mb-4">
+                        As tags são palavras-chave livres criadas pelos redatores no momento da publicação. No menu
+                        lateral, você pode ver todas as tags criadas, renomear termos incorretos ou excluir palavras
+                        duplicadas ou impróprias para manter a base limpa.
+                    </p>
+                </section>
+
+                <div class="section-separator"></div>
+
+                <!-- MÍDIA E GALERIA -->
+                <section id="midia_galeria" class="mb-5">
+                    <h2 class="h2 mb-4 fw-bold">Mídia e Galeria</h2>
+                    <p class="mb-4">
+                        A plataforma centraliza todo o gerenciamento de arquivos em um gerenciador único, tornando mais
+                        rápida a reutilização de fotos e mídias sem gastar espaço extra em disco.
+                    </p>
+                    <ul class="mb-4" style="line-height: 1.8;">
+                        <li class="mb-2"><strong>Gerenciador de Arquivos (File Manager):</strong> Ao criar qualquer
+                            post, o botão de inserção de imagens abre uma janela flutuante para você fazer upload de
+                            novas imagens ou navegar pelas fotos que já foram enviadas anteriormente no servidor.</li>
+                        <li class="mb-2"><strong>Otimização Automática para WebP:</strong> O portal converte as imagens
+                            enviadas para o moderno formato WebP, reduzindo consideravelmente o peso dos arquivos e
+                            deixando o carregamento do site muito mais rápido para conexões móveis.</li>
+                        <li class="mb-2"><strong>Página de Galeria:</strong> Área pública para exibir álbuns de fotos e
+                            coberturas visuais de eventos diretamente aos seus leitores.</li>
+                    </ul>
+                </section>
+
+                <div class="section-separator"></div>
+
+                <!-- WIDGETS E ENQUETES -->
+                <section id="widgets_enquetes" class="mb-5">
+                    <h2 class="h2 mb-4 fw-bold">Widgets e Enquetes</h2>
+                    <p class="mb-4">
+                        Adicione blocos complementares na barra lateral (sidebar) das suas páginas públicas para
+                        aumentar o tempo de permanência dos leitores no site.
+                    </p>
+
+                    <h3 class="h5 fw-bold mb-3 text-dark mt-4">1. Widgets da Barra Lateral</h3>
+                    <p class="mb-4">
+                        Gerencie os blocos exibidos ao lado das notícias sem precisar mexer em códigos. Você pode
+                        configurar:
+                    </p>
+                    <ul class="mb-4" style="line-height: 1.8;">
+                        <li class="mb-2"><strong>Widgets do Sistema:</strong> Ative blocos pré-programados como "Últimas
+                            Publicações", "Posts Populares", "Categorias Recentes", "Nuvem de Tags", "Enquetes Ativas"
+                            ou "Galeria Rápida".</li>
+                        <li class="mb-2"><strong>Widgets Personalizados:</strong> Insira códigos HTML, banners de
+                            parceiros ou textos formatados criados por você para exibição livre.</li>
+                    </ul>
+
+                    <h3 class="h5 fw-bold mb-3 text-dark mt-5">2. Enquetes Rápidas</h3>
+                    <p class="mb-4">
+                        Diferente do formato de postagem de enquete, a seção de Enquetes no menu lateral serve para
+                        criar enquetes rápidas de perguntas curtas que ficam ativas permanentemente no widget da barra
+                        lateral de todas as páginas do site.
+                    </p>
+                </section>
+
+                <div class="section-separator"></div>
+
+                <!-- COMENTÁRIOS E CONTATOS -->
+                <section id="comentarios_contatos" class="mb-5">
+                    <h2 class="h2 mb-4 fw-bold">Comentários e Contatos</h2>
+                    <p class="mb-4">
+                        Gerencie a comunicação direta dos seus leitores com o seu portal:
+                    </p>
+
+                    <h3 class="h5 fw-bold mb-3 text-dark mt-4">1. Moderação de Comentários</h3>
+                    <p class="mb-4">
+                        Acompanhe tudo o que é postado na seção de comentários dos artigos. No painel, você pode aprovar
+                        novos comentários (se o modo de aprovação estiver ativo nas configurações gerais), denunciar
+                        spams ou excluir textos agressivos.
+                    </p>
+
+                    <h3 class="h5 fw-bold mb-3 text-dark mt-5">2. Mensagens de Contato</h3>
+                    <p class="mb-4">
+                        Toda mensagem enviada pelos leitores através do formulário "/contato" do portal cairá
+                        diretamente na sua caixa de entrada no painel de controle.
+                    </p>
+                    <div class="p-4 bg-light rounded border border-light-subtle">
+                        <h6 class="fw-bold text-dark mb-2">Responder Mensagens no Painel:</h6>
+                        <p class="mb-0">Ao abrir uma mensagem de contato recebida, você pode utilizar o campo de
+                            resposta integrado para digitar uma mensagem. O sistema enviará a resposta por e-mail
+                            diretamente ao remetente, registrando o histórico de atendimento no seu próprio painel
+                            administrativo.</p>
+                    </div>
+                </section>
+
+                <div class="section-separator"></div>
+
+                <!-- NEWSLETTER -->
+                <section id="newsletter" class="mb-5">
+                    <h2 class="h2 mb-4 fw-bold">Boletins (Newsletter)</h2>
+                    <p class="mb-4">
+                        Mantenha o seu público engajado enviando novidades, comunicados importantes ou um resumo das
+                        últimas notícias publicadas no site.
+                    </p>
+                    <ul class="mb-4" style="line-height: 1.8;">
+                        <li class="mb-2"><strong>Gerenciamento de Assinantes:</strong> Exiba a lista completa de
+                            leitores que se inscreveram para receber novidades por e-mail. Você pode adicionar e-mails
+                            manualmente, remover contatos ou exportar a lista para uso em ferramentas de marketing
+                            externas.</li>
+                        <li class="mb-2"><strong>Envio de Campanhas:</strong> Crie boletins interativos no editor do
+                            painel. Selecione se deseja enviar a campanha de e-mail para todos os contatos ou apenas
+                            para leitores específicos.</li>
+                        <li class="mb-2"><strong>Envio Automático de Posts:</strong> Configure a plataforma para
+                            disparar um e-mail automatizado para os assinantes sempre que uma nova matéria for publicada
+                            no portal.</li>
+                    </ul>
+                </section>
+
+                <div class="section-separator"></div>
+
+                <!-- ASSINATURA PREMIUM -->
+                <section id="premium_membership" class="mb-5">
+                    <h2 class="h2 mb-4 fw-bold text-dark">Assinatura Premium</h2>
+                    <p class="mb-4">
+                        O portal oferece um sistema nativo de monetização permitindo vender planos de assinatura de
+                        conteúdo premium ou acessos individuais a matérias especiais.
+                    </p>
+
+                    <h3 class="h5 fw-bold mb-3 text-dark mt-4">1. Planos de Assinatura</h3>
+                    <p class="mb-4">
+                        Crie planos com cobrança recorrente (ex: Mensal, Semestral ou Anual). O painel permite definir o
+                        preço, o período de validade do plano e dar um nome atrativo para a oferta.
+                    </p>
+
+                    <h3 class="h5 fw-bold mb-3 text-dark mt-5">2. Bloqueio de Conteúdo (Paywall)</h3>
+                    <p class="mb-4">
+                        Ao marcar qualquer postagem como "Premium", você pode escolher a forma como a restrição é
+                        exibida para leitores comuns:
+                    </p>
+                    <div class="row g-3 mb-4">
+                        <div class="col-12 col-md-4">
+                            <div class="p-3 border rounded bg-white h-100">
+                                <strong>Bloqueio Estrito:</strong> Oculta totalmente o texto do artigo, mostrando apenas
+                                uma mensagem avisando que é preciso assinar o plano para ter acesso.
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="p-3 border rounded bg-white h-100">
+                                <strong>Efeito Degradê (Fade-out):</strong> Exibe os primeiros parágrafos do artigo e
+                                depois oculta o restante com uma sobreposição degradê suave e o botão de compra.
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="p-3 border rounded bg-white h-100">
+                                <strong>Compra Individual (Pay-Per-Post):</strong> Permite ao leitor comprar o acesso
+                                vitalício a um artigo específico, sem precisar assinar um plano de assinatura mensal.
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="section-separator"></div>
+
+                <!-- ESPAÇOS DE ANÚNCIOS -->
+                <section id="espaco_anuncios" class="mb-5">
+                    <h2 class="h2 mb-4 fw-bold text-dark">Espaços de Anúncios</h2>
+                    <p class="mb-4">
+                        Insira banners de publicidade de forma responsiva para garantir que os blocos de anúncios nunca
+                        quebrem a estrutura visual do site em telas pequenas ou gerem rolagens horizontais
+                        desconfortáveis.
+                    </p>
+
+                    <h3 class="h5 fw-bold mb-3 text-dark mt-4">Banners Desktop vs. Banners Mobile</h3>
+                    <p class="mb-4">
+                        Cada espaço de anúncio disponível no painel possui duas caixas de entrada de código distintas.
+                        <strong>É muito importante configurar ambas</strong> ao colocar uma publicidade no ar:
+                    </p>
+
+                    <div class="premium-table-wrapper mb-4">
+                        <table class="premium-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 25%;">Campo de Cadastro</th>
+                                    <th>Função e Comportamento Visual</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Código para Desktop</strong></td>
+                                    <td>Insira o código do banner largo (ex: 728x90) que será mostrado apenas para telas
+                                        grandes de computadores e notebooks (larguras maiores que 992 pixels).</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Código para Celular</strong></td>
+                                    <td>Insira o código do banner compacto (ex: 300x250) que aparecerá apenas para
+                                        usuários acessando via celulares ou tablets pequenos (larguras menores que 992
+                                        pixels).</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Dimensões do Bloco</strong></td>
+                                    <td>Informe a largura e altura do anúncio para que a página reserve o espaço em
+                                        branco na tela enquanto o banner carrega, evitando saltos visuais na página.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Código do Anúncio</strong></td>
+                                    <td>Cole o código fornecido pelo parceiro anunciante ou pela sua rede de anúncios
+                                        (como blocos de banners do Google AdSense).</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="callout callout-warning">
+                        <div class="callout-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z" />
+                                <line x1="12" y1="9" x2="12" y2="13" />
+                                <line x1="12" y1="17" x2="12.01" y2="17" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="fw-bold">Resolução de Problemas: Anúncios em Branco</h4>
+                            <p class="mb-0">O sistema DevStudio CMS apenas repassa e exibe os códigos publicitários
+                                exatamente
+                                como foram gerados pela rede de anúncios. Se um banner estiver aparecendo em branco ou
+                                com erro, verifique diretamente no painel do seu provedor de anúncios (ex: Google
+                                AdSense) se a sua conta está ativa, com saldo ou se o bloco de anúncio ainda está em
+                                fase de aprovação.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="section-separator"></div>
+
+                <!-- SISTEMA DE RECOMPENSAS -->
+                <section id="sistema_recompensas" class="mb-5">
+                    <h2 class="h2 mb-4 fw-bold text-dark">Recompensas (Ganhos)</h2>
+                    <p class="mb-4">
+                        O sistema de Recompensas (Reward System) permite dividir a receita gerada por tráfego com os
+                        autores do site. Se habilitado, a plataforma calcula ganhos para os redatores parceiros com base
+                        na quantidade de visualizações geradas por seus posts.
+                    </p>
+
+                    <h3 class="h5 fw-bold mb-3 text-dark mt-4">1. Fluxo de Ganhos e Saques</h3>
+                    <p class="mb-4">
+                        A gestão dos saldos e transferências é feita de forma mista (cálculos automáticos combinados com
+                        pagamentos manuais executados pelo administrador do portal):
+                    </p>
+                    <ul class="mb-4" style="line-height: 1.8;">
+                        <li class="mb-2"><strong>Taxa de Ganhos:</strong> O administrador define nas configurações o
+                            valor a ser pago a cada <strong>1.000 visualizações válidas</strong> recebidas nas postagens
+                            de um autor.</li>
+                        <li class="mb-2"><strong>Acúmulo de Saldo:</strong> Conforme os posts do autor recebem visitas
+                            qualificadas de leitores humanos, o painel do autor acumula o saldo financeiro em tempo
+                            real.</li>
+                        <li class="mb-2"><strong>Solicitar Retirada:</strong> Quando o autor atinge o valor mínimo de
+                            resgate, ele preenche os dados da sua conta e faz um pedido de saque informando o meio
+                            preferido (PayPal, Bitcoin, IBAN ou SWIFT).</li>
+                        <li class="mb-2"><strong>Pagamento e Baixa:</strong> O administrador do portal realiza a
+                            transferência do dinheiro manualmente para a conta indicada e, em seguida, aprova a
+                            solicitação no painel para registrar a transação e deduzir o valor pago do saldo digital do
+                            autor.</li>
+                    </ul>
+
+                    <h3 class="h5 fw-bold mb-3 text-dark mt-5">2. Verificador Humano (Anti-Fraude)</h3>
+                    <p class="mb-4">
+                        Para evitar fraudes geradas por cliques repetidos ou robôs mal-intencionados que tentam inflar
+                        as estatísticas para roubar dinheiro do portal, o sistema conta com uma proteção baseada no
+                        comportamento do leitor:
+                    </p>
+                    <div class="premium-table-wrapper mb-4">
+                        <table class="premium-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 30%;">Regra de Comportamento</th>
+                                    <th>Como Funciona a Validação</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Tempo Mínimo na Página</strong></td>
+                                    <td>O visitante precisa passar um tempo mínimo na página do post para demonstrar
+                                        interesse de leitura real (ex: configurar pelo menos 10 a 15 segundos).</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Movimentação do Cursor</strong></td>
+                                    <td>O sistema detecta se o visitante realizou pelo menos uma movimentação de mouse
+                                        ou interação de toque na tela, separando cliques acidentais de leitores ativos.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Eventos de Rolagem</strong></td>
+                                    <td>O leitor deve rolar a página verticalmente para baixo para simular a leitura do
+                                        conteúdo do post de ponta a ponta.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="p-4 bg-light rounded border border-light-subtle">
+                        <h6 class="fw-bold text-dark mb-2">Exemplo Operacional:</h6>
+                        <p class="mb-0">Se o administrador configurar as regras como: 10 segundos mínimos de
+                            permanência, 1 movimento de mouse e 1 ação de rolagem, o clique no post só aumentará o saldo
+                            do autor se o visitante cumprir rigorosamente as três condições ao acessar o artigo. Caso
+                            contrário, a visita não é qualificada como humana.</p>
+                    </div>
+                </section>
+
+                <div class="section-separator"></div>
+
+                <!-- USUÁRIOS E CONQUISTAS -->
+                <section id="usuarios_badges" class="mb-5">
+                    <h2 class="h2 mb-4 fw-bold text-dark">Usuários e Conquistas</h2>
+                    <p class="mb-4">
+                        Controle os níveis de acesso e o reconhecimento dos membros do seu portal de notícias.
+                    </p>
+
+                    <h3 class="h5 fw-bold mb-3 text-dark mt-4">1. Papéis de Usuários</h3>
+                    <p class="mb-4">
+                        Ao criar ou editar contas de usuários, você pode atribuir regras de acesso específicas:
+                    </p>
+                    <ul class="mb-4" style="line-height: 1.8;">
+                        <li class="mb-2"><strong>Administrador:</strong> Possui acesso total e irrestrito a todas as
+                            configurações de visual, pagamentos, mídias e usuários do portal.</li>
+                        <li class="mb-2"><strong>Editor:</strong> Focado na moderação de conteúdos gerais. Pode
+                            gerenciar e publicar qualquer tipo de postagem pendente e modificar categorias.</li>
+                        <li class="mb-2"><strong>Moderador:</strong> Responsável apenas por avaliar e moderar os
+                            comentários feitos pelos leitores e receber e responder mensagens de contato.</li>
+                        <li class="mb-2"><strong>Autor:</strong> Pode escrever seus próprios posts através de um painel
+                            de autor simplificado. Seus posts vão ao ar diretamente e ele pode acumular saldos e
+                            pagamentos por tráfego.</li>
+                        <li class="mb-2"><strong>Colaborador:</strong> Escreve e edita seus próprios textos, mas estes
+                            entram sempre no modo pendente, precisando que um editor ou administrador aprove para ir ao
+                            ar.</li>
+                        <li class="mb-2"><strong>Leitor (User):</strong> Usuário final comum do portal que pode assinar
+                            planos premium, salvar favoritos na lista de leitura e comentar nos posts públicos.</li>
+                    </ul>
+
+                    <h3 class="h5 fw-bold mb-3 text-dark mt-5">2. Emblemas (Badges)</h3>
+                    <p class="mb-4">
+                        Crie selos visuais com desenhos e nomes customizados para estampar nos perfis dos usuários. Você
+                        pode usar emblemas para destacar e dar prestígio aos membros do seu portal, como selos de
+                        "Membro Premium", "Redator Verificado", "Leitor Fiel" ou "VIP". Os emblemas são anexados pelo
+                        painel na tela de edição do perfil do respectivo usuário.
+                    </p>
+                </section>
+
+                <div style="height: 150px;"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+
+        // Function to highlight text safely without breaking HTML tags
+        function highlightText(element, query) {
+            if (!query) return;
+
+            // Escape special characters in query for regex
+            const escapedQuery = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            const regex = new RegExp(`(${escapedQuery})`, 'gi');
+
+            // Walk through all text nodes inside the element
+            const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT, null, false);
+            let node;
+            const textNodes = [];
+
+            while ((node = walker.nextNode())) {
+                if (node.nodeValue.trim() !== '' && regex.test(node.nodeValue)) {
+                    textNodes.push(node);
+                }
+            }
+
+            // Replace matching text nodes with a span containing the <mark> tags
+            textNodes.forEach(n => {
+                const span = document.createElement('span');
+                span.className = 'highlight-wrapper';
+                span.innerHTML = n.nodeValue.replace(regex, '<mark class="search-highlight">$1</mark>');
+                n.parentNode.replaceChild(span, n);
+            });
+        }
+
+        // Function to remove existing highlights before a new search
+        function removeHighlights(container) {
+            const wrappers = container.querySelectorAll('.highlight-wrapper');
+            wrappers.forEach(wrapper => {
+                const parent = wrapper.parentNode;
+                parent.replaceChild(document.createTextNode(wrapper.textContent), wrapper);
+                parent.normalize(); // Merge adjacent text nodes back together
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const mainContent = document.getElementById('main-content');
+            const sections = document.querySelectorAll('.content-container > section[id]');
+            const navLinks = document.querySelectorAll('.sidebar-link');
+            const sidebarWrapper = document.getElementById('sidebar-wrapper');
+            const sidebarToggle = document.getElementById('sidebarToggle');
+
+            // Mobile Sidebar Toggle
+            if (sidebarToggle) {
+                sidebarToggle.addEventListener('click', () => {
+                    sidebarWrapper.classList.toggle('show');
+                });
+            }
+
+            document.addEventListener('click', (e) => {
+                if (window.innerWidth < 992 && sidebarWrapper.classList.contains('show')) {
+                    if (!sidebarWrapper.contains(e.target) && !sidebarToggle.contains(e.target)) {
+                        sidebarWrapper.classList.remove('show');
+                    }
+                }
+            });
+
+            // Smooth Scrolling
+            navLinks.forEach(link => {
+                link.addEventListener('click', function (e) {
+                    const href = this.getAttribute('href');
+                    if (href.startsWith('#')) {
+                        e.preventDefault();
+                        const targetElement = document.getElementById(href.substring(1));
+                        if (targetElement && mainContent) {
+                            if (window.innerWidth < 992) {
+                                sidebarWrapper.classList.remove('show');
+                            }
+                            mainContent.scrollTo({
+                                top: targetElement.offsetTop - 40,
+                                behavior: 'smooth'
+                            });
+                            history.pushState(null, null, href);
+                        }
+                    }
+                });
+            });
+
+            // Scrollspy
+            const observerOptions = {
+                root: mainContent,
+                rootMargin: '-80px 0px -60% 0px',
+                threshold: 0
+            };
+
+            const observerCallback = (entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const id = entry.target.id;
+                        navLinks.forEach(link => {
+                            link.classList.remove('active');
+                            if (link.getAttribute('href') === `#${id}`) {
+                                link.classList.add('active');
+                                const navContainer = document.querySelector('.sidebar-nav-container');
+                                const linkOffsetTop = link.offsetTop;
+                                if (linkOffsetTop > navContainer.scrollTop + navContainer.clientHeight - 50 || linkOffsetTop < navContainer.scrollTop) {
+                                    navContainer.scrollTo({
+                                        top: linkOffsetTop - 50,
+                                        behavior: 'smooth'
+                                    });
+                                }
+                            }
+                        });
+                    }
+                });
+            };
+
+            const observer = new IntersectionObserver(observerCallback, observerOptions);
+            sections.forEach(section => observer.observe(section));
+
+            if (navLinks.length > 0 && window.location.hash === '') {
+                navLinks[0].classList.add('active');
+            }
+
+            // Real-time Search Functionality
+            const searchInput = document.getElementById('searchInput');
+            const searchableSections = document.querySelectorAll('.content-container > section');
+            const sectionSeparators = document.querySelectorAll('.section-separator');
+
+            const noResultsMsg = document.createElement('div');
+            noResultsMsg.className = 'text-center py-5 d-none-search text-muted';
+            noResultsMsg.innerHTML = `
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="mb-3" style="opacity: 0.3;"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <h4 class="fw-bold text-dark">Nenhum resultado encontrado</h4>
+                <p>Não encontramos nenhum termo correspondente à sua pesquisa.</p>
+            `;
+            document.querySelector('.content-container').appendChild(noResultsMsg);
+
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase().trim();
+                let hasResults = false;
+
+                // Clear previous highlights from all sections first
+                removeHighlights(document.querySelector('.content-container'));
+
+                searchableSections.forEach((section, index) => {
+                    if (query === '') {
+                        section.classList.remove('d-none-search');
+                        if (sectionSeparators[index]) sectionSeparators[index].classList.remove('d-none-search');
+                        hasResults = true;
+                        return;
+                    }
+
+                    const text = section.textContent.toLowerCase();
+                    if (text.includes(query)) {
+                        section.classList.remove('d-none-search');
+                        if (sectionSeparators[index]) sectionSeparators[index].classList.remove('d-none-search');
+
+                        // Apply highlight to the visible section
+                        highlightText(section, query);
+
+                        hasResults = true;
+                    } else {
+                        section.classList.add('d-none-search');
+                        if (sectionSeparators[index]) sectionSeparators[index].classList.add('d-none-search');
+                    }
+                });
+
+                if (!hasResults && query !== '') {
+                    noResultsMsg.classList.remove('d-none-search');
+                } else {
+                    noResultsMsg.classList.add('d-none-search');
+                }
+
+                if (query !== '' && hasResults) {
+                    const firstHighlight = document.querySelector('.search-highlight');
+                    if (firstHighlight) {
+                        firstHighlight.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
+                }
+            });
+
+            // Keyboard Shortcut (Cmd+K or Ctrl+K)
+            document.addEventListener('keydown', (e) => {
+                if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+                    e.preventDefault();
+                    searchInput.focus();
+                }
+            });
+
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESTful API 测试工具</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+        }
+        
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+        
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        textarea {
+            min-height: 150px;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+        
+        .btn-secondary:hover {
+            background: #e0e0e0;
+        }
+        
+        .response-section {
+            margin-top: 30px;
+            border-top: 2px solid #e0e0e0;
+            padding-top: 30px;
+        }
+        
+        .response-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .status-badge {
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        
+        .status-success {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .status-error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .response-body {
+            background: #f8f9fa;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            overflow-x: auto;
+        }
+        
+        pre {
+            margin: 0;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        
+        .quick-tests {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        
+        .quick-tests h3 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .test-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
+        }
+        
+        .test-btn {
+            padding: 10px 15px;
+            background: white;
+            border: 2px solid #667eea;
+            color: #667eea;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 14px;
+        }
+        
+        .test-btn:hover {
+            background: #667eea;
+            color: white;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 RESTful API 测试工具</h1>
+            <p>测试 /api/v1/ 接口</p>
+        </div>
+        
+        <div class="content">
+            <div class="form-group">
+                <label for="baseUrl">Base URL:</label>
+                <input type="text" id="baseUrl" value="http://localhost/api/v1" placeholder="http://your-domain.com/api/v1">
+            </div>
+            
+            <div class="form-group">
+                <label for="endpoint">Endpoint:</label>
+                <input type="text" id="endpoint" value="/posts" placeholder="/posts, /categories, /users, etc.">
+            </div>
+            
+            <div class="form-group">
+                <label for="method">HTTP Method:</label>
+                <select id="method">
+                    <option value="GET">GET</option>
+                    <option value="POST">POST</option>
+                    <option value="PUT">PUT</option>
+                    <option value="PATCH">PATCH</option>
+                    <option value="DELETE">DELETE</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="authToken">Authorization Token (Bearer):</label>
+                <input type="text" id="authToken" placeholder="可选，输入JWT或API Token">
+            </div>
+            
+            <div class="form-group">
+                <label for="requestBody">Request Body (JSON):</label>
+                <textarea id="requestBody" placeholder='{"title": "Example", "content": "Content here"}'></textarea>
+            </div>
+            
+            <div class="button-group">
+                <button class="btn-primary" onclick="sendRequest()">发送请求</button>
+                <button class="btn-secondary" onclick="clearForm()">清空表单</button>
+            </div>
+            
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>正在发送请求...</p>
+            </div>
+            
+            <div class="response-section" id="responseSection" style="display: none;">
+                <div class="response-header">
+                    <h3>响应结果</h3>
+                    <span class="status-badge" id="statusBadge"></span>
+                </div>
+                <div class="response-body">
+                    <pre id="responseBody"></pre>
+                </div>
+            </div>
+            
+            <div class="quick-tests">
+                <h3>快速测试</h3>
+                <div class="test-grid">
+                    <button class="test-btn" onclick="quickTest('GET', '/posts')">获取文章列表</button>
+                    <button class="test-btn" onclick="quickTest('GET', '/posts/1')">获取单篇文章</button>
+                    <button class="test-btn" onclick="quickTest('GET', '/categories')">获取分类列表</button>
+                    <button class="test-btn" onclick="quickTest('GET', '/users')">获取用户列表</button>
+                    <button class="test-btn" onclick="quickTest('GET', '/posts/1/comments')">获取文章评论</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        async function sendRequest() {
+            const baseUrl = document.getElementById('baseUrl').value.trim();
+            const endpoint = document.getElementById('endpoint').value.trim();
+            const method = document.getElementById('method').value;
+            const authToken = document.getElementById('authToken').value.trim();
+            const requestBody = document.getElementById('requestBody').value.trim();
+            
+            if (!baseUrl || !endpoint) {
+                alert('请填写 Base URL 和 Endpoint');
+                return;
+            }
+            
+            const url = baseUrl + endpoint;
+            const headers = {
+                'Content-Type': 'application/json'
+            };
+            
+            if (authToken) {
+                headers['Authorization'] = 'Bearer ' + authToken;
+            }
+            
+            const options = {
+                method: method,
+                headers: headers
+            };
+            
+            if (requestBody && ['POST', 'PUT', 'PATCH'].includes(method)) {
+                try {
+                    options.body = JSON.stringify(JSON.parse(requestBody));
+                } catch (e) {
+                    alert('Request Body 不是有效的JSON格式');
+                    return;
+                }
+            }
+            
+            // 显示加载状态
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('responseSection').style.display = 'none';
+            
+            try {
+                const startTime = Date.now();
+                const response = await fetch(url, options);
+                const endTime = Date.now();
+                
+                const data = await response.json();
+                const responseTime = endTime - startTime;
+                
+                // 显示响应
+                displayResponse(response.status, data, responseTime);
+                
+            } catch (error) {
+                displayResponse(0, { error: error.message }, 0);
+            } finally {
+                document.getElementById('loading').style.display = 'none';
+            }
+        }
+        
+        function displayResponse(status, data, responseTime) {
+            const responseSection = document.getElementById('responseSection');
+            const statusBadge = document.getElementById('statusBadge');
+            const responseBody = document.getElementById('responseBody');
+            
+            responseSection.style.display = 'block';
+            
+            // 设置状态徽章
+            if (status >= 200 && status < 300) {
+                statusBadge.className = 'status-badge status-success';
+                statusBadge.textContent = `${status} OK (${responseTime}ms)`;
+            } else {
+                statusBadge.className = 'status-badge status-error';
+                statusBadge.textContent = `${status} Error (${responseTime}ms)`;
+            }
+            
+            // 格式化并显示响应数据
+            responseBody.textContent = JSON.stringify(data, null, 2);
+        }
+        
+        function quickTest(method, endpoint) {
+            document.getElementById('method').value = method;
+            document.getElementById('endpoint').value = endpoint;
+            document.getElementById('requestBody').value = '';
+            sendRequest();
+        }
+        
+        function clearForm() {
+            document.getElementById('endpoint').value = '/posts';
+            document.getElementById('method').value = 'GET';
+            document.getElementById('authToken').value = '';
+            document.getElementById('requestBody').value = '';
+            document.getElementById('responseSection').style.display = 'none';
+        }
+        
+        // 支持Ctrl+Enter发送请求
+        document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey && e.key === 'Enter') {
+                sendRequest();
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,440 @@
+#fileManagerModal .fm-body {
+    display: flex;
+    flex-direction: column;
+}
+
+#fileManagerModal .fm-search-bar-wrapper {
+    position: relative;
+    flex-grow: 1;
+    width: 150px;
+}
+
+#fileManagerModal .fm-search-bar-wrapper .form-control {
+    border-radius: 0.463rem;
+    padding-left: 2.75rem;
+}
+
+#fileManagerModal .fm-search-bar-wrapper .fm-search-icon {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    color: #6c757d;
+    pointer-events: none;
+}
+
+#fileManagerModal .fm-upload-panel {
+    margin-bottom: 2rem;
+}
+
+#fileManagerModal .fm-dropzone-placeholder {
+    border: 2px dashed var(--bs-gray-300);
+    border-radius: 0.75rem;
+    padding: 2rem;
+    background-color: var(--bs-light);
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+#fileManagerModal .fm-dropzone-placeholder:hover {
+    border-color: var(--bs-primary-active);
+}
+
+#fileManagerModal .fm-dropzone-placeholder i {
+    font-size: 3rem;
+    color: #0d6efd;
+}
+
+#fileManagerModal .fm-btn-upload.active {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+#fileManagerModal .fm-grid-view .fm-file-item {
+    border: 1px solid var(--bs-gray-200);
+    border-radius: 0.463rem;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.1s ease-out;
+    position: relative;
+    overflow: hidden;
+    user-select: none;
+}
+
+#fileManagerModal .fm-grid-view .fm-file-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.07);
+}
+
+#fileManagerModal .fm-file-item-thumbnail {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 5 / 4;
+    overflow: hidden;
+    background-color: var(--bs-gray-100);
+}
+
+#fileManagerModal .fm-file-thumbnail-grid {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#fileManagerModal .fm-file-icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+#fileManagerModal .fm-file-icon-wrapper .bi {
+    font-size: 3.5rem;
+    line-height: 1;
+    color: #6c757d;
+}
+
+#fileManagerModal .fm-file-icon-wrapper i.bi-file-earmark-pdf {
+    color: #dc2626;
+}
+
+#fileManagerModal .fm-file-icon-wrapper i.bi-file-earmark-word {
+    color: #2563eb;
+}
+
+#fileManagerModal .fm-file-icon-wrapper i.bi-file-earmark-excel {
+    color: #16a34a;
+}
+
+#fileManagerModal .fm-file-icon-wrapper i.bi-file-earmark-ppt {
+    color: #f97316;
+}
+
+#fileManagerModal .fm-file-icon-wrapper i.bi-file-earmark-zip {
+    color: #eab308;
+}
+
+#fileManagerModal .fm-file-icon-wrapper i.bi-file-earmark-image {
+    color: #14b8a6;
+}
+
+#fileManagerModal .fm-file-icon-wrapper i.bi-file-earmark-music {
+    color: #db2777;
+}
+
+#fileManagerModal .fm-file-icon-wrapper i.bi-file-earmark-play {
+    color: #9333ea;
+}
+
+#fileManagerModal .fm-file-item-info {
+    padding: 0.625rem;
+    text-align: left;
+}
+
+#fileManagerModal .fm-grid-view .fm-file-item.active {
+    box-shadow: 0 0 0 2px var(--bs-gray-100), 0 0 0 4px #0d6efd;
+}
+
+#fileManagerModal .fm-grid-view .fm-file-item .fm-check-icon {
+    display: none;
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    width: 24px;
+    height: 24px;
+    font-size: 1rem;
+    background-color: #0d6efd;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    line-height: 1;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+#fileManagerModal .fm-grid-view .fm-file-item.active .fm-check-icon {
+    display: flex;
+}
+
+#fileManagerModal .fm-grid-view .fm-file-name {
+    color: #4B5675;
+    margin-bottom: 0.1rem;
+    white-space: normal;
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    height: 2.6em;
+    user-select: none;
+}
+
+#fileManagerModal .fm-grid-view .fm-custom-actions {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    opacity: 0;
+    transition: opacity 0.2s ease-out;
+    z-index: 5;
+}
+
+#fileManagerModal .fm-grid-view .fm-file-item:hover .fm-custom-actions,
+#fileManagerModal .fm-grid-view .fm-custom-actions.active {
+    opacity: 1;
+}
+
+#fileManagerModal .fm-grid-view .fm-custom-actions .btn {
+    background-color: var(--bs-gray-100);
+    backdrop-filter: blur(2px);
+}
+
+#fileManagerModal .fm-grid-view .fm-file-item.active .fm-custom-actions {
+    display: none;
+}
+
+#fileManagerModal .fm-action-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 10;
+    min-width: 96px;
+    background-color: var(--bs-gray-100);
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e9ecef;
+    padding: 0.5rem 0;
+    list-style: none;
+    margin: 0.25rem 0 0 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#fileManagerModal .fm-custom-actions.active .fm-action-menu {
+    display: block;
+}
+
+#fileManagerModal .fm-action-menu a.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.4rem 1rem;
+    clear: both;
+    font-weight: 600;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+#fileManagerModal .fm-action-menu a.dropdown-item:hover {
+    background-color: var(--bs-gray-200);
+}
+
+#fileManagerModal .fm-action-menu a.dropdown-item.text-danger {
+    color: #dc3545 !important;
+}
+
+#fileManagerModal .fm-action-menu a.dropdown-item.text-danger:hover {
+    background-color: #fdf2f2;
+}
+
+#fileManagerModal .fm-empty-state {
+    display: none;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+}
+
+#fileManagerModal .fm-empty-state i {
+    font-size: 4rem;
+    color: #ced4da;
+}
+
+#editFileModal, #deleteConfirmModal, #bulkDeleteConfirmModal {
+    z-index: 1060;
+}
+
+#fileManagerModal .modal-footer > * {
+    margin: 0;
+}
+
+#fileManagerModal .modal-footer.fm-selection-footer {
+    box-sizing: border-box;
+}
+
+#fileManagerModal .fm-selection-footer > * {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease-out, visibility 0.2s ease-out;
+}
+
+#fileManagerModal .fm-selection-footer.selection-active > * {
+    opacity: 1;
+    visibility: visible;
+}
+
+.fm-preview-item {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+}
+
+.fm-preview-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px !important;
+}
+
+.list-group-item.fm-preview-item {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    height: auto;
+    margin-top: 15px;
+}
+
+.fm-preview-delete-btn {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    color: #99A1B7;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 0.5rem 1.5rem 0.5rem rgba(0, 0, 0, 0.075);
+    transition: all 0.2s ease;
+    z-index: 10;
+}
+
+.fm-preview-delete-btn:hover {
+    color: #dc3545;
+}
+
+.list-group-item.fm-preview-item .fm-preview-delete-btn {
+    position: relative;
+    top: -1px;
+    right: auto;
+    background: none;
+    border: none;
+    box-shadow: none;
+    opacity: 0.7;
+}
+
+.list-group-item.fm-preview-item .fm-preview-delete-btn:hover {
+    opacity: 1;
+    transform: none;
+}
+
+.fm-file-extension {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #5e6278;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+}
+
+#fileManagerModal.modal .fm-grid-view .row > *,
+#fileManagerModal.card .fm-grid-view .row > * {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+@media (min-width: 576px) {
+    #fileManagerModal.modal .fm-grid-view .row > *,
+    #fileManagerModal.card .fm-grid-view .row > * {
+        width: 33.333%;
+    }
+}
+
+@media (min-width: 768px) {
+    #fileManagerModal.modal .fm-grid-view .row > *,
+    #fileManagerModal.card .fm-grid-view .row > * {
+        width: 25%;
+    }
+}
+
+@media (min-width: 992px) {
+    #fileManagerModal.modal .fm-grid-view .row > * {
+        width: 20%;
+    }
+
+    #fileManagerModal.card .fm-grid-view .row > * {
+        width: 16.667%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #fileManagerModal.modal .fm-grid-view .row > * {
+        width: 16.667%;
+    }
+
+    #fileManagerModal.card .fm-grid-view .row > * {
+        width: 12.5%;
+    }
+}
+
+@media (min-width: 1400px) {
+    #fileManagerModal.modal .fm-grid-view .row > * {
+        width: 12.5%;
+    }
+
+    #fileManagerModal.card .fm-grid-view .row > * {
+        width: 10%;
+    }
+}
+
+@media (min-width: 1600px) {
+    #fileManagerModal.modal .fm-grid-view .row > * {
+        width: 12.5%;
+    }
+
+    #fileManagerModal.card .fm-grid-view .row > * {
+        width: 8.333%;
+    }
+}
+
+@media (max-width: 768px) {
+    #fileManagerModal .modal-header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #fileManagerModal .modal-title,
+    #fileManagerModal #fm-modal-tabs {
+        margin-bottom: 1rem;
+    }
+
+    #fileManagerModal .btn-close-manager {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    #fileManagerModal .modal-footer .fm-selection-count {
+        display: block;
+        width: 100%;
+    }
+}

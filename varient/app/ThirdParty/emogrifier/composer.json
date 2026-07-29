@@ -1,0 +1,10 @@
+{
+    "require": {
+        "pelago/emogrifier": "^7.0"
+    },
+    "config": {
+        "platform": {
+            "php": "8.2.0"
+        }
+    }
+}
