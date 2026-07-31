@@ -145,7 +145,7 @@
         },
         {
             "label": "add_image_url",
-            "translation": "Adicionar URL da Imagem"
+            "translation": "Adicionar link da Imagem"
         },
         {
             "label": "add_language",
@@ -305,11 +305,11 @@
         },
         {
             "label": "ad_space_index_bottom",
-            "translation": "Índice (inferior)"
+            "translation": "Página Inicial (inferior)"
         },
         {
             "label": "ad_space_index_top",
-            "translation": "Índice (superior)"
+            "translation": "Página Inicial (superior)"
         },
         {
             "label": "ad_space_in_article",
@@ -929,7 +929,7 @@
         },
         {
             "label": "click_copy_icon_copy_url",
-            "translation": "Clique no ícone de copiar para copiar a URL"
+            "translation": "Clique no ícone de copiar para copiar o link"
         },
         {
             "label": "client_id",
@@ -1165,7 +1165,7 @@
         },
         {
             "label": "create_ad_exp",
-            "translation": "Se você não tiver um código de anúncio, pode criar um selecionando uma imagem e adicionando uma URL"
+            "translation": "Se você não tiver um código de anúncio, pode criar um selecionando uma imagem e adicionando um link"
         },
         {
             "label": "cron_job_token",
@@ -1265,7 +1265,7 @@
         },
         {
             "label": "database_backup",
-            "translation": "Backup do banco de dados"
+            "translation": "Backup Banco de Dados"
         },
         {
             "label": "data_type",
@@ -1465,7 +1465,7 @@
         },
         {
             "label": "downloads",
-            "translation": "Transferências"
+            "translation": "Arquivos"
         },
         {
             "label": "download_button",
@@ -1809,7 +1809,7 @@
         },
         {
             "label": "enter_url",
-            "translation": "Digite a URL"
+            "translation": "Digite a Link"
         },
         {
             "label": "environment_mode",
@@ -1945,7 +1945,7 @@
         },
         {
             "label": "external_image_url",
-            "translation": "URL de imagem externa"
+            "translation": "Link de imagem externa"
         },
         {
             "label": "facebook",
@@ -2005,7 +2005,7 @@
         },
         {
             "label": "feed_url",
-            "translation": "URL do feed"
+            "translation": "Link do feed"
         },
         {
             "label": "field",
@@ -2209,7 +2209,7 @@
         },
         {
             "label": "generated_feed_url",
-            "translation": "URL do feed gerada"
+            "translation": "Link do feed gerado"
         },
         {
             "label": "generated_sitemaps",
@@ -2225,7 +2225,7 @@
         },
         {
             "label": "generate_feed_url",
-            "translation": "Gerar URL do feed"
+            "translation": "Gerar link do feed"
         },
         {
             "label": "generate_keywords_from_title",
@@ -2269,7 +2269,7 @@
         },
         {
             "label": "get_video_from_url",
-            "translation": "Obter vídeo da URL"
+            "translation": "Obter vídeo da link"
         },
         {
             "label": "github",
@@ -2485,7 +2485,7 @@
         },
         {
             "label": "index",
-            "translation": "Índice"
+            "translation": "Página Inicial"
         },
         {
             "label": "info",
@@ -2537,7 +2537,7 @@
         },
         {
             "label": "invalid_feed_url",
-            "translation": "URL de feed inválida!"
+            "translation": "Link de feed inválido!"
         },
         {
             "label": "invalid_file_type",
@@ -2545,7 +2545,7 @@
         },
         {
             "label": "invalid_url",
-            "translation": "URL inválida!"
+            "translation": "Link inválido!"
         },
         {
             "label": "invalid_withdrawal_amount",
@@ -3273,7 +3273,7 @@
         },
         {
             "label": "msg_delete_subpages",
-            "translation": "Exclua subpáginas/sublinks primeiro!"
+            "translation": "Exclua subpáginas\/sublinks primeiro!"
         },
         {
             "label": "msg_email_sent",
@@ -3653,7 +3653,7 @@
         },
         {
             "label": "optional_url_name",
-            "translation": "Postar nome do botão de URL opcional"
+            "translation": "Nome do botão de link (opcional)"
         },
         {
             "label": "options",
@@ -3801,7 +3801,7 @@
         },
         {
             "label": "paste_ad_url",
-            "translation": "URL do anúncio"
+            "translation": "Link do anúncio"
         },
         {
             "label": "patreon",
@@ -3989,7 +3989,7 @@
         },
         {
             "label": "personal_website_url",
-            "translation": "URL do site pessoal"
+            "translation": "Link do site pessoal"
         },
         {
             "label": "phone",
@@ -4117,11 +4117,11 @@
         },
         {
             "label": "post_url_structure",
-            "translation": "Estrutura de URL de postagem"
+            "translation": "Estrutura de link de postagem"
         },
         {
             "label": "post_url_structure_exp",
-            "translation": "A alteração da estrutura do URL não afetará os registros antigos."
+            "translation": "A alteração da estrutura do link não afetará os registros antigos."
         },
         {
             "label": "post_url_structure_slug",
@@ -4977,7 +4977,7 @@
         },
         {
             "label": "site_description",
-            "translation": "Descrição do local"
+            "translation": "Descrição do site"
         },
         {
             "label": "site_font",
@@ -5241,7 +5241,7 @@
         },
         {
             "label": "swift_iban",
-            "translation": "Número da conta bancária/IBAN"
+            "translation": "Número da conta bancária\/IBAN"
         },
         {
             "label": "symbol_direction",
@@ -5289,7 +5289,7 @@
         },
         {
             "label": "tax_vat_number",
-            "translation": "Número fiscal/IVA"
+            "translation": "Número fiscal\/IVA"
         },
         {
             "label": "telegram",
@@ -5361,7 +5361,7 @@
         },
         {
             "label": "time",
-            "translation": "Tempo"
+            "translation": "Horário"
         },
         {
             "label": "timezone",
@@ -5429,7 +5429,7 @@
         },
         {
             "label": "tone_style",
-            "translation": "Tom/Estilo"
+            "translation": "Tom\/Estilo"
         },
         {
             "label": "too_many_login_attempts",
@@ -5801,7 +5801,7 @@
         },
         {
             "label": "via_url",
-            "translation": "Através de URL"
+            "translation": "Link"
         },
         {
             "label": "video",
@@ -5833,7 +5833,7 @@
         },
         {
             "label": "video_url",
-            "translation": "URL do vídeo"
+            "translation": "Link do vídeo"
         },
         {
             "label": "view",
@@ -5937,7 +5937,7 @@
         },
         {
             "label": "webhook_secret_id",
-            "translation": "Segredo/ID do webhook"
+            "translation": "Segredo\/ID do webhook"
         },
         {
             "label": "website",
